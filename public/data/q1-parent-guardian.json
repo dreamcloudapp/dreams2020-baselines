@@ -1,0 +1,138 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Increased a lot",
+        "Increased somewhat",
+        "Stayed the same",
+        "Decreased somewhat",
+        "Decreased a lot",
+        "Net: Increased a lot/somewhat",
+        "Net: Decreased a lot/somewhat "
+      ],
+      [
+        "Younger than 18",
+        15.26,
+        19.04,
+        58.18,
+        3.77,
+        3.75,
+        34.29,
+        7.53
+      ],
+      [
+        "18 or over",
+        9.04,
+        17.68,
+        69.58,
+        1.76,
+        1.94,
+        26.72,
+        3.7
+      ],
+      [
+        "NET: Any age",
+        10.86,
+        17.83,
+        65.88,
+        2.73,
+        2.71,
+        28.68,
+        5.44
+      ],
+      [
+        "Not a parent / guardian",
+        10.22,
+        17.73,
+        64.93,
+        3.64,
+        3.47,
+        27.96,
+        7.11
+      ],
+      [
+        "Don't know / Prefer not to say",
+        9.78,
+        15.13,
+        50.16,
+        6.53,
+        18.4,
+        24.91,
+        24.93
+      ]
+    ],
+    "axes": {
+      "Younger than 18": "y",
+      "18 or over": "y",
+      "NET: Any age": "y",
+      "Not a parent / guardian": "y",
+      "Don't know / Prefer not to say": "y"
+    },
+    "types": {
+      "Younger than 18": "bar",
+      "18 or over": "bar",
+      "NET: Any age": "bar",
+      "Not a parent / guardian": "bar",
+      "Don't know / Prefer not to say": "bar"
+    },
+    "colors": {
+      "Younger than 18": "#1f77b4",
+      "18 or over": "#ff7f0e",
+      "NET: Any age": "#2ca02c",
+      "Not a parent / guardian": "#d62728",
+      "Don't know / Prefer not to say": "#9467bd"
+    },
+    "groups": [],
+    "regions": {}
+  },
+  "chartId": "q1-parent-guardian",
+  "firstDataRow": 9,
+  "lastDataRow": 15,
+  "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "yAxisTooltipFormat": "default",
+  "yAxisFormat": "eleven",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Younger than 18",
+      "color": "#1f77b4",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 30
+    },
+    {
+      "name": "18 or over",
+      "color": "#ff7f0e",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 31
+    },
+    {
+      "name": "NET: Any age",
+      "color": "#2ca02c",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 32
+    },
+    {
+      "name": "Not a parent / guardian",
+      "color": "#d62728",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 33
+    },
+    {
+      "name": "Don't know / Prefer not to say",
+      "color": "#9467bd",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 34
+    }
+  ]
+}

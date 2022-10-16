@@ -25,6 +25,8 @@ try {
       singleChartConfig.firstDataRow,
       singleChartConfig.lastDataRow,
       singleChartConfig.sheet,
+      singleChartConfig.firstDataColumn,
+      singleChartConfig.lastDataColumn,
     ];
 
     const rowData = getSpreadsheetData(

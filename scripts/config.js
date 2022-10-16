@@ -292,6 +292,117 @@ const chartConfig = {
       ],
     ],
   },
+  "q1-parent-guardian": {
+    chartId: "q1-parent-guardian",
+    firstDataRow: 9,
+    lastDataRow: 15,
+    sheet: 2,
+    rotateAxis: true,
+    unitSuffix: "%",
+    yAxisTooltipFormat: "default",
+    yAxisFormat: "eleven", // Since we're stacking percents, we need to divide by the number of legends
+    chartColors: {
+      axisLabel: colors.main,
+    },
+    legends: [
+      {
+        name: "Younger than 18",
+        color: colors.categoryColors[0],
+        symbol: "rect",
+        units: "percent",
+        column: 30,
+      },
+      {
+        name: "18 or over",
+        color: colors.categoryColors[1],
+        symbol: "rect",
+        units: "percent",
+        column: 31,
+      },
+      {
+        name: "NET: Any age",
+        color: colors.categoryColors[2],
+        symbol: "rect",
+        units: "percent",
+        column: 32,
+      },
+      {
+        name: "Not a parent / guardian",
+        color: colors.categoryColors[3],
+        symbol: "rect",
+        units: "percent",
+        column: 33,
+      },
+
+      {
+        name: "Don't know / Prefer not to say",
+        color: colors.categoryColors[4],
+        symbol: "rect",
+        units: "percent",
+        column: 34,
+      },
+    ],
+  },
+  "q1-social-networks": {
+    chartId: "q1-social-networks",
+    transpose: true,
+    firstDataRow: 5,
+    lastDataRow: 15,
+    firstDataColumn: 38,
+    lastDataColumn: 55,
+    sheet: 2,
+    rotateAxis: true,
+    unitSuffix: "%",
+    chartColors: {
+      axisLabel: colors.main,
+    },
+    legends: [
+      {
+        name: "Increased a lot",
+        color: colors.categoryColors[0],
+        symbol: "rect",
+        units: "percent",
+        column: 3,
+      },
+      {
+        name: "Increased somewhat",
+        color: colors.categoryColors[1],
+        symbol: "rect",
+        units: "percent",
+        column: 4,
+      },
+      {
+        name: "Stayed the same",
+        color: colors.categoryColors[2],
+        symbol: "rect",
+        units: "percent",
+        column: 5,
+      },
+      {
+        name: "Decreased somewhat",
+        color: colors.categoryColors[3],
+        symbol: "rect",
+        units: "percent",
+        column: 6,
+      },
+      {
+        name: "Decreased a lot",
+        color: colors.categoryColors[4],
+        symbol: "rect",
+        units: "percent",
+        column: 7,
+      },
+    ],
+    groups: [
+      [
+        "Increased a lot",
+        "Increased somewhat",
+        "Stayed the same",
+        "Decreased somewhat",
+        "Decreased a lot",
+      ],
+    ],
+  },
 };
 
 module.exports = { chartConfig };

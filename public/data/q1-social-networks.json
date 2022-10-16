@@ -1,0 +1,216 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Facebook",
+        "Twitter",
+        "LinkedIn",
+        "Google+",
+        "MySpace",
+        "Pinterest",
+        "Tumblr",
+        "Instagram",
+        "Snapchat",
+        "Reddit",
+        "WeChat",
+        "Qzone",
+        "Meetup",
+        "Weibo",
+        "Other",
+        "Don't know",
+        "Not applicable - I am not currently a member of any social networks"
+      ],
+      [
+        "Increased a lot",
+        10.62,
+        12.64,
+        12.69,
+        13.5,
+        22.67,
+        11.03,
+        20.86,
+        14.61,
+        13.31,
+        16.96,
+        37.24,
+        44.93,
+        44.74,
+        41.86,
+        7.3,
+        4.59,
+        6.13
+      ],
+      [
+        "Increased somewhat",
+        18.18,
+        20.89,
+        19.66,
+        20.84,
+        21.92,
+        21.65,
+        17.77,
+        21.24,
+        23.08,
+        22.5,
+        16.09,
+        21.83,
+        8.02,
+        10.1,
+        25.14,
+        7.96,
+        10.49
+      ],
+      [
+        "Stayed the same",
+        64.95,
+        60.03,
+        62.71,
+        60.24,
+        47.64,
+        61.69,
+        56.52,
+        57.81,
+        54.23,
+        52.87,
+        33.86,
+        26.41,
+        44.16,
+        48.05,
+        54.69,
+        60.96,
+        75.15
+      ],
+      [
+        "Decreased somewhat",
+        3.25,
+        3.68,
+        2.62,
+        1.44,
+        2.43,
+        2.88,
+        0.36,
+        3.38,
+        4.89,
+        3.27,
+        4.32,
+        6.83,
+        null,
+        null,
+        8.79,
+        14.39,
+        1.48
+      ],
+      [
+        "Decreased a lot",
+        2.99,
+        2.76,
+        2.32,
+        3.99,
+        5.33,
+        2.75,
+        4.49,
+        2.96,
+        4.49,
+        4.4,
+        8.5,
+        null,
+        3.08,
+        null,
+        4.09,
+        12.1,
+        6.75
+      ]
+    ],
+    "axes": {
+      "Increased a lot": "y",
+      "Increased somewhat": "y",
+      "Stayed the same": "y",
+      "Decreased somewhat": "y",
+      "Decreased a lot": "y"
+    },
+    "types": {
+      "Increased a lot": "bar",
+      "Increased somewhat": "bar",
+      "Stayed the same": "bar",
+      "Decreased somewhat": "bar",
+      "Decreased a lot": "bar"
+    },
+    "colors": {
+      "Increased a lot": "#1f77b4",
+      "Increased somewhat": "#ff7f0e",
+      "Stayed the same": "#2ca02c",
+      "Decreased somewhat": "#d62728",
+      "Decreased a lot": "#9467bd"
+    },
+    "groups": [
+      [
+        "Increased a lot",
+        "Increased somewhat",
+        "Stayed the same",
+        "Decreased somewhat",
+        "Decreased a lot"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "q1-social-networks",
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 15,
+  "firstDataColumn": 38,
+  "lastDataColumn": 55,
+  "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Increased a lot",
+      "color": "#1f77b4",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 3
+    },
+    {
+      "name": "Increased somewhat",
+      "color": "#ff7f0e",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 4
+    },
+    {
+      "name": "Stayed the same",
+      "color": "#2ca02c",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 5
+    },
+    {
+      "name": "Decreased somewhat",
+      "color": "#d62728",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 6
+    },
+    {
+      "name": "Decreased a lot",
+      "color": "#9467bd",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 7
+    }
+  ],
+  "groups": [
+    [
+      "Increased a lot",
+      "Increased somewhat",
+      "Stayed the same",
+      "Decreased somewhat",
+      "Decreased a lot"
+    ]
+  ]
+}

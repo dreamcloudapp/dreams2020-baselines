@@ -1,3 +1,5 @@
+const { transposeTable } = require("./transpose-table");
+
 function formatCellFloat(rawValue, legend, decimals) {
   const value = rawValue === "na" ? 0 : rawValue;
   const units = legend ? legend.units : "";
@@ -17,7 +19,9 @@ const groupedC3JsonFromExcel = (chartConfig, rowData) => {
 
   // Let's forget about multiple sheets for now
   const rawFirstSheetData = rowData[0];
-  const firstSheetData = rawFirstSheetData;
+  const firstSheetData = chartConfig.transpose
+    ? transposeTable(rawFirstSheetData, true)
+    : rawFirstSheetData;
 
   // Colors
   const colors = chartConfig.legends.reduce((acc, legend) => {
