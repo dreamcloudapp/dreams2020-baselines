@@ -1,0 +1,15 @@
+{
+  "name": "dreams2020-baselines",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dreamcloudapp/dreams2020-baselines.git",
+  "author": "Dan Kennedy <dannykennedy@email.com>",
+  "license": "none",
+  "private": true,
+  "scripts": {
+    "parse": "node scripts/parse-surveys.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
