@@ -7,9 +7,12 @@
   "license": "none",
   "private": true,
   "scripts": {
-    "parse": "node scripts/parse-surveys.js"
+    "parse": "node scripts/parse-surveys.js",
+    "serve": "http-server -p 3000 -o /",
+    "start": "npm run parse && npm run serve"
   },
   "dependencies": {
+    "http-server": "^14.1.1",
     "xlsx": "^0.18.5"
   }
 }

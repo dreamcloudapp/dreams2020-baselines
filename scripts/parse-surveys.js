@@ -1,4 +1,6 @@
 const { getSpreadsheetData } = require("./modules/parse-excel");
+const { groupedC3JsonFromExcel } = require("./modules/groupedC3DataFromExcel");
+const { chartConfig } = require("./config");
 const fs = require("fs");
 
 const SRC_PATH = "/../data";
@@ -14,20 +16,33 @@ const EXCEL_DATA_RANGE = {
 ////////////////////////////////////////////////////////////////
 
 try {
-  // Prep: read the photo credits excel file
-  const sheetData = getSpreadsheetData(
-    __dirname + BASELINES_PATH,
-    EXCEL_DATA_RANGE.firstRow,
-    EXCEL_DATA_RANGE.lastRow,
-    EXCEL_DATA_RANGE.sheetIndex
-  );
+  // Loop through chart configs
+  const chartConfigs = Object.keys(chartConfig);
+  chartConfigs.forEach((chartId) => {
+    const singleChartConfig = chartConfig[chartId];
 
-  console.log(sheetData);
+    const sheetConfig = [
+      singleChartConfig.firstDataRow,
+      singleChartConfig.lastDataRow,
+      singleChartConfig.sheet,
+    ];
 
-  //   // Pretty print JSON
-  //   // it's not enough data to be worth minifying
-  //   const jsonText = JSON.stringify(data, null, 2);
-  //   fs.writeFileSync(__dirname + "/../public/data/baselines.json", jsonText);
+    const rowData = getSpreadsheetData(
+      __dirname + BASELINES_PATH,
+      ...sheetConfig
+    );
+
+    const data = groupedC3JsonFromExcel(singleChartConfig, rowData);
+
+    // console.log(data);
+    // console.log("====================================");
+    // console.log(sheetConfig);
+
+    // Pretty print JSON
+    // it's not enough data to be worth minifying
+    const jsonText = JSON.stringify(data, null, 2);
+    fs.writeFileSync(__dirname + `/../public/data/${chartId}.json`, jsonText);
+  });
 } catch (err) {
   console.error(err);
 }

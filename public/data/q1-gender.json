@@ -1,0 +1,74 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Increased a lot",
+        "Increased somewhat",
+        "Stayed the same",
+        "Decreased somewhat",
+        "Decreased a lot",
+        "Net: Increased a lot/somewhat",
+        "Net: Decreased a lot/somewhat "
+      ],
+      [
+        "Male",
+        11.47,
+        16.61,
+        65.23,
+        2.82,
+        3.86,
+        28.09,
+        6.68
+      ],
+      [
+        "Female",
+        9.67,
+        18.7,
+        64.52,
+        3.68,
+        3.43,
+        28.36,
+        7.12
+      ]
+    ],
+    "axes": {
+      "Male": "y",
+      "Female": "y"
+    },
+    "types": {
+      "Male": "bar",
+      "Female": "bar"
+    },
+    "colors": {
+      "Male": "red",
+      "Female": "blue"
+    },
+    "groups": [],
+    "regions": {}
+  },
+  "chartId": "q1-gender",
+  "firstDataRow": 9,
+  "lastDataRow": 15,
+  "sheet": 2,
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Male",
+      "color": "red",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 2
+    },
+    {
+      "name": "Female",
+      "color": "blue",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 3
+    }
+  ]
+}
