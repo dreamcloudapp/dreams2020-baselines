@@ -1,0 +1,116 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Increased a lot",
+        "Increased somewhat",
+        "Stayed the same",
+        "Decreased somewhat",
+        "Decreased a lot",
+        "Net: Increased a lot/somewhat",
+        "Net: Decreased a lot/somewhat "
+      ],
+      [
+        "Northeast",
+        12.19,
+        18.51,
+        63.64,
+        2.8,
+        2.86,
+        30.7,
+        5.66
+      ],
+      [
+        "Midwest",
+        8.46,
+        16.54,
+        68.42,
+        3.2,
+        3.39,
+        24.99,
+        6.59
+      ],
+      [
+        "South",
+        10.54,
+        16.9,
+        64.28,
+        4.3,
+        3.97,
+        27.44,
+        8.28
+      ],
+      [
+        "West",
+        11.18,
+        19.33,
+        63.56,
+        2.01,
+        3.92,
+        30.51,
+        5.93
+      ]
+    ],
+    "axes": {
+      "Northeast": "y",
+      "Midwest": "y",
+      "South": "y",
+      "West": "y"
+    },
+    "types": {
+      "Northeast": "bar",
+      "Midwest": "bar",
+      "South": "bar",
+      "West": "bar"
+    },
+    "colors": {
+      "Northeast": "#1f77b4",
+      "Midwest": "#ff7f0e",
+      "South": "#2ca02c",
+      "West": "#d62728"
+    },
+    "groups": [],
+    "regions": {}
+  },
+  "chartId": "q1-region",
+  "firstDataRow": 9,
+  "lastDataRow": 15,
+  "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Northeast",
+      "color": "#1f77b4",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 7
+    },
+    {
+      "name": "Midwest",
+      "color": "#ff7f0e",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 8
+    },
+    {
+      "name": "South",
+      "color": "#2ca02c",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 9
+    },
+    {
+      "name": "West",
+      "color": "#d62728",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 10
+    }
+  ]
+}

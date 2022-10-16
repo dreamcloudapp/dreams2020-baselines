@@ -1,0 +1,116 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Increased a lot",
+        "Increased somewhat",
+        "Stayed the same",
+        "Decreased somewhat",
+        "Decreased a lot",
+        "Net: Increased a lot/somewhat",
+        "Net: Decreased a lot/somewhat "
+      ],
+      [
+        "No HS, High school graduate",
+        12.31,
+        14.73,
+        63.95,
+        2.92,
+        6.09,
+        27.04,
+        9.01
+      ],
+      [
+        "Some college, 2-year",
+        10.47,
+        18.97,
+        65.05,
+        3.01,
+        2.5,
+        29.44,
+        5.51
+      ],
+      [
+        "4-year",
+        7.03,
+        20.01,
+        66.3,
+        5.07,
+        1.59,
+        27.04,
+        6.66
+      ],
+      [
+        "Post Grad",
+        10.11,
+        21.17,
+        65.35,
+        2.23,
+        1.15,
+        31.27,
+        3.38
+      ]
+    ],
+    "axes": {
+      "No HS, High school graduate": "y",
+      "Some college, 2-year": "y",
+      "4-year": "y",
+      "Post Grad": "y"
+    },
+    "types": {
+      "No HS, High school graduate": "bar",
+      "Some college, 2-year": "bar",
+      "4-year": "bar",
+      "Post Grad": "bar"
+    },
+    "colors": {
+      "No HS, High school graduate": "#1f77b4",
+      "Some college, 2-year": "#ff7f0e",
+      "4-year": "#2ca02c",
+      "Post Grad": "#d62728"
+    },
+    "groups": [],
+    "regions": {}
+  },
+  "chartId": "q1-education",
+  "firstDataRow": 9,
+  "lastDataRow": 15,
+  "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "No HS, High school graduate",
+      "color": "#1f77b4",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 15
+    },
+    {
+      "name": "Some college, 2-year",
+      "color": "#ff7f0e",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 16
+    },
+    {
+      "name": "4-year",
+      "color": "#2ca02c",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 17
+    },
+    {
+      "name": "Post Grad",
+      "color": "#d62728",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 18
+    }
+  ]
+}

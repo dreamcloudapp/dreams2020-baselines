@@ -1,0 +1,116 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Increased a lot",
+        "Increased somewhat",
+        "Stayed the same",
+        "Decreased somewhat",
+        "Decreased a lot",
+        "Net: Increased a lot/somewhat",
+        "Net: Decreased a lot/somewhat "
+      ],
+      [
+        "White",
+        9.4,
+        17.51,
+        68.36,
+        2.7,
+        2.03,
+        26.92,
+        4.73
+      ],
+      [
+        "Black",
+        10.37,
+        14.72,
+        65.36,
+        4.84,
+        4.72,
+        25.08,
+        9.56
+      ],
+      [
+        "Hispanic",
+        14.81,
+        21.49,
+        52,
+        4.08,
+        7.62,
+        36.3,
+        11.7
+      ],
+      [
+        "Other (NET)",
+        12.06,
+        15.78,
+        60.07,
+        4.04,
+        8.04,
+        27.84,
+        12.08
+      ]
+    ],
+    "axes": {
+      "White": "y",
+      "Black": "y",
+      "Hispanic": "y",
+      "Other (NET)": "y"
+    },
+    "types": {
+      "White": "bar",
+      "Black": "bar",
+      "Hispanic": "bar",
+      "Other (NET)": "bar"
+    },
+    "colors": {
+      "White": "#1f77b4",
+      "Black": "#ff7f0e",
+      "Hispanic": "#2ca02c",
+      "Other (NET)": "#d62728"
+    },
+    "groups": [],
+    "regions": {}
+  },
+  "chartId": "q1-race",
+  "firstDataRow": 9,
+  "lastDataRow": 15,
+  "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "White",
+      "color": "#1f77b4",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 11
+    },
+    {
+      "name": "Black",
+      "color": "#ff7f0e",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 12
+    },
+    {
+      "name": "Hispanic",
+      "color": "#2ca02c",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 13
+    },
+    {
+      "name": "Other (NET)",
+      "color": "#d62728",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 14
+    }
+  ]
+}

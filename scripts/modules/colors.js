@@ -10,6 +10,7 @@ const colors = {
     "#e377c2",
     "#7f7f7f",
     "#bcbd22",
+    "#17becf",
   ],
 };
 module.exports = { colors };

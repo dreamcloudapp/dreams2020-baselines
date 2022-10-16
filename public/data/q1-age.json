@@ -1,0 +1,96 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Increased a lot",
+        "Increased somewhat",
+        "Stayed the same",
+        "Decreased somewhat",
+        "Decreased a lot",
+        "Net: Increased a lot/somewhat",
+        "Net: Decreased a lot/somewhat "
+      ],
+      [
+        "18-34",
+        17.93,
+        22.12,
+        48.24,
+        5.19,
+        6.52,
+        40.05,
+        11.72
+      ],
+      [
+        "35-54",
+        9.95,
+        17.85,
+        66.54,
+        2.86,
+        2.81,
+        27.8,
+        5.66
+      ],
+      [
+        "55+",
+        5.33,
+        14.18,
+        76.37,
+        2.08,
+        2.04,
+        19.51,
+        4.12
+      ]
+    ],
+    "axes": {
+      "18-34": "y",
+      "35-54": "y",
+      "55+": "y"
+    },
+    "types": {
+      "18-34": "bar",
+      "35-54": "bar",
+      "55+": "bar"
+    },
+    "colors": {
+      "18-34": "#1f77b4",
+      "35-54": "#ff7f0e",
+      "55+": "#2ca02c"
+    },
+    "groups": [],
+    "regions": {}
+  },
+  "chartId": "q1-age",
+  "firstDataRow": 9,
+  "lastDataRow": 15,
+  "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "18-34",
+      "color": "#1f77b4",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 4
+    },
+    {
+      "name": "35-54",
+      "color": "#ff7f0e",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 5
+    },
+    {
+      "name": "55+",
+      "color": "#2ca02c",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 6
+    }
+  ]
+}

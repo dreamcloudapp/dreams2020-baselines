@@ -4,20 +4,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // and render a chart for each one
   var chartContainers = document.getElementsByClassName("svg-chart-container");
   for (var i = 0; i < chartContainers.length; i++) {
-    console.log("chartContainers[i].id", chartContainers[i].id);
-
     var chartContainer = chartContainers[i];
     var chartId = chartContainer.getAttribute("id");
     var chartDataPath = "./data/" + chartId + ".json";
-
-    console.log("chartDataPath", chartDataPath);
 
     d3.json(chartDataPath).then(function (data) {
       console.log("data", data);
       groupedBarsRender(data);
     });
-
-    console.log("OK");
   }
 });
 
@@ -82,7 +76,7 @@ function groupedBarsRender(data) {
       },
     },
     legend: {
-      show: false,
+      show: true,
     },
     point: {
       r: data.pointRadius || 1,
@@ -101,8 +95,8 @@ function groupedBarsRender(data) {
           }
           return numberFormatFunction(
             data.yAxisTooltipFormat || data.yAxisFormat,
-            data.unitSuffix,
-            data.unitPrefix
+            data.yAxisTooltipUnitSuffix || data.unitSuffix,
+            data.yAxisTooltipUnitPrefix || data.unitPrefix
           )(x);
         },
       },
@@ -112,6 +106,10 @@ function groupedBarsRender(data) {
 
 function numberFormatFunction(yAxisFormat, unitSuffix, unitPrefix) {
   switch (yAxisFormat) {
+    case "eleven":
+      return function (d) {
+        return Math.floor(d / 11) + unitSuffix;
+      };
     default:
       return function (d) {
         if (d === null || d === undefined) return "";

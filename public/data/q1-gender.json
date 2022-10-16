@@ -42,8 +42,8 @@
       "Female": "bar"
     },
     "colors": {
-      "Male": "red",
-      "Female": "blue"
+      "Male": "#1f77b4",
+      "Female": "#ff7f0e"
     },
     "groups": [],
     "regions": {}
@@ -52,20 +52,22 @@
   "firstDataRow": 9,
   "lastDataRow": 15,
   "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
   "chartColors": {
     "axisLabel": "#000000"
   },
   "legends": [
     {
       "name": "Male",
-      "color": "red",
+      "color": "#1f77b4",
       "symbol": "rect",
       "units": "percent",
       "column": 2
     },
     {
       "name": "Female",
-      "color": "blue",
+      "color": "#ff7f0e",
       "symbol": "rect",
       "units": "percent",
       "column": 3
