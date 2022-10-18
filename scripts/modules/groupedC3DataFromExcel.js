@@ -14,6 +14,8 @@ function formatCellFloat(rawValue, legend, decimals) {
   }
 }
 
+const MAX_LABEL_LENGTH = 30;
+
 const groupedC3JsonFromExcel = (chartConfig, rowData) => {
   const keyColumn = chartConfig.keyColumn || 0;
 
@@ -51,7 +53,13 @@ const groupedC3JsonFromExcel = (chartConfig, rowData) => {
 
   // Groups
   const rawGroups = firstSheetData.map((row) => {
-    return row[keyColumn];
+    const label = row[keyColumn];
+    // If the label is too long, truncate it
+    const truncatedLabel =
+      label.length > MAX_LABEL_LENGTH
+        ? label.slice(0, MAX_LABEL_LENGTH) + "..."
+        : label;
+    return truncatedLabel;
   });
   const groups = ["x", ...rawGroups];
 

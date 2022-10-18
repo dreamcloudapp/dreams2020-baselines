@@ -1,0 +1,120 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Facebook",
+        "Twitter",
+        "LinkedIn",
+        "Google+",
+        "MySpace",
+        "Pinterest",
+        "Tumblr",
+        "Instagram",
+        "Snapchat",
+        "Reddit",
+        "WeChat",
+        "Qzone",
+        "Meetup",
+        "Weibo",
+        "Other",
+        "Don't know",
+        "Not applicable - I am not curr..."
+      ],
+      [
+        "Yes, I have",
+        7.66,
+        8.2,
+        8.12,
+        8.37,
+        11.18,
+        8.06,
+        10.36,
+        8.16,
+        8.67,
+        8.69,
+        30.02,
+        21.18,
+        26.19,
+        31.75,
+        15.09,
+        null,
+        3.4
+      ],
+      [
+        "No, I haven't",
+        92.34,
+        91.8,
+        91.88,
+        91.63,
+        88.82,
+        91.94,
+        89.64,
+        91.84,
+        91.33,
+        91.31,
+        69.98,
+        78.82,
+        73.81,
+        68.25,
+        84.91,
+        100,
+        96.6
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#1f77b4",
+      "No, I haven't": "#ff7f0e"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "q2-social-networks",
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 25,
+  "firstDataColumn": 38,
+  "lastDataColumn": 55,
+  "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#1f77b4",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 12
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#ff7f0e",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 13
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't"
+    ]
+  ]
+}

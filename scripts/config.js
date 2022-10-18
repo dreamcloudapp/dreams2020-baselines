@@ -403,6 +403,38 @@ const chartConfig = {
       ],
     ],
   },
+  // Q2
+  "q2-social-networks": {
+    chartId: "q2-social-networks",
+    transpose: true,
+    firstDataRow: 5,
+    lastDataRow: 25,
+    firstDataColumn: 38,
+    lastDataColumn: 55,
+    sheet: 2,
+    rotateAxis: true,
+    unitSuffix: "%",
+    chartColors: {
+      axisLabel: colors.main,
+    },
+    legends: [
+      {
+        name: "Yes, I have",
+        color: colors.categoryColors[0],
+        symbol: "rect",
+        units: "percent",
+        column: 12,
+      },
+      {
+        name: "No, I haven't",
+        color: colors.categoryColors[1],
+        symbol: "rect",
+        units: "percent",
+        column: 13,
+      },
+    ],
+    groups: [["Yes, I have", "No, I haven't"]],
+  },
 };
 
 module.exports = { chartConfig };
