@@ -41,8 +41,8 @@
       "West": "bar"
     },
     "colors": {
-      "Northeast": "#1f77b4",
-      "Midwest": "#ff7f0e",
+      "Northeast": "hsl(220, 90%, 60%)",
+      "Midwest": "hsl(24, 84%, 56%)",
       "South": "#2ca02c",
       "West": "#d62728"
     },
@@ -61,14 +61,14 @@
   "legends": [
     {
       "name": "Northeast",
-      "color": "#1f77b4",
+      "color": "hsl(220, 90%, 60%)",
       "symbol": "rect",
       "units": "percent",
       "column": 7
     },
     {
       "name": "Midwest",
-      "color": "#ff7f0e",
+      "color": "hsl(24, 84%, 56%)",
       "symbol": "rect",
       "units": "percent",
       "column": 8

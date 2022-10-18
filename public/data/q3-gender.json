@@ -1,0 +1,93 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Male",
+        "Female"
+      ],
+      [
+        "Approve",
+        43.09,
+        34.76
+      ],
+      [
+        "Disapprove",
+        45.14,
+        49.64
+      ],
+      [
+        "No opinion",
+        11.77,
+        15.6
+      ]
+    ],
+    "axes": {
+      "Approve": "y",
+      "Disapprove": "y",
+      "No opinion": "y"
+    },
+    "types": {
+      "Approve": "bar",
+      "Disapprove": "bar",
+      "No opinion": "bar"
+    },
+    "colors": {
+      "Approve": "hsl(220, 90%, 60%)",
+      "Disapprove": "hsl(24, 84%, 56%)",
+      "No opinion": "#2ca02c"
+    },
+    "groups": [
+      [
+        "Approve",
+        "Disapprove",
+        "No opinion"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "q3-gender",
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 30,
+  "firstDataColumn": 1,
+  "lastDataColumn": 3,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Approve",
+      "color": "hsl(220, 90%, 60%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 16
+    },
+    {
+      "name": "Disapprove",
+      "color": "hsl(24, 84%, 56%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 17
+    },
+    {
+      "name": "No opinion",
+      "color": "#2ca02c",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 18
+    }
+  ],
+  "groups": [
+    [
+      "Approve",
+      "Disapprove",
+      "No opinion"
+    ]
+  ]
+}

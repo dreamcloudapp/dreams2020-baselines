@@ -34,8 +34,8 @@
       "55+": "bar"
     },
     "colors": {
-      "18-34": "#1f77b4",
-      "35-54": "#ff7f0e",
+      "18-34": "hsl(220, 90%, 60%)",
+      "35-54": "hsl(24, 84%, 56%)",
       "55+": "#2ca02c"
     },
     "groups": [],
@@ -53,14 +53,14 @@
   "legends": [
     {
       "name": "18-34",
-      "color": "#1f77b4",
+      "color": "hsl(220, 90%, 60%)",
       "symbol": "rect",
       "units": "percent",
       "column": 4
     },
     {
       "name": "35-54",
-      "color": "#ff7f0e",
+      "color": "hsl(24, 84%, 56%)",
       "symbol": "rect",
       "units": "percent",
       "column": 5

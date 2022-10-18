@@ -1,8 +1,8 @@
 const colors = {
   main: "#000000",
   categoryColors: [
-    "#1f77b4",
-    "#ff7f0e",
+    "hsl(220, 90%, 60%)",
+    "hsl(24, 84%, 56%)",
     "#2ca02c",
     "#d62728",
     "#9467bd",

@@ -150,8 +150,8 @@
       "Prefer not to say": "bar"
     },
     "colors": {
-      "Married": "#1f77b4",
-      "Civil Partnership": "#ff7f0e",
+      "Married": "hsl(220, 90%, 60%)",
+      "Civil Partnership": "hsl(24, 84%, 56%)",
       "Living together, not married or civil partnership": "#2ca02c",
       "In a relationship, not living together": "#d62728",
       "NET: In a relationship": "#9467bd",
@@ -192,14 +192,14 @@
   "legends": [
     {
       "name": "Married",
-      "color": "#1f77b4",
+      "color": "hsl(220, 90%, 60%)",
       "symbol": "rect",
       "units": "percent",
       "column": 19
     },
     {
       "name": "Civil Partnership",
-      "color": "#ff7f0e",
+      "color": "hsl(24, 84%, 56%)",
       "symbol": "rect",
       "units": "percent",
       "column": 20

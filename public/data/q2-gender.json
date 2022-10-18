@@ -27,8 +27,8 @@
       "Female": "bar"
     },
     "colors": {
-      "Male": "#1f77b4",
-      "Female": "#ff7f0e"
+      "Male": "hsl(220, 90%, 60%)",
+      "Female": "hsl(24, 84%, 56%)"
     },
     "groups": [],
     "regions": {}
@@ -45,14 +45,14 @@
   "legends": [
     {
       "name": "Male",
-      "color": "#1f77b4",
+      "color": "hsl(220, 90%, 60%)",
       "symbol": "rect",
       "units": "percent",
       "column": 2
     },
     {
       "name": "Female",
-      "color": "#ff7f0e",
+      "color": "hsl(24, 84%, 56%)",
       "symbol": "rect",
       "units": "percent",
       "column": 3

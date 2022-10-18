@@ -66,8 +66,8 @@
       "Post Grad": "bar"
     },
     "colors": {
-      "No HS, High school graduate": "#1f77b4",
-      "Some college, 2-year": "#ff7f0e",
+      "No HS, High school graduate": "hsl(220, 90%, 60%)",
+      "Some college, 2-year": "hsl(24, 84%, 56%)",
       "4-year": "#2ca02c",
       "Post Grad": "#d62728"
     },
@@ -86,14 +86,14 @@
   "legends": [
     {
       "name": "No HS, High school graduate",
-      "color": "#1f77b4",
+      "color": "hsl(220, 90%, 60%)",
       "symbol": "rect",
       "units": "percent",
       "column": 15
     },
     {
       "name": "Some college, 2-year",
-      "color": "#ff7f0e",
+      "color": "hsl(24, 84%, 56%)",
       "symbol": "rect",
       "units": "percent",
       "column": 16

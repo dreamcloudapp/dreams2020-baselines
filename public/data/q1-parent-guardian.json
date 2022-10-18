@@ -78,8 +78,8 @@
       "Don't know / Prefer not to say": "bar"
     },
     "colors": {
-      "Younger than 18": "#1f77b4",
-      "18 or over": "#ff7f0e",
+      "Younger than 18": "hsl(220, 90%, 60%)",
+      "18 or over": "hsl(24, 84%, 56%)",
       "NET: Any age": "#2ca02c",
       "Not a parent / guardian": "#d62728",
       "Don't know / Prefer not to say": "#9467bd"
@@ -101,14 +101,14 @@
   "legends": [
     {
       "name": "Younger than 18",
-      "color": "#1f77b4",
+      "color": "hsl(220, 90%, 60%)",
       "symbol": "rect",
       "units": "percent",
       "column": 30
     },
     {
       "name": "18 or over",
-      "color": "#ff7f0e",
+      "color": "hsl(24, 84%, 56%)",
       "symbol": "rect",
       "units": "percent",
       "column": 31

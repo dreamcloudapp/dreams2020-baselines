@@ -138,8 +138,8 @@
       "Decreased a lot": "bar"
     },
     "colors": {
-      "Increased a lot": "#1f77b4",
-      "Increased somewhat": "#ff7f0e",
+      "Increased a lot": "hsl(220, 90%, 60%)",
+      "Increased somewhat": "hsl(24, 84%, 56%)",
       "Stayed the same": "#2ca02c",
       "Decreased somewhat": "#d62728",
       "Decreased a lot": "#9467bd"
@@ -163,6 +163,7 @@
   "lastDataColumn": 55,
   "sheet": 2,
   "rotateAxis": true,
+  "maxValue": 99,
   "unitSuffix": "%",
   "chartColors": {
     "axisLabel": "#000000"
@@ -170,14 +171,14 @@
   "legends": [
     {
       "name": "Increased a lot",
-      "color": "#1f77b4",
+      "color": "hsl(220, 90%, 60%)",
       "symbol": "rect",
       "units": "percent",
       "column": 3
     },
     {
       "name": "Increased somewhat",
-      "color": "#ff7f0e",
+      "color": "hsl(24, 84%, 56%)",
       "symbol": "rect",
       "units": "percent",
       "column": 4

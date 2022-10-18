@@ -1,6 +1,10 @@
 .svg-chart-container {
-  max-width: 800px;
+  max-width: 600px;
   margin-bottom: 3rem;
+}
+
+h3 {
+  font-family: sans-serif;
 }
 
 /* C3 things */

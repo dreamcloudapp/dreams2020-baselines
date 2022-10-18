@@ -41,8 +41,8 @@
       "Other (NET)": "bar"
     },
     "colors": {
-      "White": "#1f77b4",
-      "Black": "#ff7f0e",
+      "White": "hsl(220, 90%, 60%)",
+      "Black": "hsl(24, 84%, 56%)",
       "Hispanic": "#2ca02c",
       "Other (NET)": "#d62728"
     },
@@ -61,14 +61,14 @@
   "legends": [
     {
       "name": "White",
-      "color": "#1f77b4",
+      "color": "hsl(220, 90%, 60%)",
       "symbol": "rect",
       "units": "percent",
       "column": 11
     },
     {
       "name": "Black",
-      "color": "#ff7f0e",
+      "color": "hsl(24, 84%, 56%)",
       "symbol": "rect",
       "units": "percent",
       "column": 12
