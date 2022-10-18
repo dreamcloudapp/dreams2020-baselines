@@ -51,6 +51,9 @@ function groupedBarsRender(data) {
             data.unitPrefix
           ),
         },
+        ...(data.maxValue !== undefined && { max: data.maxValue }),
+        // min: data.minValue || 0,
+        // min: 0,
       },
       y2: {
         show: data.doubleAxis === true,

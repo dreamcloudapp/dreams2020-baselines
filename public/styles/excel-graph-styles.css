@@ -2,3 +2,96 @@
   max-width: 800px;
   margin-bottom: 3rem;
 }
+
+/* C3 things */
+
+.c3 {
+  font-family: inherit;
+}
+
+.c3-circle {
+  opacity: 1 !important;
+}
+
+.c3-tooltip-container {
+  z-index: 3;
+}
+
+path.domain,
+path.range {
+  opacity: 0;
+}
+
+.c3-axis-y-label,
+.c3-axis-y2-label {
+  font-family: "nexa-regular", sans-serif;
+}
+
+.c3 .c3-grid line {
+  stroke: #bbb;
+  stroke-dasharray: 0;
+}
+
+.c3 .tick line {
+  opacity: 0;
+}
+
+.c3 .tick tspan {
+  font-family: roboto, sans-serif;
+  font-weight: 100;
+  font-size: 11px;
+}
+
+.c3-line {
+  stroke-width: 3px;
+}
+
+.c3-tooltip td {
+  border-left: none;
+}
+
+.c3-tooltip tr {
+  border: none;
+}
+
+.c3 .c3-tooltip {
+  opacity: 1;
+}
+
+.c3-tooltip td.name span {
+  border-radius: 50%;
+}
+
+.c3-tooltip td.name {
+  padding-left: 16px;
+  text-align: left;
+}
+
+.c3-tooltip td.value {
+  padding-right: 16px;
+}
+
+.c3-tooltip td {
+  opacity: 1;
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+}
+
+.c3-tooltip tbody > tr:last-child td {
+  padding-bottom: 16px;
+}
+
+.c3-axis-y-label,
+.c3-axis-y2-label {
+  fill: #1c355e;
+  font-size: 13px;
+}
+
+.c3-tooltip th {
+  font-family: roboto, sans-serif;
+  background: white;
+  color: #1c355e;
+  font-weight: 800;
+  font-size: 16px;
+  padding: 16px 10px 10px 16px;
+}

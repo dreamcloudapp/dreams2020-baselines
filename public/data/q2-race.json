@@ -1,0 +1,91 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Yes, I have(Please describe a ...",
+        "No, I haven't"
+      ],
+      [
+        "White",
+        7.53,
+        92.47
+      ],
+      [
+        "Black",
+        8.82,
+        91.18
+      ],
+      [
+        "Hispanic",
+        5.49,
+        94.51
+      ],
+      [
+        "Other (NET)",
+        5.78,
+        94.22
+      ]
+    ],
+    "axes": {
+      "White": "y",
+      "Black": "y",
+      "Hispanic": "y",
+      "Other (NET)": "y"
+    },
+    "types": {
+      "White": "bar",
+      "Black": "bar",
+      "Hispanic": "bar",
+      "Other (NET)": "bar"
+    },
+    "colors": {
+      "White": "#1f77b4",
+      "Black": "#ff7f0e",
+      "Hispanic": "#2ca02c",
+      "Other (NET)": "#d62728"
+    },
+    "groups": [],
+    "regions": {}
+  },
+  "chartId": "q2-race",
+  "firstDataRow": 19,
+  "lastDataRow": 20,
+  "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "White",
+      "color": "#1f77b4",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 11
+    },
+    {
+      "name": "Black",
+      "color": "#ff7f0e",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 12
+    },
+    {
+      "name": "Hispanic",
+      "color": "#2ca02c",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 13
+    },
+    {
+      "name": "Other (NET)",
+      "color": "#d62728",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 14
+    }
+  ]
+}

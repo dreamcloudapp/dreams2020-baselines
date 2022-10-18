@@ -1,0 +1,91 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Yes, I have(Please describe a ...",
+        "No, I haven't"
+      ],
+      [
+        "Northeast",
+        6.72,
+        93.28
+      ],
+      [
+        "Midwest",
+        7.21,
+        92.79
+      ],
+      [
+        "South",
+        7.83,
+        92.17
+      ],
+      [
+        "West",
+        6.74,
+        93.26
+      ]
+    ],
+    "axes": {
+      "Northeast": "y",
+      "Midwest": "y",
+      "South": "y",
+      "West": "y"
+    },
+    "types": {
+      "Northeast": "bar",
+      "Midwest": "bar",
+      "South": "bar",
+      "West": "bar"
+    },
+    "colors": {
+      "Northeast": "#1f77b4",
+      "Midwest": "#ff7f0e",
+      "South": "#2ca02c",
+      "West": "#d62728"
+    },
+    "groups": [],
+    "regions": {}
+  },
+  "chartId": "q2-region",
+  "firstDataRow": 19,
+  "lastDataRow": 20,
+  "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Northeast",
+      "color": "#1f77b4",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 7
+    },
+    {
+      "name": "Midwest",
+      "color": "#ff7f0e",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 8
+    },
+    {
+      "name": "South",
+      "color": "#2ca02c",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 9
+    },
+    {
+      "name": "West",
+      "color": "#d62728",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 10
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Yes, I have(Please describe a ...",
+        "No, I haven't"
+      ],
+      [
+        "Male",
+        6.36,
+        93.64
+      ],
+      [
+        "Female",
+        8.09,
+        91.91
+      ]
+    ],
+    "axes": {
+      "Male": "y",
+      "Female": "y"
+    },
+    "types": {
+      "Male": "bar",
+      "Female": "bar"
+    },
+    "colors": {
+      "Male": "#1f77b4",
+      "Female": "#ff7f0e"
+    },
+    "groups": [],
+    "regions": {}
+  },
+  "chartId": "q2-gender",
+  "firstDataRow": 19,
+  "lastDataRow": 20,
+  "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Male",
+      "color": "#1f77b4",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 2
+    },
+    {
+      "name": "Female",
+      "color": "#ff7f0e",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 3
+    }
+  ]
+}

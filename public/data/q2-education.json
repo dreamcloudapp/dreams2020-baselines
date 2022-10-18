@@ -1,0 +1,91 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Yes, I have(Please describe a ...",
+        "No, I haven't"
+      ],
+      [
+        "No HS, High school graduate",
+        6.79,
+        93.21
+      ],
+      [
+        "Some college, 2-year",
+        7.12,
+        92.88
+      ],
+      [
+        "4-year",
+        6.22,
+        93.78
+      ],
+      [
+        "Post Grad",
+        11.11,
+        88.89
+      ]
+    ],
+    "axes": {
+      "No HS, High school graduate": "y",
+      "Some college, 2-year": "y",
+      "4-year": "y",
+      "Post Grad": "y"
+    },
+    "types": {
+      "No HS, High school graduate": "bar",
+      "Some college, 2-year": "bar",
+      "4-year": "bar",
+      "Post Grad": "bar"
+    },
+    "colors": {
+      "No HS, High school graduate": "#1f77b4",
+      "Some college, 2-year": "#ff7f0e",
+      "4-year": "#2ca02c",
+      "Post Grad": "#d62728"
+    },
+    "groups": [],
+    "regions": {}
+  },
+  "chartId": "q2-education",
+  "firstDataRow": 19,
+  "lastDataRow": 20,
+  "sheet": 2,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "No HS, High school graduate",
+      "color": "#1f77b4",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 15
+    },
+    {
+      "name": "Some college, 2-year",
+      "color": "#ff7f0e",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 16
+    },
+    {
+      "name": "4-year",
+      "color": "#2ca02c",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 17
+    },
+    {
+      "name": "Post Grad",
+      "color": "#d62728",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 18
+    }
+  ]
+}
