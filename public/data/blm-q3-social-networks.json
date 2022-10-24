@@ -1,0 +1,252 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "$80k+",
+        "Don't know / Prefer not to say",
+        "Facebook",
+        "Twitter",
+        "LinkedIn",
+        "Google+",
+        "MySpace",
+        "Pinterest",
+        "Tumblr",
+        "Instagram",
+        "Snapchat",
+        "Reddit",
+        "WeChat",
+        "Qzone",
+        "Meetup",
+        "Weibo",
+        "Other"
+      ],
+      [
+        "Almost every morning or more often",
+        11.38,
+        9.15,
+        11.07,
+        13,
+        11.64,
+        11.71,
+        14.84,
+        11.98,
+        14.93,
+        13.05,
+        14.38,
+        9.84,
+        21.12,
+        32.77,
+        24.26,
+        18.25,
+        11.63
+      ],
+      [
+        "Several times a week",
+        28.85,
+        21.33,
+        26.83,
+        28.62,
+        29.47,
+        27.24,
+        28.48,
+        28.34,
+        30.19,
+        30.24,
+        29.16,
+        31.17,
+        27.44,
+        14.06,
+        31.19,
+        25.33,
+        26.01
+      ],
+      [
+        "Once a week",
+        19.05,
+        13.94,
+        15.57,
+        17.27,
+        16.18,
+        17.87,
+        16.54,
+        16.39,
+        17.48,
+        17.52,
+        19.7,
+        22.4,
+        18.7,
+        18.02,
+        11.95,
+        34.56,
+        18.51
+      ],
+      [
+        "1 to 3 times a month",
+        19.25,
+        19.15,
+        19.55,
+        18.47,
+        19.91,
+        17.44,
+        18.68,
+        19.1,
+        20.52,
+        17.62,
+        18.14,
+        19.66,
+        15.82,
+        29.37,
+        18.65,
+        18.18,
+        20.69
+      ],
+      [
+        "Less often than once a month",
+        17.46,
+        26.3,
+        21.59,
+        18.28,
+        19.31,
+        19.99,
+        17.56,
+        20.19,
+        14.37,
+        17.11,
+        13.76,
+        13.4,
+        13.85,
+        5.78,
+        10.75,
+        1.99,
+        16.25
+      ],
+      [
+        "Never",
+        4.01,
+        10.14,
+        5.4,
+        4.35,
+        3.49,
+        5.75,
+        3.9,
+        4.02,
+        2.52,
+        4.47,
+        4.87,
+        3.54,
+        3.09,
+        null,
+        3.19,
+        1.69,
+        6.92
+      ]
+    ],
+    "axes": {
+      "Almost every morning or more often": "y",
+      "Several times a week": "y",
+      "Once a week": "y",
+      "1 to 3 times a month": "y",
+      "Less often than once a month": "y",
+      "Never": "y"
+    },
+    "types": {
+      "Almost every morning or more often": "bar",
+      "Several times a week": "bar",
+      "Once a week": "bar",
+      "1 to 3 times a month": "bar",
+      "Less often than once a month": "bar",
+      "Never": "bar"
+    },
+    "colors": {
+      "Almost every morning or more often": "#fac69a",
+      "Several times a week": "#eb524d",
+      "Once a week": "#b68a07",
+      "1 to 3 times a month": "#3e683a",
+      "Less often than once a month": "#90caca",
+      "Never": "#40647a"
+    },
+    "groups": [
+      [
+        "Almost every morning or more often",
+        "Several times a week",
+        "Once a week",
+        "1 to 3 times a month",
+        "Less often than once a month",
+        "Never"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "blm-q3-social-networks",
+  "excel": "blm",
+  "firstDataRow": 5,
+  "lastDataRow": 82,
+  "colRange": [
+    38,
+    55
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Almost every morning or more often",
+      "color": "#fac69a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 27
+    },
+    {
+      "name": "Several times a week",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 28
+    },
+    {
+      "name": "Once a week",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 29
+    },
+    {
+      "name": "1 to 3 times a month",
+      "color": "#3e683a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 30
+    },
+    {
+      "name": "Less often than once a month",
+      "color": "#90caca",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 31
+    },
+    {
+      "name": "Never",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 32
+    }
+  ],
+  "groups": [
+    [
+      "Almost every morning or more often",
+      "Several times a week",
+      "Once a week",
+      "1 to 3 times a month",
+      "Less often than once a month",
+      "Never"
+    ]
+  ]
+}

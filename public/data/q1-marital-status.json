@@ -120,11 +120,14 @@
     "regions": {}
   },
   "chartId": "q1-marital-status",
-  "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 18,
-  "lastDataColumn": 29,
+  "colRange": [
+    18,
+    29
+  ],
+  "transpose": true,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

@@ -66,11 +66,14 @@
     "regions": {}
   },
   "chartId": "q1-gender",
-  "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 1,
-  "lastDataColumn": 3,
+  "colRange": [
+    1,
+    3
+  ],
+  "transpose": true,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

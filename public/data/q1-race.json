@@ -78,11 +78,14 @@
     "regions": {}
   },
   "chartId": "q1-race",
-  "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 10,
-  "lastDataColumn": 14,
+  "colRange": [
+    10,
+    14
+  ],
+  "transpose": true,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

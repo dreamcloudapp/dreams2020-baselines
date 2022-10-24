@@ -78,11 +78,14 @@
     "regions": {}
   },
   "chartId": "q1-income",
-  "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 34,
-  "lastDataColumn": 38,
+  "colRange": [
+    34,
+    38
+  ],
+  "transpose": true,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

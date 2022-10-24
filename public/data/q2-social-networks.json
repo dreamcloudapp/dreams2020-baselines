@@ -85,6 +85,7 @@
   },
   "chartId": "q2-social-networks",
   "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
   "firstDataColumn": 38,

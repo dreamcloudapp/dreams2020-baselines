@@ -78,11 +78,14 @@
     "regions": {}
   },
   "chartId": "q1-education",
-  "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 14,
-  "lastDataColumn": 18,
+  "colRange": [
+    14,
+    18
+  ],
+  "transpose": true,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

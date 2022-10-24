@@ -84,11 +84,14 @@
     "regions": {}
   },
   "chartId": "q1-parent",
-  "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 29,
-  "lastDataColumn": 34,
+  "colRange": [
+    29,
+    34
+  ],
+  "transpose": true,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

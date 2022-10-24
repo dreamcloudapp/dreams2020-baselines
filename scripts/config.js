@@ -77,6 +77,158 @@ const legends = {
       column: 18,
     },
   ],
+
+  // Protestant
+  // Roman Catholic
+  // Mormon
+  // Eastern or Greek Orthodox
+  // Jewish
+  // Muslim
+  // Buddhist
+  // Hindu
+  // Atheist
+  // Agnostic
+  // Nothing in particular
+  // Something else
+  blmQ1: [
+    {
+      name: "Protestant",
+      color: colors.categoryColors[0],
+      symbol: "rect",
+      units: "percent",
+      column: 3,
+    },
+    {
+      name: "Roman Catholic",
+      color: colors.categoryColors[1],
+      symbol: "rect",
+      units: "percent",
+      column: 4,
+    },
+    {
+      name: "Mormon",
+      color: colors.categoryColors[2],
+      symbol: "rect",
+      units: "percent",
+      column: 5,
+    },
+    {
+      name: "Eastern or Greek Orthodox",
+      color: colors.categoryColors[3],
+      symbol: "rect",
+      units: "percent",
+      column: 6,
+    },
+    {
+      name: "Jewish",
+      color: colors.categoryColors[4],
+      symbol: "rect",
+      units: "percent",
+      column: 7,
+    },
+    {
+      name: "Muslim",
+      color: colors.categoryColors[5],
+      symbol: "rect",
+      units: "percent",
+      column: 8,
+    },
+    {
+      name: "Buddhist",
+      color: colors.categoryColors[6],
+      symbol: "rect",
+      units: "percent",
+      column: 9,
+    },
+    {
+      name: "Hindu",
+      color: colors.categoryColors[7],
+      symbol: "rect",
+      units: "percent",
+      column: 10,
+    },
+    {
+      name: "Atheist",
+      color: colors.categoryColors[8],
+      symbol: "rect",
+      units: "percent",
+      column: 11,
+    },
+    {
+      name: "Agnostic",
+      color: colors.categoryColors[9],
+      symbol: "rect",
+      units: "percent",
+      column: 12,
+    },
+    {
+      name: "Nothing in particular",
+      color: colors.categoryColors[10],
+      symbol: "rect",
+      units: "percent",
+      column: 13,
+    },
+    {
+      name: "Something else",
+      color: colors.categoryColors[11],
+      symbol: "rect",
+      units: "percent",
+      column: 14,
+    },
+  ],
+  // blmQ3
+  // Almost every morning or more often
+  // Several times a week
+  // Once a week
+  // 1 to 3 times a month
+  // Less often than once a month
+  // Never
+  // Net: Once a week or more
+  // Net: Less than once a week
+  blmQ3: [
+    {
+      name: "Almost every morning or more often",
+      color: colors.categoryColors[0],
+      symbol: "rect",
+      units: "percent",
+      column: 27,
+    },
+    {
+      name: "Several times a week",
+      color: colors.categoryColors[1],
+      symbol: "rect",
+      units: "percent",
+      column: 28,
+    },
+    {
+      name: "Once a week",
+      color: colors.categoryColors[2],
+      symbol: "rect",
+      units: "percent",
+      column: 29,
+    },
+    {
+      name: "1 to 3 times a month",
+      color: colors.categoryColors[3],
+      symbol: "rect",
+      units: "percent",
+      column: 30,
+    },
+    {
+      name: "Less often than once a month",
+      color: colors.categoryColors[4],
+      symbol: "rect",
+      units: "percent",
+      column: 31,
+    },
+    {
+      name: "Never",
+      color: colors.categoryColors[5],
+      symbol: "rect",
+      units: "percent",
+      column: 32,
+    },
+  ],
 };
 
 const groups = {
@@ -90,160 +242,147 @@ const groups = {
     ],
   ],
   covidQ2: [["Yes, I have", "No, I haven't"]],
+  covidQ3: [["Approve", "Disapprove", "No opinion"]],
+  blmQ1: [
+    [
+      "Protestant",
+      "Roman Catholic",
+      "Mormon",
+      "Eastern or Greek Orthodox",
+      "Jewish",
+      "Muslim",
+      "Buddhist",
+      "Hindu",
+      "Atheist",
+      "Agnostic",
+      "Nothing in particular",
+      "Something else",
+    ],
+  ],
+  blmQ3: [
+    [
+      "Almost every morning or more often",
+      "Several times a week",
+      "Once a week",
+      "1 to 3 times a month",
+      "Less often than once a month",
+      "Never",
+    ],
+  ],
+};
+
+const colRanges = {
+  gender: [1, 3],
+  age: [3, 6],
+  region: [6, 10],
+  race: [10, 14],
+  education: [14, 18],
+  marital: [18, 29],
+  parent: [29, 34],
+  income: [34, 38],
+  socialNetworks: [38, 55],
+};
+
+const basicConfig = {
+  transpose: true,
+  sheet: 2,
+  maxValue: 99,
+  rotateAxis: true,
+  unitSuffix: "%",
+  chartColors: {
+    axisLabel: colors.main,
+  },
 };
 
 const chartConfig = {
   // Question 1
   "q1-gender": {
     chartId: "q1-gender",
-    transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
-    firstDataColumn: 1,
-    lastDataColumn: 3,
-    sheet: 2,
-    maxValue: 99,
-    rotateAxis: true,
-    unitSuffix: "%",
-    chartColors: {
-      axisLabel: colors.main,
-    },
+    colRange: colRanges.gender,
+    ...basicConfig,
     legends: legends.covidQ1,
     groups: groups.covidQ1,
   },
   "q1-age": {
     chartId: "q1-age",
-    transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
-    firstDataColumn: 3,
-    lastDataColumn: 6,
-    sheet: 2,
-    maxValue: 99,
-    rotateAxis: true,
-    unitSuffix: "%",
-    chartColors: {
-      axisLabel: colors.main,
-    },
+    colRange: colRanges.age,
+    ...basicConfig,
     legends: legends.covidQ1,
     groups: groups.covidQ1,
   },
   "q1-region": {
     chartId: "q1-region",
-    transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
-    firstDataColumn: 6,
-    lastDataColumn: 10,
-    sheet: 2,
-    maxValue: 99,
-    rotateAxis: true,
-    unitSuffix: "%",
-    chartColors: {
-      axisLabel: colors.main,
-    },
+    colRange: colRanges.region,
+    ...basicConfig,
     legends: legends.covidQ1,
     groups: groups.covidQ1,
   },
   "q1-race": {
     chartId: "q1-race",
-    transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
-    firstDataColumn: 10,
-    lastDataColumn: 14,
-    sheet: 2,
-    maxValue: 99,
-    rotateAxis: true,
-    unitSuffix: "%",
-    chartColors: {
-      axisLabel: colors.main,
-    },
+    colRange: colRanges.race,
+    ...basicConfig,
     legends: legends.covidQ1,
     groups: groups.covidQ1,
   },
   "q1-education": {
     chartId: "q1-education",
-    transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
-    firstDataColumn: 14,
-    lastDataColumn: 18,
-    sheet: 2,
-    maxValue: 99,
-    rotateAxis: true,
-    unitSuffix: "%",
-    chartColors: {
-      axisLabel: colors.main,
-    },
+    colRange: colRanges.education,
+    ...basicConfig,
     legends: legends.covidQ1,
     groups: groups.covidQ1,
   },
   "q1-marital-status": {
     chartId: "q1-marital-status",
-    transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
-    firstDataColumn: 18,
-    lastDataColumn: 29,
-    sheet: 2,
-    maxValue: 99,
-    rotateAxis: true,
-    unitSuffix: "%",
-    chartColors: {
-      axisLabel: colors.main,
-    },
+    colRange: colRanges.marital,
+    ...basicConfig,
     legends: legends.covidQ1,
     groups: groups.covidQ1,
   },
   "q1-parent": {
     chartId: "q1-parent",
-    transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
-    firstDataColumn: 29,
-    lastDataColumn: 34,
-    sheet: 2,
-    maxValue: 99,
-    rotateAxis: true,
-    unitSuffix: "%",
-    chartColors: {
-      axisLabel: colors.main,
-    },
+    colRange: colRanges.parent,
+    ...basicConfig,
     legends: legends.covidQ1,
     groups: groups.covidQ1,
   },
   "q1-income": {
     chartId: "q1-income",
-    transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
-    firstDataColumn: 34,
-    lastDataColumn: 38,
-    sheet: 2,
-    maxValue: 99,
-    rotateAxis: true,
-    unitSuffix: "%",
-    chartColors: {
-      axisLabel: colors.main,
-    },
+    colRange: colRanges.income,
+    ...basicConfig,
     legends: legends.covidQ1,
     groups: groups.covidQ1,
   },
   "q1-social-networks": {
     chartId: "q1-social-networks",
-    transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
-    firstDataColumn: 38,
-    lastDataColumn: 55,
-    sheet: 2,
-    maxValue: 99,
-    rotateAxis: true,
-    unitSuffix: "%",
-    chartColors: {
-      axisLabel: colors.main,
-    },
+    colRange: colRanges.socialNetworks,
+    ...basicConfig,
     legends: legends.covidQ1,
     groups: groups.covidQ1,
   },
@@ -251,6 +390,7 @@ const chartConfig = {
   "q2-gender": {
     chartId: "q2-gender",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 1,
@@ -268,6 +408,7 @@ const chartConfig = {
   "q2-age": {
     chartId: "q2-age",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 3,
@@ -285,6 +426,7 @@ const chartConfig = {
   "q2-region": {
     chartId: "q2-region",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 6,
@@ -302,6 +444,7 @@ const chartConfig = {
   "q2-race": {
     chartId: "q2-race",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 10,
@@ -319,6 +462,7 @@ const chartConfig = {
   "q2-education": {
     chartId: "q2-education",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 14,
@@ -336,6 +480,7 @@ const chartConfig = {
   "q2-marital-status": {
     chartId: "q2-marital-status",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 18,
@@ -353,6 +498,7 @@ const chartConfig = {
   "q2-parent": {
     chartId: "q2-parent",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 29,
@@ -370,6 +516,7 @@ const chartConfig = {
   "q2-income": {
     chartId: "q2-income",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 34,
@@ -387,6 +534,7 @@ const chartConfig = {
   "q2-social-networks": {
     chartId: "q2-social-networks",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 38,
@@ -405,6 +553,7 @@ const chartConfig = {
   "q3-gender": {
     chartId: "q3-gender",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 1,
@@ -422,6 +571,7 @@ const chartConfig = {
   "q3-age": {
     chartId: "q3-age",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 3,
@@ -439,6 +589,7 @@ const chartConfig = {
   "q3-region": {
     chartId: "q3-region",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 6,
@@ -456,6 +607,7 @@ const chartConfig = {
   "q3-race": {
     chartId: "q3-race",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 10,
@@ -473,6 +625,7 @@ const chartConfig = {
   "q3-education": {
     chartId: "q3-education",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 14,
@@ -490,6 +643,7 @@ const chartConfig = {
   "q3-marital-status": {
     chartId: "q3-marital-status",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 18,
@@ -507,6 +661,7 @@ const chartConfig = {
   "q3-parent": {
     chartId: "q3-parent",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 29,
@@ -524,6 +679,7 @@ const chartConfig = {
   "q3-income": {
     chartId: "q3-income",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 34,
@@ -541,6 +697,7 @@ const chartConfig = {
   "q3-social-networks": {
     chartId: "q3-social-networks",
     transpose: true,
+    excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
     firstDataColumn: 38,
@@ -554,6 +711,98 @@ const chartConfig = {
     },
     legends: legends.covidQ3,
     groups: [["Approve", "Disapprove", "No opinion"]],
+  },
+
+  // BLM
+  "blm-q3-gender": {
+    chartId: "blm-q3-gender",
+    excel: "blm",
+    firstDataRow: 5,
+    lastDataRow: 82,
+    colRange: colRanges.gender,
+    ...basicConfig,
+    legends: legends.blmQ3,
+    groups: groups.blmQ3,
+  },
+  "blm-q3-age": {
+    chartId: "blm-q3-age",
+    excel: "blm",
+    firstDataRow: 5,
+    lastDataRow: 82,
+    colRange: colRanges.age,
+    ...basicConfig,
+    legends: legends.blmQ3,
+    groups: groups.blmQ3,
+  },
+  "blm-q3-region": {
+    chartId: "blm-q3-region",
+    excel: "blm",
+    firstDataRow: 5,
+    lastDataRow: 82,
+    colRange: colRanges.region,
+    ...basicConfig,
+    legends: legends.blmQ3,
+    groups: groups.blmQ3,
+  },
+  "blm-q3-race": {
+    chartId: "blm-q3-race",
+    excel: "blm",
+    firstDataRow: 5,
+    lastDataRow: 82,
+    colRange: colRanges.race,
+    ...basicConfig,
+    legends: legends.blmQ3,
+    groups: groups.blmQ3,
+  },
+  "blm-q3-education": {
+    chartId: "blm-q3-education",
+    excel: "blm",
+    firstDataRow: 5,
+    lastDataRow: 82,
+    colRange: colRanges.education,
+    ...basicConfig,
+    legends: legends.blmQ3,
+    groups: groups.blmQ3,
+  },
+  "blm-q3-marital-status": {
+    chartId: "blm-q3-marital-status",
+    excel: "blm",
+    firstDataRow: 5,
+    lastDataRow: 82,
+    colRange: colRanges.marital,
+    ...basicConfig,
+    legends: legends.blmQ3,
+    groups: groups.blmQ3,
+  },
+  "blm-q3-parent": {
+    chartId: "blm-q3-parent",
+    excel: "blm",
+    firstDataRow: 5,
+    lastDataRow: 82,
+    colRange: colRanges.parent,
+    ...basicConfig,
+    legends: legends.blmQ3,
+    groups: groups.blmQ3,
+  },
+  "blm-q3-income": {
+    chartId: "blm-q3-income",
+    excel: "blm",
+    firstDataRow: 5,
+    lastDataRow: 82,
+    colRange: colRanges.income,
+    ...basicConfig,
+    legends: legends.blmQ3,
+    groups: groups.blmQ3,
+  },
+  "blm-q3-social-networks": {
+    chartId: "blm-q3-social-networks",
+    excel: "blm",
+    firstDataRow: 5,
+    lastDataRow: 82,
+    colRange: colRanges.socialNetworks,
+    ...basicConfig,
+    legends: legends.blmQ3,
+    groups: groups.blmQ3,
   },
 };
 

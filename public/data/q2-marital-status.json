@@ -67,6 +67,7 @@
   },
   "chartId": "q2-marital-status",
   "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
   "firstDataColumn": 18,

@@ -156,11 +156,14 @@
     "regions": {}
   },
   "chartId": "q1-social-networks",
-  "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 38,
-  "lastDataColumn": 55,
+  "colRange": [
+    38,
+    55
+  ],
+  "transpose": true,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

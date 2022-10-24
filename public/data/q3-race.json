@@ -57,6 +57,7 @@
   },
   "chartId": "q3-race",
   "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
   "firstDataColumn": 10,

@@ -53,6 +53,7 @@
   },
   "chartId": "q3-age",
   "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
   "firstDataColumn": 3,

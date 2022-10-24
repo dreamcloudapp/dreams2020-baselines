@@ -72,11 +72,14 @@
     "regions": {}
   },
   "chartId": "q1-age",
-  "transpose": true,
+  "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 3,
-  "lastDataColumn": 6,
+  "colRange": [
+    3,
+    6
+  ],
+  "transpose": true,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

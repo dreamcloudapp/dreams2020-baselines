@@ -4,12 +4,8 @@ const { chartConfig } = require("./config");
 const fs = require("fs");
 
 const SRC_PATH = "/../data";
-const BASELINES_PATH = `${SRC_PATH}/results_for_sddb.xlsx`;
-const EXCEL_DATA_RANGE = {
-  firstRow: 5,
-  lastRow: 59,
-  sheetIndex: 2,
-};
+const COVID_DATA_PATH = `${SRC_PATH}/results_for_sddb.xlsx`;
+const BLM_DATA_PATH = `${SRC_PATH}/blm_results_for_sddb.xlsx`;
 
 ////////////////////////////////////////////////////////////////
 // MAIN
@@ -21,18 +17,21 @@ try {
   chartConfigs.forEach((chartId) => {
     const singleChartConfig = chartConfig[chartId];
 
+    const colRange = singleChartConfig.colRange
+      ? singleChartConfig.colRange
+      : [singleChartConfig.firstDataColumn, singleChartConfig.lastDataColumn];
+
     const sheetConfig = [
       singleChartConfig.firstDataRow,
       singleChartConfig.lastDataRow,
       singleChartConfig.sheet,
-      singleChartConfig.firstDataColumn,
-      singleChartConfig.lastDataColumn,
+      ...colRange,
     ];
 
-    const rowData = getSpreadsheetData(
-      __dirname + BASELINES_PATH,
-      ...sheetConfig
-    );
+    const dataPath =
+      singleChartConfig.excel === "covid" ? COVID_DATA_PATH : BLM_DATA_PATH;
+
+    const rowData = getSpreadsheetData(__dirname + dataPath, ...sheetConfig);
 
     const data = groupedC3JsonFromExcel(singleChartConfig, rowData);
 

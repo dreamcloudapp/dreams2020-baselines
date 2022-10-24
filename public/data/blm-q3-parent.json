@@ -1,0 +1,168 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Other",
+        "Prefer not to say",
+        "Younger than 18",
+        "18 or over",
+        "NET: Any age"
+      ],
+      [
+        "Almost every morning or more often",
+        22.44,
+        11.18,
+        14.19,
+        8.81,
+        10.96
+      ],
+      [
+        "Several times a week",
+        19.2,
+        12.31,
+        30.51,
+        24.09,
+        26.84
+      ],
+      [
+        "Once a week",
+        17.9,
+        17.71,
+        17.44,
+        12.92,
+        14.6
+      ],
+      [
+        "1 to 3 times a month",
+        15.77,
+        16.48,
+        17.67,
+        19.86,
+        18.9
+      ],
+      [
+        "Less often than once a month",
+        12.99,
+        16.6,
+        16.65,
+        28.06,
+        23.56
+      ],
+      [
+        "Never",
+        11.7,
+        25.72,
+        3.54,
+        6.26,
+        5.13
+      ]
+    ],
+    "axes": {
+      "Almost every morning or more often": "y",
+      "Several times a week": "y",
+      "Once a week": "y",
+      "1 to 3 times a month": "y",
+      "Less often than once a month": "y",
+      "Never": "y"
+    },
+    "types": {
+      "Almost every morning or more often": "bar",
+      "Several times a week": "bar",
+      "Once a week": "bar",
+      "1 to 3 times a month": "bar",
+      "Less often than once a month": "bar",
+      "Never": "bar"
+    },
+    "colors": {
+      "Almost every morning or more often": "#fac69a",
+      "Several times a week": "#eb524d",
+      "Once a week": "#b68a07",
+      "1 to 3 times a month": "#3e683a",
+      "Less often than once a month": "#90caca",
+      "Never": "#40647a"
+    },
+    "groups": [
+      [
+        "Almost every morning or more often",
+        "Several times a week",
+        "Once a week",
+        "1 to 3 times a month",
+        "Less often than once a month",
+        "Never"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "blm-q3-parent",
+  "excel": "blm",
+  "firstDataRow": 5,
+  "lastDataRow": 82,
+  "colRange": [
+    29,
+    34
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Almost every morning or more often",
+      "color": "#fac69a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 27
+    },
+    {
+      "name": "Several times a week",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 28
+    },
+    {
+      "name": "Once a week",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 29
+    },
+    {
+      "name": "1 to 3 times a month",
+      "color": "#3e683a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 30
+    },
+    {
+      "name": "Less often than once a month",
+      "color": "#90caca",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 31
+    },
+    {
+      "name": "Never",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 32
+    }
+  ],
+  "groups": [
+    [
+      "Almost every morning or more often",
+      "Several times a week",
+      "Once a week",
+      "1 to 3 times a month",
+      "Less often than once a month",
+      "Never"
+    ]
+  ]
+}
