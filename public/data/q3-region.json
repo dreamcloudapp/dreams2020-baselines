@@ -4,23 +4,31 @@
     "columns": [
       [
         "x",
-        "Male",
-        "Female"
+        "Northeast",
+        "Midwest",
+        "South",
+        "West"
       ],
       [
         "Approve",
-        43.09,
-        34.76
+        36.01,
+        38.52,
+        40.16,
+        39.06
       ],
       [
         "Disapprove",
-        45.14,
-        49.64
+        50.85,
+        48.61,
+        46.08,
+        46.03
       ],
       [
         "No opinion",
-        11.77,
-        15.6
+        13.14,
+        12.87,
+        13.76,
+        14.91
       ]
     ],
     "axes": {
@@ -47,12 +55,12 @@
     ],
     "regions": {}
   },
-  "chartId": "q3-gender",
+  "chartId": "q3-region",
   "transpose": true,
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 1,
-  "lastDataColumn": 3,
+  "firstDataColumn": 6,
+  "lastDataColumn": 10,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

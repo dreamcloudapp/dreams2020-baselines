@@ -30,8 +30,8 @@
       "No, I haven't": "bar"
     },
     "colors": {
-      "Yes, I have": "hsl(220, 90%, 60%)",
-      "No, I haven't": "hsl(24, 84%, 56%)"
+      "Yes, I have": "#fac69a",
+      "No, I haven't": "#eb524d"
     },
     "groups": [
       [
@@ -57,14 +57,14 @@
   "legends": [
     {
       "name": "Yes, I have",
-      "color": "hsl(220, 90%, 60%)",
+      "color": "#fac69a",
       "symbol": "rect",
       "units": "percent",
       "column": 12
     },
     {
       "name": "No, I haven't",
-      "color": "hsl(24, 84%, 56%)",
+      "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
       "column": 13

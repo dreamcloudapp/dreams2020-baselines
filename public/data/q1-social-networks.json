@@ -138,11 +138,11 @@
       "Decreased a lot": "bar"
     },
     "colors": {
-      "Increased a lot": "hsl(220, 90%, 60%)",
-      "Increased somewhat": "hsl(24, 84%, 56%)",
-      "Stayed the same": "#2ca02c",
-      "Decreased somewhat": "#d62728",
-      "Decreased a lot": "#9467bd"
+      "Increased a lot": "#fac69a",
+      "Increased somewhat": "#eb524d",
+      "Stayed the same": "#b68a07",
+      "Decreased somewhat": "#3e683a",
+      "Decreased a lot": "#90caca"
     },
     "groups": [
       [
@@ -171,35 +171,35 @@
   "legends": [
     {
       "name": "Increased a lot",
-      "color": "hsl(220, 90%, 60%)",
+      "color": "#fac69a",
       "symbol": "rect",
       "units": "percent",
       "column": 3
     },
     {
       "name": "Increased somewhat",
-      "color": "hsl(24, 84%, 56%)",
+      "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
       "column": 4
     },
     {
       "name": "Stayed the same",
-      "color": "#2ca02c",
+      "color": "#b68a07",
       "symbol": "rect",
       "units": "percent",
       "column": 5
     },
     {
       "name": "Decreased somewhat",
-      "color": "#d62728",
+      "color": "#3e683a",
       "symbol": "rect",
       "units": "percent",
       "column": 6
     },
     {
       "name": "Decreased a lot",
-      "color": "#9467bd",
+      "color": "#90caca",
       "symbol": "rect",
       "units": "percent",
       "column": 7

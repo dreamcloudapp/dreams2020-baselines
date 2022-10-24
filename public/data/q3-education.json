@@ -4,23 +4,31 @@
     "columns": [
       [
         "x",
-        "Male",
-        "Female"
+        "No HS, High school graduate",
+        "Some college, 2-year",
+        "4-year",
+        "Post Grad"
       ],
       [
         "Approve",
-        43.09,
-        34.76
+        43.77,
+        39.3,
+        30.81,
+        32.28
       ],
       [
         "Disapprove",
-        45.14,
-        49.64
+        36.84,
+        48.74,
+        59.69,
+        63.07
       ],
       [
         "No opinion",
-        11.77,
-        15.6
+        19.39,
+        11.96,
+        9.5,
+        4.65
       ]
     ],
     "axes": {
@@ -47,12 +55,12 @@
     ],
     "regions": {}
   },
-  "chartId": "q3-gender",
+  "chartId": "q3-education",
   "transpose": true,
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 1,
-  "lastDataColumn": 3,
+  "firstDataColumn": 14,
+  "lastDataColumn": 18,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

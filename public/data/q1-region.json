@@ -66,10 +66,10 @@
       "West": "bar"
     },
     "colors": {
-      "Northeast": "hsl(220, 90%, 60%)",
-      "Midwest": "hsl(24, 84%, 56%)",
-      "South": "#2ca02c",
-      "West": "#d62728"
+      "Northeast": "#fac69a",
+      "Midwest": "#eb524d",
+      "South": "#b68a07",
+      "West": "#3e683a"
     },
     "groups": [],
     "regions": {}
@@ -86,28 +86,28 @@
   "legends": [
     {
       "name": "Northeast",
-      "color": "hsl(220, 90%, 60%)",
+      "color": "#fac69a",
       "symbol": "rect",
       "units": "percent",
       "column": 7
     },
     {
       "name": "Midwest",
-      "color": "hsl(24, 84%, 56%)",
+      "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
       "column": 8
     },
     {
       "name": "South",
-      "color": "#2ca02c",
+      "color": "#b68a07",
       "symbol": "rect",
       "units": "percent",
       "column": 9
     },
     {
       "name": "West",
-      "color": "#d62728",
+      "color": "#3e683a",
       "symbol": "rect",
       "units": "percent",
       "column": 10

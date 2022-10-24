@@ -78,11 +78,11 @@
       "Don't know / Prefer not to say": "bar"
     },
     "colors": {
-      "Younger than 18": "hsl(220, 90%, 60%)",
-      "18 or over": "hsl(24, 84%, 56%)",
-      "NET: Any age": "#2ca02c",
-      "Not a parent / guardian": "#d62728",
-      "Don't know / Prefer not to say": "#9467bd"
+      "Younger than 18": "#fac69a",
+      "18 or over": "#eb524d",
+      "NET: Any age": "#b68a07",
+      "Not a parent / guardian": "#3e683a",
+      "Don't know / Prefer not to say": "#90caca"
     },
     "groups": [],
     "regions": {}
@@ -101,35 +101,35 @@
   "legends": [
     {
       "name": "Younger than 18",
-      "color": "hsl(220, 90%, 60%)",
+      "color": "#fac69a",
       "symbol": "rect",
       "units": "percent",
       "column": 30
     },
     {
       "name": "18 or over",
-      "color": "hsl(24, 84%, 56%)",
+      "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
       "column": 31
     },
     {
       "name": "NET: Any age",
-      "color": "#2ca02c",
+      "color": "#b68a07",
       "symbol": "rect",
       "units": "percent",
       "column": 32
     },
     {
       "name": "Not a parent / guardian",
-      "color": "#d62728",
+      "color": "#3e683a",
       "symbol": "rect",
       "units": "percent",
       "column": 33
     },
     {
       "name": "Don't know / Prefer not to say",
-      "color": "#9467bd",
+      "color": "#90caca",
       "symbol": "rect",
       "units": "percent",
       "column": 34

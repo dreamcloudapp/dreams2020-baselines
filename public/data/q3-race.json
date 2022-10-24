@@ -4,23 +4,31 @@
     "columns": [
       [
         "x",
-        "Male",
-        "Female"
+        "White",
+        "Black",
+        "Hispanic",
+        "Other (NET)"
       ],
       [
         "Approve",
-        43.09,
-        34.76
+        45.34,
+        13.41,
+        35.46,
+        28.56
       ],
       [
         "Disapprove",
-        45.14,
-        49.64
+        45.19,
+        63.15,
+        44.66,
+        48.01
       ],
       [
         "No opinion",
-        11.77,
-        15.6
+        9.47,
+        23.44,
+        19.88,
+        23.43
       ]
     ],
     "axes": {
@@ -47,12 +55,12 @@
     ],
     "regions": {}
   },
-  "chartId": "q3-gender",
+  "chartId": "q3-race",
   "transpose": true,
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 1,
-  "lastDataColumn": 3,
+  "firstDataColumn": 10,
+  "lastDataColumn": 14,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

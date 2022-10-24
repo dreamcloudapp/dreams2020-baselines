@@ -4,23 +4,27 @@
     "columns": [
       [
         "x",
-        "Male",
-        "Female"
+        "18-34",
+        "35-54",
+        "55+"
       ],
       [
         "Approve",
-        43.09,
-        34.76
+        26.98,
+        38.51,
+        48.07
       ],
       [
         "Disapprove",
-        45.14,
-        49.64
+        49.3,
+        48.18,
+        45.51
       ],
       [
         "No opinion",
-        11.77,
-        15.6
+        23.72,
+        13.31,
+        6.42
       ]
     ],
     "axes": {
@@ -47,12 +51,12 @@
     ],
     "regions": {}
   },
-  "chartId": "q3-gender",
+  "chartId": "q3-age",
   "transpose": true,
   "firstDataRow": 5,
   "lastDataRow": 30,
-  "firstDataColumn": 1,
-  "lastDataColumn": 3,
+  "firstDataColumn": 3,
+  "lastDataColumn": 6,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,

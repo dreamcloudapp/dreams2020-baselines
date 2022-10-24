@@ -41,10 +41,10 @@
       "Other (NET)": "bar"
     },
     "colors": {
-      "White": "hsl(220, 90%, 60%)",
-      "Black": "hsl(24, 84%, 56%)",
-      "Hispanic": "#2ca02c",
-      "Other (NET)": "#d62728"
+      "White": "#fac69a",
+      "Black": "#eb524d",
+      "Hispanic": "#b68a07",
+      "Other (NET)": "#3e683a"
     },
     "groups": [],
     "regions": {}
@@ -61,28 +61,28 @@
   "legends": [
     {
       "name": "White",
-      "color": "hsl(220, 90%, 60%)",
+      "color": "#fac69a",
       "symbol": "rect",
       "units": "percent",
       "column": 11
     },
     {
       "name": "Black",
-      "color": "hsl(24, 84%, 56%)",
+      "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
       "column": 12
     },
     {
       "name": "Hispanic",
-      "color": "#2ca02c",
+      "color": "#b68a07",
       "symbol": "rect",
       "units": "percent",
       "column": 13
     },
     {
       "name": "Other (NET)",
-      "color": "#d62728",
+      "color": "#3e683a",
       "symbol": "rect",
       "units": "percent",
       "column": 14

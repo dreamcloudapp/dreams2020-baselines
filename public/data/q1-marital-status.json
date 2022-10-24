@@ -150,16 +150,13 @@
       "Prefer not to say": "bar"
     },
     "colors": {
-      "Married": "hsl(220, 90%, 60%)",
-      "Civil Partnership": "hsl(24, 84%, 56%)",
-      "Living together, not married or civil partnership": "#2ca02c",
-      "In a relationship, not living together": "#d62728",
-      "NET: In a relationship": "#9467bd",
-      "Single": "#8c564b",
-      "Divorced": "#e377c2",
-      "Widowed": "#7f7f7f",
-      "Separated": "#bcbd22",
-      "Other": "#17becf"
+      "Married": "#fac69a",
+      "Civil Partnership": "#eb524d",
+      "Living together, not married or civil partnership": "#b68a07",
+      "In a relationship, not living together": "#3e683a",
+      "NET: In a relationship": "#90caca",
+      "Single": "#40647a",
+      "Divorced": "#2c2c2c"
     },
     "groups": [
       [
@@ -192,70 +189,67 @@
   "legends": [
     {
       "name": "Married",
-      "color": "hsl(220, 90%, 60%)",
+      "color": "#fac69a",
       "symbol": "rect",
       "units": "percent",
       "column": 19
     },
     {
       "name": "Civil Partnership",
-      "color": "hsl(24, 84%, 56%)",
+      "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
       "column": 20
     },
     {
       "name": "Living together, not married or civil partnership",
-      "color": "#2ca02c",
+      "color": "#b68a07",
       "symbol": "rect",
       "units": "percent",
       "column": 21
     },
     {
       "name": "In a relationship, not living together",
-      "color": "#d62728",
+      "color": "#3e683a",
       "symbol": "rect",
       "units": "percent",
       "column": 22
     },
     {
       "name": "NET: In a relationship",
-      "color": "#9467bd",
+      "color": "#90caca",
       "symbol": "rect",
       "units": "percent",
       "column": 23
     },
     {
       "name": "Single",
-      "color": "#8c564b",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
       "column": 24
     },
     {
       "name": "Divorced",
-      "color": "#e377c2",
+      "color": "#2c2c2c",
       "symbol": "rect",
       "units": "percent",
       "column": 25
     },
     {
       "name": "Widowed",
-      "color": "#7f7f7f",
       "symbol": "rect",
       "units": "percent",
       "column": 26
     },
     {
       "name": "Separated",
-      "color": "#bcbd22",
       "symbol": "rect",
       "units": "percent",
       "column": 27
     },
     {
       "name": "Other",
-      "color": "#17becf",
       "symbol": "rect",
       "units": "percent",
       "column": 28
