@@ -4,80 +4,87 @@
     "columns": [
       [
         "x",
+        "Northeast",
+        "Midwest",
+        "South",
+        "West"
+      ],
+      [
+        "Increased a lot",
+        12.19,
+        8.46,
+        10.54,
+        11.18
+      ],
+      [
+        "Increased somewhat",
+        18.51,
+        16.54,
+        16.9,
+        19.33
+      ],
+      [
+        "Stayed the same",
+        63.64,
+        68.42,
+        64.28,
+        63.56
+      ],
+      [
+        "Decreased somewhat",
+        2.8,
+        3.2,
+        4.3,
+        2.01
+      ],
+      [
+        "Decreased a lot",
+        2.86,
+        3.39,
+        3.97,
+        3.92
+      ]
+    ],
+    "axes": {
+      "Increased a lot": "y",
+      "Increased somewhat": "y",
+      "Stayed the same": "y",
+      "Decreased somewhat": "y",
+      "Decreased a lot": "y"
+    },
+    "types": {
+      "Increased a lot": "bar",
+      "Increased somewhat": "bar",
+      "Stayed the same": "bar",
+      "Decreased somewhat": "bar",
+      "Decreased a lot": "bar"
+    },
+    "colors": {
+      "Increased a lot": "#40647a",
+      "Increased somewhat": "#90caca",
+      "Stayed the same": "#3b3b3b",
+      "Decreased somewhat": "#b68a07",
+      "Decreased a lot": "#eb524d"
+    },
+    "groups": [
+      [
         "Increased a lot",
         "Increased somewhat",
         "Stayed the same",
         "Decreased somewhat",
-        "Decreased a lot",
-        "Net: Increased a lot/somewhat",
-        "Net: Decreased a lot/somewhat "
-      ],
-      [
-        "Northeast",
-        12.19,
-        18.51,
-        63.64,
-        2.8,
-        2.86,
-        30.7,
-        5.66
-      ],
-      [
-        "Midwest",
-        8.46,
-        16.54,
-        68.42,
-        3.2,
-        3.39,
-        24.99,
-        6.59
-      ],
-      [
-        "South",
-        10.54,
-        16.9,
-        64.28,
-        4.3,
-        3.97,
-        27.44,
-        8.28
-      ],
-      [
-        "West",
-        11.18,
-        19.33,
-        63.56,
-        2.01,
-        3.92,
-        30.51,
-        5.93
+        "Decreased a lot"
       ]
     ],
-    "axes": {
-      "Northeast": "y",
-      "Midwest": "y",
-      "South": "y",
-      "West": "y"
-    },
-    "types": {
-      "Northeast": "bar",
-      "Midwest": "bar",
-      "South": "bar",
-      "West": "bar"
-    },
-    "colors": {
-      "Northeast": "#fac69a",
-      "Midwest": "#eb524d",
-      "South": "#b68a07",
-      "West": "#3e683a"
-    },
-    "groups": [],
     "regions": {}
   },
   "chartId": "q1-region",
-  "firstDataRow": 9,
-  "lastDataRow": 15,
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 30,
+  "firstDataColumn": 6,
+  "lastDataColumn": 10,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
   "chartColors": {
@@ -85,32 +92,48 @@
   },
   "legends": [
     {
-      "name": "Northeast",
-      "color": "#fac69a",
+      "name": "Increased a lot",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
-      "column": 7
+      "column": 3
     },
     {
-      "name": "Midwest",
-      "color": "#eb524d",
+      "name": "Increased somewhat",
+      "color": "#90caca",
       "symbol": "rect",
       "units": "percent",
-      "column": 8
+      "column": 4
     },
     {
-      "name": "South",
+      "name": "Stayed the same",
+      "color": "#3b3b3b",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 5
+    },
+    {
+      "name": "Decreased somewhat",
       "color": "#b68a07",
       "symbol": "rect",
       "units": "percent",
-      "column": 9
+      "column": 6
     },
     {
-      "name": "West",
-      "color": "#3e683a",
+      "name": "Decreased a lot",
+      "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
-      "column": 10
+      "column": 7
     }
+  ],
+  "groups": [
+    [
+      "Increased a lot",
+      "Increased somewhat",
+      "Stayed the same",
+      "Decreased somewhat",
+      "Decreased a lot"
+    ]
   ]
 }

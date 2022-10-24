@@ -46,7 +46,7 @@
       "No opinion": "bar"
     },
     "colors": {
-      "Approve": "#3e683a",
+      "Approve": "#40647a",
       "Disapprove": "#eb524d",
       "No opinion": "#b68a07"
     },
@@ -75,7 +75,7 @@
   "legends": [
     {
       "name": "Approve",
-      "color": "#3e683a",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
       "column": 16

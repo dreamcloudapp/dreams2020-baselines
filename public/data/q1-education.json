@@ -4,80 +4,87 @@
     "columns": [
       [
         "x",
+        "No HS, High school graduate",
+        "Some college, 2-year",
+        "4-year",
+        "Post Grad"
+      ],
+      [
+        "Increased a lot",
+        12.31,
+        10.47,
+        7.03,
+        10.11
+      ],
+      [
+        "Increased somewhat",
+        14.73,
+        18.97,
+        20.01,
+        21.17
+      ],
+      [
+        "Stayed the same",
+        63.95,
+        65.05,
+        66.3,
+        65.35
+      ],
+      [
+        "Decreased somewhat",
+        2.92,
+        3.01,
+        5.07,
+        2.23
+      ],
+      [
+        "Decreased a lot",
+        6.09,
+        2.5,
+        1.59,
+        1.15
+      ]
+    ],
+    "axes": {
+      "Increased a lot": "y",
+      "Increased somewhat": "y",
+      "Stayed the same": "y",
+      "Decreased somewhat": "y",
+      "Decreased a lot": "y"
+    },
+    "types": {
+      "Increased a lot": "bar",
+      "Increased somewhat": "bar",
+      "Stayed the same": "bar",
+      "Decreased somewhat": "bar",
+      "Decreased a lot": "bar"
+    },
+    "colors": {
+      "Increased a lot": "#40647a",
+      "Increased somewhat": "#90caca",
+      "Stayed the same": "#3b3b3b",
+      "Decreased somewhat": "#b68a07",
+      "Decreased a lot": "#eb524d"
+    },
+    "groups": [
+      [
         "Increased a lot",
         "Increased somewhat",
         "Stayed the same",
         "Decreased somewhat",
-        "Decreased a lot",
-        "Net: Increased a lot/somewhat",
-        "Net: Decreased a lot/somewhat "
-      ],
-      [
-        "No HS, High school graduate",
-        12.31,
-        14.73,
-        63.95,
-        2.92,
-        6.09,
-        27.04,
-        9.01
-      ],
-      [
-        "Some college, 2-year",
-        10.47,
-        18.97,
-        65.05,
-        3.01,
-        2.5,
-        29.44,
-        5.51
-      ],
-      [
-        "4-year",
-        7.03,
-        20.01,
-        66.3,
-        5.07,
-        1.59,
-        27.04,
-        6.66
-      ],
-      [
-        "Post Grad",
-        10.11,
-        21.17,
-        65.35,
-        2.23,
-        1.15,
-        31.27,
-        3.38
+        "Decreased a lot"
       ]
     ],
-    "axes": {
-      "No HS, High school graduate": "y",
-      "Some college, 2-year": "y",
-      "4-year": "y",
-      "Post Grad": "y"
-    },
-    "types": {
-      "No HS, High school graduate": "bar",
-      "Some college, 2-year": "bar",
-      "4-year": "bar",
-      "Post Grad": "bar"
-    },
-    "colors": {
-      "No HS, High school graduate": "#fac69a",
-      "Some college, 2-year": "#eb524d",
-      "4-year": "#b68a07",
-      "Post Grad": "#3e683a"
-    },
-    "groups": [],
     "regions": {}
   },
   "chartId": "q1-education",
-  "firstDataRow": 9,
-  "lastDataRow": 15,
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 30,
+  "firstDataColumn": 14,
+  "lastDataColumn": 18,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
   "chartColors": {
@@ -85,32 +92,48 @@
   },
   "legends": [
     {
-      "name": "No HS, High school graduate",
-      "color": "#fac69a",
+      "name": "Increased a lot",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
-      "column": 15
+      "column": 3
     },
     {
-      "name": "Some college, 2-year",
-      "color": "#eb524d",
+      "name": "Increased somewhat",
+      "color": "#90caca",
       "symbol": "rect",
       "units": "percent",
-      "column": 16
+      "column": 4
     },
     {
-      "name": "4-year",
+      "name": "Stayed the same",
+      "color": "#3b3b3b",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 5
+    },
+    {
+      "name": "Decreased somewhat",
       "color": "#b68a07",
       "symbol": "rect",
       "units": "percent",
-      "column": 17
+      "column": 6
     },
     {
-      "name": "Post Grad",
-      "color": "#3e683a",
+      "name": "Decreased a lot",
+      "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
-      "column": 18
+      "column": 7
     }
+  ],
+  "groups": [
+    [
+      "Increased a lot",
+      "Increased somewhat",
+      "Stayed the same",
+      "Decreased somewhat",
+      "Decreased a lot"
+    ]
   ]
 }

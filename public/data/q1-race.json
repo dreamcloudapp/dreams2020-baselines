@@ -4,80 +4,87 @@
     "columns": [
       [
         "x",
+        "White",
+        "Black",
+        "Hispanic",
+        "Other (NET)"
+      ],
+      [
+        "Increased a lot",
+        9.4,
+        10.37,
+        14.81,
+        12.06
+      ],
+      [
+        "Increased somewhat",
+        17.51,
+        14.72,
+        21.49,
+        15.78
+      ],
+      [
+        "Stayed the same",
+        68.36,
+        65.36,
+        52,
+        60.07
+      ],
+      [
+        "Decreased somewhat",
+        2.7,
+        4.84,
+        4.08,
+        4.04
+      ],
+      [
+        "Decreased a lot",
+        2.03,
+        4.72,
+        7.62,
+        8.04
+      ]
+    ],
+    "axes": {
+      "Increased a lot": "y",
+      "Increased somewhat": "y",
+      "Stayed the same": "y",
+      "Decreased somewhat": "y",
+      "Decreased a lot": "y"
+    },
+    "types": {
+      "Increased a lot": "bar",
+      "Increased somewhat": "bar",
+      "Stayed the same": "bar",
+      "Decreased somewhat": "bar",
+      "Decreased a lot": "bar"
+    },
+    "colors": {
+      "Increased a lot": "#40647a",
+      "Increased somewhat": "#90caca",
+      "Stayed the same": "#3b3b3b",
+      "Decreased somewhat": "#b68a07",
+      "Decreased a lot": "#eb524d"
+    },
+    "groups": [
+      [
         "Increased a lot",
         "Increased somewhat",
         "Stayed the same",
         "Decreased somewhat",
-        "Decreased a lot",
-        "Net: Increased a lot/somewhat",
-        "Net: Decreased a lot/somewhat "
-      ],
-      [
-        "White",
-        9.4,
-        17.51,
-        68.36,
-        2.7,
-        2.03,
-        26.92,
-        4.73
-      ],
-      [
-        "Black",
-        10.37,
-        14.72,
-        65.36,
-        4.84,
-        4.72,
-        25.08,
-        9.56
-      ],
-      [
-        "Hispanic",
-        14.81,
-        21.49,
-        52,
-        4.08,
-        7.62,
-        36.3,
-        11.7
-      ],
-      [
-        "Other (NET)",
-        12.06,
-        15.78,
-        60.07,
-        4.04,
-        8.04,
-        27.84,
-        12.08
+        "Decreased a lot"
       ]
     ],
-    "axes": {
-      "White": "y",
-      "Black": "y",
-      "Hispanic": "y",
-      "Other (NET)": "y"
-    },
-    "types": {
-      "White": "bar",
-      "Black": "bar",
-      "Hispanic": "bar",
-      "Other (NET)": "bar"
-    },
-    "colors": {
-      "White": "#fac69a",
-      "Black": "#eb524d",
-      "Hispanic": "#b68a07",
-      "Other (NET)": "#3e683a"
-    },
-    "groups": [],
     "regions": {}
   },
   "chartId": "q1-race",
-  "firstDataRow": 9,
-  "lastDataRow": 15,
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 30,
+  "firstDataColumn": 10,
+  "lastDataColumn": 14,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
   "chartColors": {
@@ -85,32 +92,48 @@
   },
   "legends": [
     {
-      "name": "White",
-      "color": "#fac69a",
+      "name": "Increased a lot",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
-      "column": 11
+      "column": 3
     },
     {
-      "name": "Black",
-      "color": "#eb524d",
+      "name": "Increased somewhat",
+      "color": "#90caca",
       "symbol": "rect",
       "units": "percent",
-      "column": 12
+      "column": 4
     },
     {
-      "name": "Hispanic",
+      "name": "Stayed the same",
+      "color": "#3b3b3b",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 5
+    },
+    {
+      "name": "Decreased somewhat",
       "color": "#b68a07",
       "symbol": "rect",
       "units": "percent",
-      "column": 13
+      "column": 6
     },
     {
-      "name": "Other (NET)",
-      "color": "#3e683a",
+      "name": "Decreased a lot",
+      "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
-      "column": 14
+      "column": 7
     }
+  ],
+  "groups": [
+    [
+      "Increased a lot",
+      "Increased somewhat",
+      "Stayed the same",
+      "Decreased somewhat",
+      "Decreased a lot"
+    ]
   ]
 }

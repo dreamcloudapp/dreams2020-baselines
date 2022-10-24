@@ -18,9 +18,11 @@
 // };
 const colors = {
   main: "#000000",
-  good: "#3e683a",
+  good: "#40647a",
+  ok: "#90caca",
   bad: "#eb524d",
   warn: "#b68a07",
+  neutral: "#3b3b3b",
   categoryColors: [
     "#fac69a",
     "#eb524d",

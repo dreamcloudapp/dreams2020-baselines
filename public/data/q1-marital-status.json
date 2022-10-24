@@ -4,166 +4,10 @@
     "columns": [
       [
         "x",
-        "Increased a lot",
-        "Increased somewhat",
-        "Stayed the same",
-        "Decreased somewhat",
-        "Decreased a lot",
-        "Net: Increased a lot/somewhat",
-        "Net: Decreased a lot/somewhat "
-      ],
-      [
-        "Married",
-        9.74,
-        15.87,
-        69.47,
-        2.95,
-        1.97,
-        25.61,
-        4.92
-      ],
-      [
-        "Civil Partnership",
-        18.76,
-        10.28,
-        61.08,
-        5.12,
-        4.75,
-        29.04,
-        9.87
-      ],
-      [
-        "Living together, not married or civil partnership",
-        9.91,
-        26.41,
-        57,
-        1.81,
-        4.88,
-        36.31,
-        6.69
-      ],
-      [
-        "In a relationship, not living together",
-        8.78,
-        32.43,
-        51.09,
-        5.46,
-        2.24,
-        41.21,
-        7.7
-      ],
-      [
-        "NET: In a relationship",
-        10.06,
-        17.95,
-        66.5,
-        3.03,
-        2.47,
-        28,
-        5.5
-      ],
-      [
-        "Single",
-        13.75,
-        18.2,
-        59.3,
-        3.61,
-        5.14,
-        31.95,
-        8.75
-      ],
-      [
-        "Divorced",
-        7.31,
-        20.19,
-        70.02,
-        1.39,
-        1.1,
-        27.49,
-        2.49
-      ],
-      [
-        "Widowed",
-        6.71,
-        11.26,
-        74.34,
-        6.03,
-        1.65,
-        17.97,
-        7.69
-      ],
-      [
-        "Separated",
-        12.69,
-        17.53,
-        65.89,
-        3.9,
-        null,
-        30.21,
-        3.9
-      ],
-      [
-        "Other",
-        14.17,
-        13.32,
-        56.99,
-        null,
-        15.51,
-        27.5,
-        15.51
-      ],
-      [
-        "Prefer not to say",
-        3.41,
-        8.23,
-        49.59,
-        6.96,
-        31.8,
-        11.64,
-        38.77
-      ]
-    ],
-    "axes": {
-      "Married": "y",
-      "Civil Partnership": "y",
-      "Living together, not married or civil partnership": "y",
-      "In a relationship, not living together": "y",
-      "NET: In a relationship": "y",
-      "Single": "y",
-      "Divorced": "y",
-      "Widowed": "y",
-      "Separated": "y",
-      "Other": "y",
-      "Prefer not to say": "y"
-    },
-    "types": {
-      "Married": "bar",
-      "Civil Partnership": "bar",
-      "Living together, not married or civil partnership": "bar",
-      "In a relationship, not living together": "bar",
-      "NET: In a relationship": "bar",
-      "Single": "bar",
-      "Divorced": "bar",
-      "Widowed": "bar",
-      "Separated": "bar",
-      "Other": "bar",
-      "Prefer not to say": "bar"
-    },
-    "colors": {
-      "Married": "#fac69a",
-      "Civil Partnership": "#eb524d",
-      "Living together, not married or civil partnership": "#b68a07",
-      "In a relationship, not living together": "#3e683a",
-      "NET: In a relationship": "#90caca",
-      "Single": "#40647a",
-      "Divorced": "#2c2c2c"
-    },
-    "groups": [
-      [
         "Married",
         "Civil Partnership",
-        "Living together, not married or civil partnership",
-        "In a relationship, not living together",
+        "Living together, not married o...",
+        "In a relationship, not living ...",
         "NET: In a relationship",
         "Single",
         "Divorced",
@@ -171,109 +15,167 @@
         "Separated",
         "Other",
         "Prefer not to say"
+      ],
+      [
+        "Increased a lot",
+        9.74,
+        18.76,
+        9.91,
+        8.78,
+        10.06,
+        13.75,
+        7.31,
+        6.71,
+        12.69,
+        14.17,
+        3.41
+      ],
+      [
+        "Increased somewhat",
+        15.87,
+        10.28,
+        26.41,
+        32.43,
+        17.95,
+        18.2,
+        20.19,
+        11.26,
+        17.53,
+        13.32,
+        8.23
+      ],
+      [
+        "Stayed the same",
+        69.47,
+        61.08,
+        57,
+        51.09,
+        66.5,
+        59.3,
+        70.02,
+        74.34,
+        65.89,
+        56.99,
+        49.59
+      ],
+      [
+        "Decreased somewhat",
+        2.95,
+        5.12,
+        1.81,
+        5.46,
+        3.03,
+        3.61,
+        1.39,
+        6.03,
+        3.9,
+        null,
+        6.96
+      ],
+      [
+        "Decreased a lot",
+        1.97,
+        4.75,
+        4.88,
+        2.24,
+        2.47,
+        5.14,
+        1.1,
+        1.65,
+        null,
+        15.51,
+        31.8
+      ]
+    ],
+    "axes": {
+      "Increased a lot": "y",
+      "Increased somewhat": "y",
+      "Stayed the same": "y",
+      "Decreased somewhat": "y",
+      "Decreased a lot": "y"
+    },
+    "types": {
+      "Increased a lot": "bar",
+      "Increased somewhat": "bar",
+      "Stayed the same": "bar",
+      "Decreased somewhat": "bar",
+      "Decreased a lot": "bar"
+    },
+    "colors": {
+      "Increased a lot": "#40647a",
+      "Increased somewhat": "#90caca",
+      "Stayed the same": "#3b3b3b",
+      "Decreased somewhat": "#b68a07",
+      "Decreased a lot": "#eb524d"
+    },
+    "groups": [
+      [
+        "Increased a lot",
+        "Increased somewhat",
+        "Stayed the same",
+        "Decreased somewhat",
+        "Decreased a lot"
       ]
     ],
     "regions": {}
   },
   "chartId": "q1-marital-status",
-  "firstDataRow": 9,
-  "lastDataRow": 15,
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 30,
+  "firstDataColumn": 18,
+  "lastDataColumn": 29,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
-  "yAxisTooltipFormat": "default",
-  "yAxisFormat": "eleven",
   "chartColors": {
     "axisLabel": "#000000"
   },
   "legends": [
     {
-      "name": "Married",
-      "color": "#fac69a",
-      "symbol": "rect",
-      "units": "percent",
-      "column": 19
-    },
-    {
-      "name": "Civil Partnership",
-      "color": "#eb524d",
-      "symbol": "rect",
-      "units": "percent",
-      "column": 20
-    },
-    {
-      "name": "Living together, not married or civil partnership",
-      "color": "#b68a07",
-      "symbol": "rect",
-      "units": "percent",
-      "column": 21
-    },
-    {
-      "name": "In a relationship, not living together",
-      "color": "#3e683a",
-      "symbol": "rect",
-      "units": "percent",
-      "column": 22
-    },
-    {
-      "name": "NET: In a relationship",
-      "color": "#90caca",
-      "symbol": "rect",
-      "units": "percent",
-      "column": 23
-    },
-    {
-      "name": "Single",
+      "name": "Increased a lot",
       "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
-      "column": 24
+      "column": 3
     },
     {
-      "name": "Divorced",
-      "color": "#2c2c2c",
+      "name": "Increased somewhat",
+      "color": "#90caca",
       "symbol": "rect",
       "units": "percent",
-      "column": 25
+      "column": 4
     },
     {
-      "name": "Widowed",
+      "name": "Stayed the same",
+      "color": "#3b3b3b",
       "symbol": "rect",
       "units": "percent",
-      "column": 26
+      "column": 5
     },
     {
-      "name": "Separated",
+      "name": "Decreased somewhat",
+      "color": "#b68a07",
       "symbol": "rect",
       "units": "percent",
-      "column": 27
+      "column": 6
     },
     {
-      "name": "Other",
+      "name": "Decreased a lot",
+      "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
-      "column": 28
-    },
-    {
-      "name": "Prefer not to say",
-      "symbol": "rect",
-      "units": "percent",
-      "column": 29
+      "column": 7
     }
   ],
   "groups": [
     [
-      "Married",
-      "Civil Partnership",
-      "Living together, not married or civil partnership",
-      "In a relationship, not living together",
-      "NET: In a relationship",
-      "Single",
-      "Divorced",
-      "Widowed",
-      "Separated",
-      "Other",
-      "Prefer not to say"
+      "Increased a lot",
+      "Increased somewhat",
+      "Stayed the same",
+      "Decreased somewhat",
+      "Decreased a lot"
     ]
   ]
 }

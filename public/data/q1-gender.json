@@ -4,54 +4,75 @@
     "columns": [
       [
         "x",
+        "Male",
+        "Female"
+      ],
+      [
+        "Increased a lot",
+        11.47,
+        9.67
+      ],
+      [
+        "Increased somewhat",
+        16.61,
+        18.7
+      ],
+      [
+        "Stayed the same",
+        65.23,
+        64.52
+      ],
+      [
+        "Decreased somewhat",
+        2.82,
+        3.68
+      ],
+      [
+        "Decreased a lot",
+        3.86,
+        3.43
+      ]
+    ],
+    "axes": {
+      "Increased a lot": "y",
+      "Increased somewhat": "y",
+      "Stayed the same": "y",
+      "Decreased somewhat": "y",
+      "Decreased a lot": "y"
+    },
+    "types": {
+      "Increased a lot": "bar",
+      "Increased somewhat": "bar",
+      "Stayed the same": "bar",
+      "Decreased somewhat": "bar",
+      "Decreased a lot": "bar"
+    },
+    "colors": {
+      "Increased a lot": "#40647a",
+      "Increased somewhat": "#90caca",
+      "Stayed the same": "#3b3b3b",
+      "Decreased somewhat": "#b68a07",
+      "Decreased a lot": "#eb524d"
+    },
+    "groups": [
+      [
         "Increased a lot",
         "Increased somewhat",
         "Stayed the same",
         "Decreased somewhat",
-        "Decreased a lot",
-        "Net: Increased a lot/somewhat",
-        "Net: Decreased a lot/somewhat "
-      ],
-      [
-        "Male",
-        11.47,
-        16.61,
-        65.23,
-        2.82,
-        3.86,
-        28.09,
-        6.68
-      ],
-      [
-        "Female",
-        9.67,
-        18.7,
-        64.52,
-        3.68,
-        3.43,
-        28.36,
-        7.12
+        "Decreased a lot"
       ]
     ],
-    "axes": {
-      "Male": "y",
-      "Female": "y"
-    },
-    "types": {
-      "Male": "bar",
-      "Female": "bar"
-    },
-    "colors": {
-      "Male": "#fac69a",
-      "Female": "#eb524d"
-    },
-    "groups": [],
     "regions": {}
   },
   "chartId": "q1-gender",
-  "firstDataRow": 9,
-  "lastDataRow": 15,
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 30,
+  "firstDataColumn": 1,
+  "lastDataColumn": 3,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
   "chartColors": {
@@ -59,18 +80,48 @@
   },
   "legends": [
     {
-      "name": "Male",
-      "color": "#fac69a",
-      "symbol": "rect",
-      "units": "percent",
-      "column": 2
-    },
-    {
-      "name": "Female",
-      "color": "#eb524d",
+      "name": "Increased a lot",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
       "column": 3
+    },
+    {
+      "name": "Increased somewhat",
+      "color": "#90caca",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 4
+    },
+    {
+      "name": "Stayed the same",
+      "color": "#3b3b3b",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 5
+    },
+    {
+      "name": "Decreased somewhat",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 6
+    },
+    {
+      "name": "Decreased a lot",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 7
     }
+  ],
+  "groups": [
+    [
+      "Increased a lot",
+      "Increased somewhat",
+      "Stayed the same",
+      "Decreased somewhat",
+      "Decreased a lot"
+    ]
   ]
 }

@@ -4,67 +4,81 @@
     "columns": [
       [
         "x",
+        "18-34",
+        "35-54",
+        "55+"
+      ],
+      [
+        "Increased a lot",
+        17.93,
+        9.95,
+        5.33
+      ],
+      [
+        "Increased somewhat",
+        22.12,
+        17.85,
+        14.18
+      ],
+      [
+        "Stayed the same",
+        48.24,
+        66.54,
+        76.37
+      ],
+      [
+        "Decreased somewhat",
+        5.19,
+        2.86,
+        2.08
+      ],
+      [
+        "Decreased a lot",
+        6.52,
+        2.81,
+        2.04
+      ]
+    ],
+    "axes": {
+      "Increased a lot": "y",
+      "Increased somewhat": "y",
+      "Stayed the same": "y",
+      "Decreased somewhat": "y",
+      "Decreased a lot": "y"
+    },
+    "types": {
+      "Increased a lot": "bar",
+      "Increased somewhat": "bar",
+      "Stayed the same": "bar",
+      "Decreased somewhat": "bar",
+      "Decreased a lot": "bar"
+    },
+    "colors": {
+      "Increased a lot": "#40647a",
+      "Increased somewhat": "#90caca",
+      "Stayed the same": "#3b3b3b",
+      "Decreased somewhat": "#b68a07",
+      "Decreased a lot": "#eb524d"
+    },
+    "groups": [
+      [
         "Increased a lot",
         "Increased somewhat",
         "Stayed the same",
         "Decreased somewhat",
-        "Decreased a lot",
-        "Net: Increased a lot/somewhat",
-        "Net: Decreased a lot/somewhat "
-      ],
-      [
-        "18-34",
-        17.93,
-        22.12,
-        48.24,
-        5.19,
-        6.52,
-        40.05,
-        11.72
-      ],
-      [
-        "35-54",
-        9.95,
-        17.85,
-        66.54,
-        2.86,
-        2.81,
-        27.8,
-        5.66
-      ],
-      [
-        "55+",
-        5.33,
-        14.18,
-        76.37,
-        2.08,
-        2.04,
-        19.51,
-        4.12
+        "Decreased a lot"
       ]
     ],
-    "axes": {
-      "18-34": "y",
-      "35-54": "y",
-      "55+": "y"
-    },
-    "types": {
-      "18-34": "bar",
-      "35-54": "bar",
-      "55+": "bar"
-    },
-    "colors": {
-      "18-34": "#fac69a",
-      "35-54": "#eb524d",
-      "55+": "#b68a07"
-    },
-    "groups": [],
     "regions": {}
   },
   "chartId": "q1-age",
-  "firstDataRow": 9,
-  "lastDataRow": 15,
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 30,
+  "firstDataColumn": 3,
+  "lastDataColumn": 6,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
   "chartColors": {
@@ -72,25 +86,48 @@
   },
   "legends": [
     {
-      "name": "18-34",
-      "color": "#fac69a",
+      "name": "Increased a lot",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 3
+    },
+    {
+      "name": "Increased somewhat",
+      "color": "#90caca",
       "symbol": "rect",
       "units": "percent",
       "column": 4
     },
     {
-      "name": "35-54",
-      "color": "#eb524d",
+      "name": "Stayed the same",
+      "color": "#3b3b3b",
       "symbol": "rect",
       "units": "percent",
       "column": 5
     },
     {
-      "name": "55+",
+      "name": "Decreased somewhat",
       "color": "#b68a07",
       "symbol": "rect",
       "units": "percent",
       "column": 6
+    },
+    {
+      "name": "Decreased a lot",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 7
     }
+  ],
+  "groups": [
+    [
+      "Increased a lot",
+      "Increased somewhat",
+      "Stayed the same",
+      "Decreased somewhat",
+      "Decreased a lot"
+    ]
   ]
 }
