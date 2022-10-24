@@ -4,52 +4,52 @@
     "columns": [
       [
         "x",
-        "Not a parent / guardian",
-        "Don't know / Prefer not to say",
         "Under $40k",
-        "$40k to $80k"
+        "$40k to $80k",
+        "$80k+",
+        "Don't know / Prefer not to say"
       ],
       [
         "Almost every morning or more often",
-        11.04,
-        13.2,
         12.18,
-        10.48
+        10.48,
+        11.38,
+        9.15
       ],
       [
         "Several times a week",
-        26.37,
-        8.47,
         24.39,
-        27.46
+        27.46,
+        28.85,
+        21.33
       ],
       [
         "Once a week",
-        17.62,
-        19.46,
         14.87,
-        16.19
+        16.19,
+        19.05,
+        13.94
       ],
       [
         "1 to 3 times a month",
-        19.31,
-        18.53,
         19.35,
-        18.49
+        18.49,
+        19.25,
+        19.15
       ],
       [
         "Less often than once a month",
-        19.65,
-        17.83,
         21.35,
-        23.23
+        23.23,
+        17.46,
+        26.3
       ],
       [
         "Never",
-        6.02,
-        22.52,
         7.87,
-        4.15
+        4.15,
+        4.01,
+        10.14
       ]
     ],
     "axes": {
@@ -93,8 +93,8 @@
   "firstDataRow": 5,
   "lastDataRow": 82,
   "colRange": [
-    34,
-    38
+    36,
+    40
   ],
   "transpose": true,
   "sheet": 2,

@@ -1,0 +1,85 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Northeast",
+        "Midwest",
+        "South",
+        "West"
+      ],
+      [
+        "Yes, I have",
+        8.01,
+        4.74,
+        6.63,
+        6.68
+      ],
+      [
+        "No, I haven't",
+        91.99,
+        95.26,
+        93.37,
+        93.32
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "blm-q7-region",
+  "excel": "blm",
+  "firstDataRow": 5,
+  "lastDataRow": 82,
+  "colRange": [
+    6,
+    10
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 66
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 67
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't"
+    ]
+  ]
+}

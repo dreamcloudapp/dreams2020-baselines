@@ -1,0 +1,79 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Male",
+        "Female"
+      ],
+      [
+        "Yes, I have",
+        7.26,
+        5.76
+      ],
+      [
+        "No, I haven't",
+        92.74,
+        94.24
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "blm-q7-gender",
+  "excel": "blm",
+  "firstDataRow": 5,
+  "lastDataRow": 82,
+  "colRange": [
+    1,
+    3
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 66
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 67
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't"
+    ]
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "No HS, High school graduate",
+        "Some college, 2-year",
+        "4-year",
+        "Post Grad"
+      ],
+      [
+        "Yes, I have",
+        5.3,
+        6.13,
+        7.66,
+        10.05
+      ],
+      [
+        "No, I haven't",
+        94.7,
+        93.87,
+        92.34,
+        89.95
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "blm-q7-education",
+  "excel": "blm",
+  "firstDataRow": 5,
+  "lastDataRow": 82,
+  "colRange": [
+    14,
+    18
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 66
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 67
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't"
+    ]
+  ]
+}

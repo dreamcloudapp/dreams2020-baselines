@@ -1,0 +1,124 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Facebook",
+        "Twitter",
+        "LinkedIn",
+        "Google+",
+        "MySpace",
+        "Pinterest",
+        "Tumblr",
+        "Instagram",
+        "Snapchat",
+        "Reddit",
+        "WeChat",
+        "Qzone",
+        "Meetup",
+        "Weibo",
+        "Other",
+        "Don't know",
+        "Not applicable - I am not curr..."
+      ],
+      [
+        "Yes, I have",
+        6.58,
+        7.74,
+        9.08,
+        6.47,
+        13.57,
+        7.56,
+        9.68,
+        7.63,
+        8.77,
+        7.98,
+        17.88,
+        27.79,
+        14.41,
+        23.13,
+        9.67,
+        8.43,
+        4.03
+      ],
+      [
+        "No, I haven't",
+        93.42,
+        92.26,
+        90.92,
+        93.53,
+        86.43,
+        92.44,
+        90.32,
+        92.37,
+        91.23,
+        92.02,
+        82.12,
+        72.21,
+        85.59,
+        76.87,
+        90.33,
+        91.57,
+        95.97
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "blm-q7-social-networks",
+  "excel": "blm",
+  "firstDataRow": 5,
+  "lastDataRow": 82,
+  "colRange": [
+    40,
+    57
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 66
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 67
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't"
+    ]
+  ]
+}

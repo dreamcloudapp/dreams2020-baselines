@@ -1,0 +1,85 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "White",
+        "Black",
+        "Hispanic",
+        "Other (NET)"
+      ],
+      [
+        "Yes, I have",
+        5.82,
+        7.67,
+        7.7,
+        7.77
+      ],
+      [
+        "No, I haven't",
+        94.18,
+        92.33,
+        92.3,
+        92.23
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "blm-q7-race",
+  "excel": "blm",
+  "firstDataRow": 5,
+  "lastDataRow": 82,
+  "colRange": [
+    10,
+    14
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 66
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 67
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't"
+    ]
+  ]
+}
