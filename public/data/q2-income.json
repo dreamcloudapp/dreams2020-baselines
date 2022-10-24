@@ -6,19 +6,22 @@
         "x",
         "Under $40k",
         "$40k to $80k",
-        "$80k+"
+        "$80k+",
+        "Don't know / Prefer not to say"
       ],
       [
         "Yes, I have",
         6.52,
         6.07,
-        9.47
+        9.47,
+        7.34
       ],
       [
         "No, I haven't",
         93.48,
         93.93,
-        90.53
+        90.53,
+        92.66
       ]
     ],
     "axes": {
@@ -30,7 +33,7 @@
       "No, I haven't": "bar"
     },
     "colors": {
-      "Yes, I have": "#fac69a",
+      "Yes, I have": "#40647a",
       "No, I haven't": "#eb524d"
     },
     "groups": [
@@ -44,11 +47,11 @@
   "chartId": "q2-income",
   "transpose": true,
   "firstDataRow": 5,
-  "lastDataRow": 25,
+  "lastDataRow": 30,
   "firstDataColumn": 34,
-  "lastDataColumn": 37,
-  "maxValue": 99,
+  "lastDataColumn": 38,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
   "chartColors": {
@@ -57,7 +60,7 @@
   "legends": [
     {
       "name": "Yes, I have",
-      "color": "#fac69a",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
       "column": 12

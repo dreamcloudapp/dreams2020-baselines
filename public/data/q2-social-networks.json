@@ -72,7 +72,7 @@
       "No, I haven't": "bar"
     },
     "colors": {
-      "Yes, I have": "#fac69a",
+      "Yes, I have": "#40647a",
       "No, I haven't": "#eb524d"
     },
     "groups": [
@@ -86,10 +86,11 @@
   "chartId": "q2-social-networks",
   "transpose": true,
   "firstDataRow": 5,
-  "lastDataRow": 25,
+  "lastDataRow": 30,
   "firstDataColumn": 38,
   "lastDataColumn": 55,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
   "chartColors": {
@@ -98,7 +99,7 @@
   "legends": [
     {
       "name": "Yes, I have",
-      "color": "#fac69a",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
       "column": 12

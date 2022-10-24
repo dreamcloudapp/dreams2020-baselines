@@ -4,39 +4,48 @@
     "columns": [
       [
         "x",
-        "Yes, I have(Please describe a ...",
-        "No, I haven't"
-      ],
-      [
         "Male",
-        6.36,
-        93.64
+        "Female"
       ],
       [
-        "Female",
-        8.09,
+        "Yes, I have",
+        6.36,
+        8.09
+      ],
+      [
+        "No, I haven't",
+        93.64,
         91.91
       ]
     ],
     "axes": {
-      "Male": "y",
-      "Female": "y"
+      "Yes, I have": "y",
+      "No, I haven't": "y"
     },
     "types": {
-      "Male": "bar",
-      "Female": "bar"
+      "Yes, I have": "bar",
+      "No, I haven't": "bar"
     },
     "colors": {
-      "Male": "#fac69a",
-      "Female": "#eb524d"
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d"
     },
-    "groups": [],
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't"
+      ]
+    ],
     "regions": {}
   },
   "chartId": "q2-gender",
-  "firstDataRow": 19,
-  "lastDataRow": 20,
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 30,
+  "firstDataColumn": 1,
+  "lastDataColumn": 3,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
   "chartColors": {
@@ -44,18 +53,24 @@
   },
   "legends": [
     {
-      "name": "Male",
-      "color": "#fac69a",
+      "name": "Yes, I have",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
-      "column": 2
+      "column": 12
     },
     {
-      "name": "Female",
+      "name": "No, I haven't",
       "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
-      "column": 3
+      "column": 13
     }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't"
+    ]
   ]
 }

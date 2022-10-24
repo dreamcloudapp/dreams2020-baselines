@@ -4,55 +4,54 @@
     "columns": [
       [
         "x",
-        "Yes, I have(Please describe a ...",
-        "No, I haven't"
-      ],
-      [
         "Northeast",
-        6.72,
-        93.28
-      ],
-      [
         "Midwest",
-        7.21,
-        92.79
-      ],
-      [
         "South",
-        7.83,
-        92.17
+        "West"
       ],
       [
-        "West",
-        6.74,
+        "Yes, I have",
+        6.72,
+        7.21,
+        7.83,
+        6.74
+      ],
+      [
+        "No, I haven't",
+        93.28,
+        92.79,
+        92.17,
         93.26
       ]
     ],
     "axes": {
-      "Northeast": "y",
-      "Midwest": "y",
-      "South": "y",
-      "West": "y"
+      "Yes, I have": "y",
+      "No, I haven't": "y"
     },
     "types": {
-      "Northeast": "bar",
-      "Midwest": "bar",
-      "South": "bar",
-      "West": "bar"
+      "Yes, I have": "bar",
+      "No, I haven't": "bar"
     },
     "colors": {
-      "Northeast": "#fac69a",
-      "Midwest": "#eb524d",
-      "South": "#b68a07",
-      "West": "#3e683a"
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d"
     },
-    "groups": [],
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't"
+      ]
+    ],
     "regions": {}
   },
   "chartId": "q2-region",
-  "firstDataRow": 19,
-  "lastDataRow": 20,
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 30,
+  "firstDataColumn": 6,
+  "lastDataColumn": 10,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
   "chartColors": {
@@ -60,32 +59,24 @@
   },
   "legends": [
     {
-      "name": "Northeast",
-      "color": "#fac69a",
+      "name": "Yes, I have",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
-      "column": 7
+      "column": 12
     },
     {
-      "name": "Midwest",
+      "name": "No, I haven't",
       "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
-      "column": 8
-    },
-    {
-      "name": "South",
-      "color": "#b68a07",
-      "symbol": "rect",
-      "units": "percent",
-      "column": 9
-    },
-    {
-      "name": "West",
-      "color": "#3e683a",
-      "symbol": "rect",
-      "units": "percent",
-      "column": 10
+      "column": 13
     }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't"
+    ]
   ]
 }

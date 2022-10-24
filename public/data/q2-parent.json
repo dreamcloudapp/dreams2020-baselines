@@ -7,21 +7,24 @@
         "Younger than 18",
         "18 or over",
         "NET: Any age",
-        "Not a parent / guardian"
+        "Not a parent / guardian",
+        "Don't know / Prefer not to say"
       ],
       [
         "Yes, I have",
         7.54,
         6.73,
         6.7,
-        8
+        8,
+        6.63
       ],
       [
         "No, I haven't",
         92.46,
         93.27,
         93.3,
-        92
+        92,
+        93.37
       ]
     ],
     "axes": {
@@ -33,7 +36,7 @@
       "No, I haven't": "bar"
     },
     "colors": {
-      "Yes, I have": "#fac69a",
+      "Yes, I have": "#40647a",
       "No, I haven't": "#eb524d"
     },
     "groups": [
@@ -47,11 +50,11 @@
   "chartId": "q2-parent",
   "transpose": true,
   "firstDataRow": 5,
-  "lastDataRow": 25,
+  "lastDataRow": 30,
   "firstDataColumn": 29,
-  "lastDataColumn": 33,
-  "maxValue": 99,
+  "lastDataColumn": 34,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
   "chartColors": {
@@ -60,7 +63,7 @@
   "legends": [
     {
       "name": "Yes, I have",
-      "color": "#fac69a",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
       "column": 12

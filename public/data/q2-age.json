@@ -4,47 +4,51 @@
     "columns": [
       [
         "x",
-        "Yes, I have(Please describe a ...",
-        "No, I haven't"
-      ],
-      [
         "18-34",
-        8.82,
-        91.18
-      ],
-      [
         "35-54",
-        8.26,
-        91.74
+        "55+"
       ],
       [
-        "55+",
-        5.33,
+        "Yes, I have",
+        8.82,
+        8.26,
+        5.33
+      ],
+      [
+        "No, I haven't",
+        91.18,
+        91.74,
         94.67
       ]
     ],
     "axes": {
-      "18-34": "y",
-      "35-54": "y",
-      "55+": "y"
+      "Yes, I have": "y",
+      "No, I haven't": "y"
     },
     "types": {
-      "18-34": "bar",
-      "35-54": "bar",
-      "55+": "bar"
+      "Yes, I have": "bar",
+      "No, I haven't": "bar"
     },
     "colors": {
-      "18-34": "#fac69a",
-      "35-54": "#eb524d",
-      "55+": "#b68a07"
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d"
     },
-    "groups": [],
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't"
+      ]
+    ],
     "regions": {}
   },
   "chartId": "q2-age",
-  "firstDataRow": 19,
-  "lastDataRow": 20,
+  "transpose": true,
+  "firstDataRow": 5,
+  "lastDataRow": 30,
+  "firstDataColumn": 3,
+  "lastDataColumn": 6,
   "sheet": 2,
+  "maxValue": 99,
   "rotateAxis": true,
   "unitSuffix": "%",
   "chartColors": {
@@ -52,25 +56,24 @@
   },
   "legends": [
     {
-      "name": "18-34",
-      "color": "#fac69a",
+      "name": "Yes, I have",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
-      "column": 4
+      "column": 12
     },
     {
-      "name": "35-54",
+      "name": "No, I haven't",
       "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
-      "column": 5
-    },
-    {
-      "name": "55+",
-      "color": "#b68a07",
-      "symbol": "rect",
-      "units": "percent",
-      "column": 6
+      "column": 13
     }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't"
+    ]
   ]
 }

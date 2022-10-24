@@ -13,7 +13,8 @@
         "Divorced",
         "Widowed",
         "Separated",
-        "Other"
+        "Other",
+        "Prefer not to say"
       ],
       [
         "Yes, I have",
@@ -26,7 +27,8 @@
         6.49,
         9.19,
         11.06,
-        13.32
+        13.32,
+        8.25
       ],
       [
         "No, I haven't",
@@ -39,7 +41,8 @@
         93.51,
         90.81,
         88.94,
-        86.68
+        86.68,
+        91.75
       ]
     ],
     "axes": {
@@ -51,7 +54,7 @@
       "No, I haven't": "bar"
     },
     "colors": {
-      "Yes, I have": "#fac69a",
+      "Yes, I have": "#40647a",
       "No, I haven't": "#eb524d"
     },
     "groups": [
@@ -62,12 +65,12 @@
     ],
     "regions": {}
   },
-  "chartId": "q2-parent",
+  "chartId": "q2-marital-status",
   "transpose": true,
   "firstDataRow": 5,
-  "lastDataRow": 25,
+  "lastDataRow": 30,
   "firstDataColumn": 18,
-  "lastDataColumn": 28,
+  "lastDataColumn": 29,
   "sheet": 2,
   "maxValue": 99,
   "rotateAxis": true,
@@ -78,7 +81,7 @@
   "legends": [
     {
       "name": "Yes, I have",
-      "color": "#fac69a",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
       "column": 12
