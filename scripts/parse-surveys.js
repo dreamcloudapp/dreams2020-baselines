@@ -4,7 +4,8 @@ const { chartConfig } = require("./config");
 const fs = require("fs");
 
 const SRC_PATH = "/../data";
-const COVID_DATA_PATH = `${SRC_PATH}/pandemic_april_results_for_sddb.xlsx`;
+const COVID_DATA_PATH = `${SRC_PATH}/pandemic_all_results_for_sddb.xlsx`;
+const COVID_TOTALS_DATA_PATH = `${SRC_PATH}/covid-totals.xlsx`;
 const BLM_DATA_PATH = `${SRC_PATH}/blm_results_for_sddb.xlsx`;
 const ELECTION_DATA_PATH = `${SRC_PATH}/election_results_for_sddb.xlsx`;
 
@@ -16,6 +17,8 @@ const getSheetByName = (sheetName) => {
   switch (sheetName) {
     case "covid":
       return COVID_DATA_PATH;
+    case "covid-totals":
+      return COVID_TOTALS_DATA_PATH;
     case "blm":
       return BLM_DATA_PATH;
     case "election":

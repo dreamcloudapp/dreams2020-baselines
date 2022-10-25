@@ -1,0 +1,79 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "April",
+        "May"
+      ],
+      [
+        "Yes, I have",
+        7,
+        8
+      ],
+      [
+        "No, I haven't",
+        93,
+        92
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "covid-totals-q2",
+  "excel": "covid-totals",
+  "firstDataRow": 0,
+  "lastDataRow": 30,
+  "colRange": [
+    0,
+    2
+  ],
+  "transpose": true,
+  "sheet": 0,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 13
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 14
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't"
+    ]
+  ]
+}

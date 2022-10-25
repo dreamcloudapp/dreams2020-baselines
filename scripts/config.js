@@ -77,6 +77,23 @@ const legends = {
       column: 18,
     },
   ],
+  // COVID ALL
+  covid_totals_Q2: [
+    {
+      name: "Yes, I have",
+      color: colors.good,
+      symbol: "rect",
+      units: "percent",
+      column: 13,
+    },
+    {
+      name: "No, I haven't",
+      color: colors.bad,
+      symbol: "rect",
+      units: "percent",
+      column: 14,
+    },
+  ],
 
   // Protestant
   // Roman Catholic
@@ -388,9 +405,11 @@ const groups = {
   blmQ7: [["Yes, I have", "No, I haven't"]],
   election_WSB_Q2: [["Yes, I have", "No, I haven't", "Can't recall"]],
   election_WSB_Q3: [["Yes, I have", "No, I haven't", "Can't recall"]],
+  covid_totals_Q2: [["Yes, I have", "No, I haven't"]],
 };
 
 const colRanges = {
+  total: [0, 2],
   gender: [1, 3],
   age: [3, 6],
   region: [6, 10],
@@ -424,6 +443,20 @@ const basicConfig = {
 };
 
 const chartConfig = {
+  // COVID TOTALS
+  "covid-totals-q2": {
+    chartId: "covid-totals-q2",
+    excel: "covid-totals",
+    firstDataRow: 0,
+    lastDataRow: 30,
+    colRange: colRanges.total,
+    ...basicConfig,
+    sheet: 0,
+    legends: legends.covid_totals_Q2,
+    groups: groups.covid_totals_Q2,
+  },
+
+  // COVID APRIL
   // Question 1
   "q1-gender": {
     chartId: "q1-gender",
