@@ -4,7 +4,7 @@ const { chartConfig } = require("./config");
 const fs = require("fs");
 
 const SRC_PATH = "/../data";
-const COVID_DATA_PATH = `${SRC_PATH}/results_for_sddb.xlsx`;
+const COVID_DATA_PATH = `${SRC_PATH}/pandemic_april_results_for_sddb.xlsx`;
 const BLM_DATA_PATH = `${SRC_PATH}/blm_results_for_sddb.xlsx`;
 const ELECTION_DATA_PATH = `${SRC_PATH}/election_results_for_sddb.xlsx`;
 
