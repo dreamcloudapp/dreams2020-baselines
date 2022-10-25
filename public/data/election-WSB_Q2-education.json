@@ -1,0 +1,104 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "No HS, High school graduate",
+        "Some college, 2-year",
+        "4-year",
+        "Post Grad"
+      ],
+      [
+        "Yes, I have",
+        7.7,
+        13.55,
+        12.4,
+        11.47
+      ],
+      [
+        "No, I haven't",
+        59.54,
+        47.75,
+        51.87,
+        51.15
+      ],
+      [
+        "Can't recall",
+        32.76,
+        38.7,
+        35.73,
+        37.39
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y",
+      "Can't recall": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar",
+      "Can't recall": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d",
+      "Can't recall": "#b68a07"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't",
+        "Can't recall"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "election-WSB_Q2-education",
+  "excel": "election",
+  "firstDataRow": 5,
+  "lastDataRow": 120,
+  "colRange": [
+    14,
+    18
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 81
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 82
+    },
+    {
+      "name": "Can't recall",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 83
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't",
+      "Can't recall"
+    ]
+  ]
+}

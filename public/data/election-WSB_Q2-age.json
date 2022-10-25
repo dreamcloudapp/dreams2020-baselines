@@ -1,0 +1,100 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "18-34",
+        "35-54",
+        "55+"
+      ],
+      [
+        "Yes, I have",
+        15.57,
+        12.22,
+        6
+      ],
+      [
+        "No, I haven't",
+        43.04,
+        48.63,
+        65.31
+      ],
+      [
+        "Can't recall",
+        41.39,
+        39.14,
+        28.7
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y",
+      "Can't recall": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar",
+      "Can't recall": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d",
+      "Can't recall": "#b68a07"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't",
+        "Can't recall"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "election-WSB_Q2-age",
+  "excel": "election",
+  "firstDataRow": 5,
+  "lastDataRow": 120,
+  "colRange": [
+    3,
+    6
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 81
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 82
+    },
+    {
+      "name": "Can't recall",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 83
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't",
+      "Can't recall"
+    ]
+  ]
+}

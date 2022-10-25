@@ -1,0 +1,160 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Facebook",
+        "Twitter",
+        "LinkedIn",
+        "Google+",
+        "MySpace",
+        "Pinterest",
+        "Tumblr",
+        "Instagram",
+        "Snapchat",
+        "Reddit",
+        "WeChat",
+        "Qzone",
+        "Meetup",
+        "Weibo",
+        "TikTok",
+        "Other",
+        "Don't know",
+        "Not applicable - I am not curr..."
+      ],
+      [
+        "Yes, I have",
+        11.47,
+        14.95,
+        13.65,
+        11.76,
+        17.22,
+        14.69,
+        23.92,
+        14.98,
+        16.94,
+        20.06,
+        16.34,
+        18.02,
+        19.75,
+        14.39,
+        18.63,
+        15.82,
+        4.23,
+        4.98
+      ],
+      [
+        "No, I haven't",
+        52.97,
+        46.52,
+        47.68,
+        52.63,
+        52.2,
+        48.31,
+        36.62,
+        44.58,
+        41.22,
+        34.31,
+        55.66,
+        68.05,
+        50.02,
+        69.03,
+        45.14,
+        49.32,
+        67.14,
+        61.07
+      ],
+      [
+        "Can't recall",
+        35.56,
+        38.53,
+        38.67,
+        35.61,
+        30.57,
+        37.01,
+        39.46,
+        40.44,
+        41.84,
+        45.63,
+        28,
+        13.93,
+        30.23,
+        16.58,
+        36.22,
+        34.86,
+        28.62,
+        33.95
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y",
+      "Can't recall": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar",
+      "Can't recall": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d",
+      "Can't recall": "#b68a07"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't",
+        "Can't recall"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "election-WSB_Q2-social-networks",
+  "excel": "election",
+  "firstDataRow": 5,
+  "lastDataRow": 120,
+  "colRange": [
+    38,
+    56
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 81
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 82
+    },
+    {
+      "name": "Can't recall",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 83
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't",
+      "Can't recall"
+    ]
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Protestant",
+        "Roman Catholic",
+        "Mormon",
+        "Eastern or Greek Orthodox",
+        "Jewish",
+        "Muslim",
+        "Buddhist",
+        "Hindu",
+        "Atheist",
+        "Agnostic",
+        "Nothing in particular",
+        "Something else"
+      ],
+      [
+        "Yes, I have",
+        9.14,
+        10.62,
+        11.76,
+        17.55,
+        7.59,
+        2.81,
+        17.38,
+        8.95,
+        13.88,
+        14.67,
+        9.27,
+        14.92
+      ],
+      [
+        "No, I haven't",
+        57.79,
+        59.31,
+        53.95,
+        47.09,
+        50.39,
+        71.74,
+        58.95,
+        48.13,
+        41.85,
+        39.1,
+        51.64,
+        51.27
+      ],
+      [
+        "Can't recall",
+        33.06,
+        30.07,
+        34.3,
+        35.36,
+        42.03,
+        25.45,
+        23.67,
+        42.92,
+        44.26,
+        46.23,
+        39.09,
+        33.81
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y",
+      "Can't recall": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar",
+      "Can't recall": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d",
+      "Can't recall": "#b68a07"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't",
+        "Can't recall"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "election-WSB_Q2-religion",
+  "excel": "election",
+  "firstDataRow": 5,
+  "lastDataRow": 120,
+  "colRange": [
+    56,
+    68
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 81
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 82
+    },
+    {
+      "name": "Can't recall",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 83
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't",
+      "Can't recall"
+    ]
+  ]
+}
