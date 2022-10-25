@@ -289,6 +289,29 @@ const legends = {
       column: 67,
     },
   ],
+  election_WSB_Q3: [
+    {
+      name: "Yes, I have",
+      color: colors.good,
+      symbol: "rect",
+      units: "percent",
+      column: 86,
+    },
+    {
+      name: "No, I haven't",
+      color: colors.bad,
+      symbol: "rect",
+      units: "percent",
+      column: 87,
+    },
+    {
+      name: "Can't recall",
+      color: colors.warn,
+      symbol: "rect",
+      units: "percent",
+      column: 88,
+    },
+  ],
 };
 
 const groups = {
@@ -340,6 +363,7 @@ const groups = {
     ],
   ],
   blmQ7: [["Yes, I have", "No, I haven't"]],
+  election_WSB_Q3: [["Yes, I have", "No, I haven't", "Can't recall"]],
 };
 
 const colRanges = {
@@ -354,8 +378,14 @@ const colRanges = {
   socialNetworks: [38, 55],
   marital_blm: [20, 31],
   parent_blm: [31, 36],
+  // BLM
   income_blm: [36, 40],
   socialNetworks_blm: [40, 57],
+  // Elections
+  socialNetworks_elections: [38, 56],
+  religion: [56, 68],
+  political: [68, 70],
+  recallFrequency: [70, 72],
 };
 
 const basicConfig = {
@@ -1041,6 +1071,108 @@ const chartConfig = {
     ...basicConfig,
     legends: legends.blmQ7,
     groups: groups.blmQ7,
+  },
+  // ELECTION RESULTS
+  // BLM Q4
+  "election-WSB_Q3-gender": {
+    chartId: "election-WSB_Q3-gender",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.gender,
+    ...basicConfig,
+    legends: legends.election_WSB_Q3,
+    groups: groups.election_WSB_Q3,
+  },
+  "election-WSB_Q3-age": {
+    chartId: "election-WSB_Q3-age",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.age,
+    ...basicConfig,
+    legends: legends.election_WSB_Q3,
+    groups: groups.election_WSB_Q3,
+  },
+  "election-WSB_Q3-region": {
+    chartId: "election-WSB_Q3-region",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.region,
+    ...basicConfig,
+    legends: legends.election_WSB_Q3,
+    groups: groups.election_WSB_Q3,
+  },
+  "election-WSB_Q3-race": {
+    chartId: "election-WSB_Q3-race",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.race,
+    ...basicConfig,
+    legends: legends.election_WSB_Q3,
+    groups: groups.election_WSB_Q3,
+  },
+  "election-WSB_Q3-education": {
+    chartId: "election-WSB_Q3-education",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.education,
+    ...basicConfig,
+    legends: legends.election_WSB_Q3,
+    groups: groups.election_WSB_Q3,
+  },
+  "election-WSB_Q3-income": {
+    chartId: "election-WSB_Q3-income",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.income,
+    ...basicConfig,
+    legends: legends.election_WSB_Q3,
+    groups: groups.election_WSB_Q3,
+  },
+  "election-WSB_Q3-social-networks": {
+    chartId: "election-WSB_Q3-social-networks",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.socialNetworks_elections,
+    ...basicConfig,
+    legends: legends.election_WSB_Q3,
+    groups: groups.election_WSB_Q3,
+  },
+  "election-WSB_Q3-religion": {
+    chartId: "election-WSB_Q3-religion",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.religion,
+    ...basicConfig,
+    legends: legends.election_WSB_Q3,
+    groups: groups.election_WSB_Q3,
+  },
+  "election-WSB_Q3-political": {
+    chartId: "election-WSB_Q3-political",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.political,
+    ...basicConfig,
+    legends: legends.election_WSB_Q3,
+    groups: groups.election_WSB_Q3,
+  },
+  "election-WSB_Q3-recall": {
+    chartId: "election-WSB_Q3-recall",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.recallFrequency,
+    ...basicConfig,
+    legends: legends.election_WSB_Q3,
+    groups: groups.election_WSB_Q3,
   },
 };
 

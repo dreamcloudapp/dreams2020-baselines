@@ -1,0 +1,104 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Under $40k",
+        "$40k to $80k",
+        "$80k+",
+        "Don't know / Prefer not to say"
+      ],
+      [
+        "Yes, I have",
+        5.77,
+        8.42,
+        10.2,
+        6.26
+      ],
+      [
+        "No, I haven't",
+        69.07,
+        69.98,
+        65.27,
+        65.7
+      ],
+      [
+        "Can't recall",
+        25.17,
+        21.61,
+        24.52,
+        28.04
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y",
+      "Can't recall": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar",
+      "Can't recall": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d",
+      "Can't recall": "#b68a07"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't",
+        "Can't recall"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "election-WSB_Q3-income",
+  "excel": "election",
+  "firstDataRow": 5,
+  "lastDataRow": 120,
+  "colRange": [
+    34,
+    38
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 86
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 87
+    },
+    {
+      "name": "Can't recall",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 88
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't",
+      "Can't recall"
+    ]
+  ]
+}

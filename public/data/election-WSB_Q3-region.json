@@ -1,0 +1,104 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Northeast",
+        "Midwest",
+        "South",
+        "West"
+      ],
+      [
+        "Yes, I have",
+        6.7,
+        7.54,
+        6.95,
+        9.13
+      ],
+      [
+        "No, I haven't",
+        69.61,
+        68.08,
+        68.69,
+        65.4
+      ],
+      [
+        "Can't recall",
+        23.69,
+        24.38,
+        24.35,
+        25.47
+      ]
+    ],
+    "axes": {
+      "Yes, I have": "y",
+      "No, I haven't": "y",
+      "Can't recall": "y"
+    },
+    "types": {
+      "Yes, I have": "bar",
+      "No, I haven't": "bar",
+      "Can't recall": "bar"
+    },
+    "colors": {
+      "Yes, I have": "#40647a",
+      "No, I haven't": "#eb524d",
+      "Can't recall": "#b68a07"
+    },
+    "groups": [
+      [
+        "Yes, I have",
+        "No, I haven't",
+        "Can't recall"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "election-WSB_Q3-region",
+  "excel": "election",
+  "firstDataRow": 5,
+  "lastDataRow": 120,
+  "colRange": [
+    6,
+    10
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Yes, I have",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 86
+    },
+    {
+      "name": "No, I haven't",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 87
+    },
+    {
+      "name": "Can't recall",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 88
+    }
+  ],
+  "groups": [
+    [
+      "Yes, I have",
+      "No, I haven't",
+      "Can't recall"
+    ]
+  ]
+}

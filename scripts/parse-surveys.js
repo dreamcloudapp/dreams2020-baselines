@@ -6,10 +6,25 @@ const fs = require("fs");
 const SRC_PATH = "/../data";
 const COVID_DATA_PATH = `${SRC_PATH}/results_for_sddb.xlsx`;
 const BLM_DATA_PATH = `${SRC_PATH}/blm_results_for_sddb.xlsx`;
+const ELECTION_DATA_PATH = `${SRC_PATH}/election_results_for_sddb.xlsx`;
 
 ////////////////////////////////////////////////////////////////
 // MAIN
 ////////////////////////////////////////////////////////////////
+
+const getSheetByName = (sheetName) => {
+  switch (sheetName) {
+    case "covid":
+      return COVID_DATA_PATH;
+    case "blm":
+      return BLM_DATA_PATH;
+    case "election":
+      return ELECTION_DATA_PATH;
+    default:
+      console.log("No sheet name provided");
+      return COVID_DATA_PATH;
+  }
+};
 
 try {
   // Loop through chart configs
@@ -28,8 +43,7 @@ try {
       ...colRange,
     ];
 
-    const dataPath =
-      singleChartConfig.excel === "covid" ? COVID_DATA_PATH : BLM_DATA_PATH;
+    const dataPath = getSheetByName(singleChartConfig.excel);
 
     const rowData = getSpreadsheetData(__dirname + dataPath, ...sheetConfig);
 
