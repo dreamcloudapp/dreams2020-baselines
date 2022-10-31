@@ -84,6 +84,7 @@
     "regions": {}
   },
   "chartId": "q2-social-networks",
+  "title": "Have you ever had a dream relating to the COVID-19 outbreak? (by social network membership)",
   "transpose": true,
   "excel": "covid",
   "firstDataRow": 5,

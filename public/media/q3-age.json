@@ -52,6 +52,7 @@
     "regions": {}
   },
   "chartId": "q3-age",
+  "title": "Do you approve of the way Donald Trump is handling his job as president? (by age)",
   "transpose": true,
   "excel": "covid",
   "firstDataRow": 5,

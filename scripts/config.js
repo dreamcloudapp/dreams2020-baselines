@@ -564,6 +564,8 @@ const chartConfig = {
   // Q2
   "q2-gender": {
     chartId: "q2-gender",
+    title:
+      "Have you ever had a dream relating to the COVID-19 outbreak? (by gender)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -582,6 +584,8 @@ const chartConfig = {
   },
   "q2-age": {
     chartId: "q2-age",
+    title:
+      "Have you ever had a dream relating to the COVID-19 outbreak? (by age)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -600,6 +604,8 @@ const chartConfig = {
   },
   "q2-region": {
     chartId: "q2-region",
+    title:
+      "Have you ever had a dream relating to the COVID-19 outbreak? (by region)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -618,6 +624,8 @@ const chartConfig = {
   },
   "q2-race": {
     chartId: "q2-race",
+    title:
+      "Have you ever had a dream relating to the COVID-19 outbreak? (by race)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -636,6 +644,8 @@ const chartConfig = {
   },
   "q2-education": {
     chartId: "q2-education",
+    title:
+      "Have you ever had a dream relating to the COVID-19 outbreak? (by education level)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -654,6 +664,8 @@ const chartConfig = {
   },
   "q2-marital-status": {
     chartId: "q2-marital-status",
+    title:
+      "Have you ever had a dream relating to the COVID-19 outbreak? (by marital status)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -672,6 +684,8 @@ const chartConfig = {
   },
   "q2-parent": {
     chartId: "q2-parent",
+    title:
+      "Have you ever had a dream relating to the COVID-19 outbreak? (by parental status)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -690,6 +704,8 @@ const chartConfig = {
   },
   "q2-income": {
     chartId: "q2-income",
+    title:
+      "Have you ever had a dream relating to the COVID-19 outbreak? (by income)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -708,6 +724,8 @@ const chartConfig = {
   },
   "q2-social-networks": {
     chartId: "q2-social-networks",
+    title:
+      "Have you ever had a dream relating to the COVID-19 outbreak? (by social network membership)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -727,6 +745,8 @@ const chartConfig = {
   // Q3
   "q3-gender": {
     chartId: "q3-gender",
+    title:
+      "Do you approve of the way Donald Trump is handling his job as president? (by gender)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -745,6 +765,8 @@ const chartConfig = {
   },
   "q3-age": {
     chartId: "q3-age",
+    title:
+      "Do you approve of the way Donald Trump is handling his job as president? (by age)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -763,6 +785,8 @@ const chartConfig = {
   },
   "q3-region": {
     chartId: "q3-region",
+    title:
+      "Do you approve of the way Donald Trump is handling his job as president? (by region)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -781,6 +805,8 @@ const chartConfig = {
   },
   "q3-race": {
     chartId: "q3-race",
+    title:
+      "Do you approve of the way Donald Trump is handling his job as president? (by race)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -799,6 +825,8 @@ const chartConfig = {
   },
   "q3-education": {
     chartId: "q3-education",
+    title:
+      "Do you approve of the way Donald Trump is handling his job as president? (by education level)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -817,6 +845,8 @@ const chartConfig = {
   },
   "q3-marital-status": {
     chartId: "q3-marital-status",
+    title:
+      "Do you approve of the way Donald Trump is handling his job as president? (by marital status)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -835,6 +865,8 @@ const chartConfig = {
   },
   "q3-parent": {
     chartId: "q3-parent",
+    title:
+      "Do you approve of the way Donald Trump is handling his job as president? (by parental status)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -853,6 +885,8 @@ const chartConfig = {
   },
   "q3-income": {
     chartId: "q3-income",
+    title:
+      "Do you approve of the way Donald Trump is handling his job as president? (by income)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,
@@ -871,6 +905,8 @@ const chartConfig = {
   },
   "q3-social-networks": {
     chartId: "q3-social-networks",
+    title:
+      "Do you approve of the way Donald Trump is handling his job as president? (by social media use)",
     transpose: true,
     excel: "covid",
     firstDataRow: 5,

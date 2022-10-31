@@ -42,6 +42,7 @@
     "regions": {}
   },
   "chartId": "q2-age",
+  "title": "Have you ever had a dream relating to the COVID-19 outbreak? (by age)",
   "transpose": true,
   "excel": "covid",
   "firstDataRow": 5,

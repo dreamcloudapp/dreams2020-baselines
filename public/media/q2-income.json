@@ -45,6 +45,7 @@
     "regions": {}
   },
   "chartId": "q2-income",
+  "title": "Have you ever had a dream relating to the COVID-19 outbreak? (by income)",
   "transpose": true,
   "excel": "covid",
   "firstDataRow": 5,

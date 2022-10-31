@@ -39,6 +39,7 @@
     "regions": {}
   },
   "chartId": "q2-gender",
+  "title": "Have you ever had a dream relating to the COVID-19 outbreak? (by gender)",
   "transpose": true,
   "excel": "covid",
   "firstDataRow": 5,

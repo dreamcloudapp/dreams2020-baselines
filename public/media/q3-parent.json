@@ -60,6 +60,7 @@
     "regions": {}
   },
   "chartId": "q3-parent",
+  "title": "Do you approve of the way Donald Trump is handling his job as president? (by parental status)",
   "transpose": true,
   "excel": "covid",
   "firstDataRow": 5,

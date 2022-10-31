@@ -48,6 +48,7 @@
     "regions": {}
   },
   "chartId": "q3-gender",
+  "title": "Do you approve of the way Donald Trump is handling his job as president? (by gender)",
   "transpose": true,
   "excel": "covid",
   "firstDataRow": 5,

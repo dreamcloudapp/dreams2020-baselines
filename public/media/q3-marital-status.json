@@ -84,6 +84,7 @@
     "regions": {}
   },
   "chartId": "q3-marital-status",
+  "title": "Do you approve of the way Donald Trump is handling his job as president? (by marital status)",
   "transpose": true,
   "excel": "covid",
   "firstDataRow": 5,
