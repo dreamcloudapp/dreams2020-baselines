@@ -156,6 +156,7 @@
     "regions": {}
   },
   "chartId": "q1-social-networks",
+  "title": "Increase in frequency of dream recall, March-April 2020, by social network membership",
   "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,

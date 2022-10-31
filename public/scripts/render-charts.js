@@ -21,6 +21,9 @@ function groupedBarsRender(data) {
   c3.generate({
     bindto: "#" + data.chartId,
     data: chartData,
+    title: {
+      text: data.title || "",
+    },
     axis: {
       rotated: data.rotateAxis ? true : false,
       x: {

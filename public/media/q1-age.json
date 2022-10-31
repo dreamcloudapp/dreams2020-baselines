@@ -72,6 +72,7 @@
     "regions": {}
   },
   "chartId": "q1-age",
+  "title": "Increase in frequency of dream recall, March-April 2020, by age",
   "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,

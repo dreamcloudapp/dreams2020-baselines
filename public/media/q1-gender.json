@@ -66,6 +66,7 @@
     "regions": {}
   },
   "chartId": "q1-gender",
+  "title": "Increase in frequency of dream recall, March-April 2020, by gender",
   "excel": "covid",
   "firstDataRow": 5,
   "lastDataRow": 30,

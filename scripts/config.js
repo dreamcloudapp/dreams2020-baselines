@@ -460,6 +460,7 @@ const chartConfig = {
   // Question 1
   "q1-gender": {
     chartId: "q1-gender",
+    title: "Increase in frequency of dream recall, March-April 2020, by gender",
     excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
@@ -470,6 +471,7 @@ const chartConfig = {
   },
   "q1-age": {
     chartId: "q1-age",
+    title: "Increase in frequency of dream recall, March-April 2020, by age",
     excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
@@ -480,6 +482,7 @@ const chartConfig = {
   },
   "q1-region": {
     chartId: "q1-region",
+    title: "Increase in frequency of dream recall, March-April 2020, by region",
     excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
@@ -490,6 +493,7 @@ const chartConfig = {
   },
   "q1-race": {
     chartId: "q1-race",
+    title: "Increase in frequency of dream recall, March-April 2020, by race",
     excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
@@ -500,6 +504,8 @@ const chartConfig = {
   },
   "q1-education": {
     chartId: "q1-education",
+    title:
+      "Increase in frequency of dream recall, March-April 2020, by education",
     excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
@@ -510,6 +516,8 @@ const chartConfig = {
   },
   "q1-marital-status": {
     chartId: "q1-marital-status",
+    title:
+      "Increase in frequency of dream recall, March-April 2020, by marital status",
     excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
@@ -520,6 +528,8 @@ const chartConfig = {
   },
   "q1-parent": {
     chartId: "q1-parent",
+    title:
+      "Increase in frequency of dream recall, March-April 2020, by parental status",
     excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
@@ -530,6 +540,7 @@ const chartConfig = {
   },
   "q1-income": {
     chartId: "q1-income",
+    title: "Increase in frequency of dream recall, March-April 2020, by income",
     excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
@@ -540,6 +551,8 @@ const chartConfig = {
   },
   "q1-social-networks": {
     chartId: "q1-social-networks",
+    title:
+      "Increase in frequency of dream recall, March-April 2020, by social network membership",
     excel: "covid",
     firstDataRow: 5,
     lastDataRow: 30,
