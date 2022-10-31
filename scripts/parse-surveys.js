@@ -59,7 +59,7 @@ try {
     // Pretty print JSON
     // it's not enough data to be worth minifying
     const jsonText = JSON.stringify(data, null, 2);
-    fs.writeFileSync(__dirname + `/../public/data/${chartId}.json`, jsonText);
+    fs.writeFileSync(__dirname + `/../public/media/${chartId}.json`, jsonText);
   });
 } catch (err) {
   console.error(err);
