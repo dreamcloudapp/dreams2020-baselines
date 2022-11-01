@@ -1,0 +1,137 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "18-34",
+        "35-54",
+        "55+"
+      ],
+      [
+        "Much more positive",
+        4.69,
+        2.64,
+        1.01
+      ],
+      [
+        "Somewhat more positive",
+        8.8,
+        6.9,
+        3.02
+      ],
+      [
+        "About the same as usual",
+        66.68,
+        73.47,
+        84.4
+      ],
+      [
+        "Somewhat more negative",
+        14.87,
+        12.45,
+        10.06
+      ],
+      [
+        "Much more negative",
+        4.97,
+        4.54,
+        1.52
+      ]
+    ],
+    "axes": {
+      "Much more positive": "y",
+      "Somewhat more positive": "y",
+      "About the same as usual": "y",
+      "Somewhat more negative": "y",
+      "Much more negative": "y"
+    },
+    "types": {
+      "Much more positive": "bar",
+      "Somewhat more positive": "bar",
+      "About the same as usual": "bar",
+      "Somewhat more negative": "bar",
+      "Much more negative": "bar"
+    },
+    "colors": {
+      "Much more positive": "#40647a",
+      "Somewhat more positive": "#90caca",
+      "About the same as usual": "#3b3b3b",
+      "Somewhat more negative": "#b68a07",
+      "Much more negative": "#eb524d"
+    },
+    "groups": [
+      [
+        "Much more positive",
+        "Somewhat more positive",
+        "About the same as usual",
+        "Somewhat more negative",
+        "Much more negative"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "wsc_q4_tone_may_age",
+  "title": "Change in tone of dreams since the beginning of the pandemic, by age",
+  "excel": "covid-may",
+  "firstDataRow": 5,
+  "lastDataRow": 80,
+  "colRange": [
+    3,
+    6
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Much more positive",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 26
+    },
+    {
+      "name": "Somewhat more positive",
+      "color": "#90caca",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 27
+    },
+    {
+      "name": "About the same as usual",
+      "color": "#3b3b3b",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 28
+    },
+    {
+      "name": "Somewhat more negative",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 29
+    },
+    {
+      "name": "Much more negative",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 30
+    }
+  ],
+  "groups": [
+    [
+      "Much more positive",
+      "Somewhat more positive",
+      "About the same as usual",
+      "Somewhat more negative",
+      "Much more negative"
+    ]
+  ]
+}

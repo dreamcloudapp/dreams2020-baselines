@@ -1,0 +1,149 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Male",
+        "Female"
+      ],
+      [
+        "Physical health (you or family/friends have gotten sick)",
+        12.19,
+        12.98
+      ],
+      [
+        "Employment (lost job, furlough, drastically altered workplace)",
+        27.01,
+        27.22
+      ],
+      [
+        "Finances (lost wages, savings)",
+        28.49,
+        29.43
+      ],
+      [
+        "Social (cancelled trips, gatherings)",
+        50.86,
+        57.45
+      ],
+      [
+        "Mental health (anxiety, stress, depression)",
+        28.28,
+        39.12
+      ],
+      [
+        "None of these",
+        24.07,
+        19.17
+      ],
+      [
+        "Prefer not to say",
+        2.34,
+        2.16
+      ]
+    ],
+    "axes": {
+      "Physical health (you or family/friends have gotten sick)": "y",
+      "Employment (lost job, furlough, drastically altered workplace)": "y",
+      "Finances (lost wages, savings)": "y",
+      "Social (cancelled trips, gatherings)": "y",
+      "Mental health (anxiety, stress, depression)": "y",
+      "None of these": "y",
+      "Prefer not to say": "y"
+    },
+    "types": {
+      "Physical health (you or family/friends have gotten sick)": "bar",
+      "Employment (lost job, furlough, drastically altered workplace)": "bar",
+      "Finances (lost wages, savings)": "bar",
+      "Social (cancelled trips, gatherings)": "bar",
+      "Mental health (anxiety, stress, depression)": "bar",
+      "None of these": "bar",
+      "Prefer not to say": "bar"
+    },
+    "colors": {
+      "Physical health (you or family/friends have gotten sick)": "hsl(2, 80%, 61%)",
+      "Employment (lost job, furlough, drastically altered workplace)": "hsl(28, 91%, 79%)",
+      "Finances (lost wages, savings)": "hsl(180, 35%, 68%)",
+      "Social (cancelled trips, gatherings)": "hsl(45, 93%, 37%)",
+      "Mental health (anxiety, stress, depression)": "hsl(115, 28%, 32%)",
+      "None of these": "hsl(203, 31%, 36%)",
+      "Prefer not to say": "hsl(0, 0%, 17%)"
+    },
+    "groups": [
+      []
+    ],
+    "regions": {}
+  },
+  "chartId": "wsc_q5_impact_may_gender",
+  "title": "Impact of COVID-19 by gender",
+  "excel": "covid-may",
+  "firstDataRow": 5,
+  "lastDataRow": 100,
+  "colRange": [
+    1,
+    3
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 60,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Physical health (you or family/friends have gotten sick)",
+      "color": "hsl(2, 80%, 61%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 35
+    },
+    {
+      "name": "Employment (lost job, furlough, drastically altered workplace)",
+      "color": "hsl(28, 91%, 79%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 36
+    },
+    {
+      "name": "Finances (lost wages, savings)",
+      "color": "hsl(180, 35%, 68%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 37
+    },
+    {
+      "name": "Social (cancelled trips, gatherings)",
+      "color": "hsl(45, 93%, 37%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 38
+    },
+    {
+      "name": "Mental health (anxiety, stress, depression)",
+      "color": "hsl(115, 28%, 32%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 39
+    },
+    {
+      "name": "None of these",
+      "color": "hsl(203, 31%, 36%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 40
+    },
+    {
+      "name": "Prefer not to say",
+      "color": "hsl(0, 0%, 17%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 41
+    }
+  ],
+  "groups": [
+    []
+  ]
+}

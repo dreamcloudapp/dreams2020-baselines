@@ -56,7 +56,7 @@ const groupedC3JsonFromExcel = (chartConfig, rowData) => {
     const label = row[keyColumn];
     // If the label is too long, truncate it
     const truncatedLabel =
-      label.length > MAX_LABEL_LENGTH
+      label && label.length > MAX_LABEL_LENGTH
         ? label.slice(0, MAX_LABEL_LENGTH) + "..."
         : label;
     return truncatedLabel;

@@ -1,0 +1,101 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "18-34",
+        "35-54",
+        "55+"
+      ],
+      [
+        "Approve",
+        23.64,
+        35.31,
+        45.84
+      ],
+      [
+        "Disapprove",
+        56.27,
+        52.14,
+        48.42
+      ],
+      [
+        "No opinion",
+        20.09,
+        12.55,
+        5.74
+      ]
+    ],
+    "axes": {
+      "Approve": "y",
+      "Disapprove": "y",
+      "No opinion": "y"
+    },
+    "types": {
+      "Approve": "bar",
+      "Disapprove": "bar",
+      "No opinion": "bar"
+    },
+    "colors": {
+      "Approve": "#40647a",
+      "Disapprove": "#eb524d",
+      "No opinion": "#3b3b3b"
+    },
+    "groups": [
+      [
+        "Approve",
+        "Disapprove",
+        "No opinion"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "wsc_q0_trump_approval_may_age",
+  "title": "Trump presidential approval by age",
+  "excel": "covid-may",
+  "firstDataRow": 5,
+  "lastDataRow": 150,
+  "colRange": [
+    3,
+    6
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Approve",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 44
+    },
+    {
+      "name": "Disapprove",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 45
+    },
+    {
+      "name": "No opinion",
+      "color": "#3b3b3b",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 46
+    }
+  ],
+  "groups": [
+    [
+      "Approve",
+      "Disapprove",
+      "No opinion"
+    ]
+  ]
+}

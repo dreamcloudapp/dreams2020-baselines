@@ -116,6 +116,123 @@ const legends = {
       column: 23,
     },
   ],
+  // WSC_Q4. Since the beginning of the Coronavirus (COVID-19) outbreak, has the tone in your dreams
+  //  become more positive, negative, or about the same as usual?
+  wsc_q4_tone_may: [
+    {
+      name: "Much more positive",
+      color: colors.good,
+      symbol: "rect",
+      units: "percent",
+      column: 26,
+    },
+    {
+      name: "Somewhat more positive",
+
+      color: colors.ok,
+      symbol: "rect",
+      units: "percent",
+      column: 27,
+    },
+    {
+      name: "About the same as usual",
+      color: colors.neutral,
+      symbol: "rect",
+      units: "percent",
+      column: 28,
+    },
+    {
+      name: "Somewhat more negative",
+      color: colors.warn,
+      symbol: "rect",
+      units: "percent",
+      column: 29,
+    },
+    {
+      name: "Much more negative",
+      color: colors.bad,
+      symbol: "rect",
+      units: "percent",
+      column: 30,
+    },
+  ],
+  // WSC_Q5. Have you been personally impacted by the Coronavirus
+  // (COVID-19) outbreak in any of these ways? Please select all that apply.
+  wsc_q5_impact_may: [
+    {
+      name: "Physical health (you or family/friends have gotten sick)",
+      color: colors.categoryColors[0],
+      symbol: "rect",
+      units: "percent",
+      column: 35,
+    },
+    {
+      name: "Employment (lost job, furlough, drastically altered workplace)",
+      color: colors.categoryColors[1],
+      symbol: "rect",
+      units: "percent",
+      column: 36,
+    },
+    {
+      name: "Finances (lost wages, savings)",
+      color: colors.categoryColors[2],
+      symbol: "rect",
+      units: "percent",
+      column: 37,
+    },
+    {
+      name: "Social (cancelled trips, gatherings)",
+      color: colors.categoryColors[3],
+      symbol: "rect",
+      units: "percent",
+      column: 38,
+    },
+    {
+      name: "Mental health (anxiety, stress, depression)",
+      color: colors.categoryColors[4],
+      symbol: "rect",
+      units: "percent",
+      column: 39,
+    },
+    {
+      name: "None of these",
+      color: colors.categoryColors[5],
+      symbol: "rect",
+      units: "percent",
+      column: 40,
+    },
+    {
+      name: "Prefer not to say",
+      color: colors.categoryColors[6],
+      symbol: "rect",
+      units: "percent",
+      column: 41,
+    },
+  ],
+  wsc_q0_trump_approval_may: [
+    {
+      name: "Approve",
+      color: colors.good,
+      symbol: "rect",
+      units: "percent",
+      column: 44,
+    },
+    {
+      name: "Disapprove",
+      color: colors.bad,
+      symbol: "rect",
+      units: "percent",
+      column: 45,
+    },
+    {
+      name: "No opinion",
+      color: colors.neutral,
+      symbol: "rect",
+      units: "percent",
+      column: 46,
+    },
+  ],
+
   covidQ3: [
     {
       name: "Approve",
@@ -602,6 +719,27 @@ const groups = {
       "7 nights",
     ],
   ],
+  wsc_q4_tone_may: [
+    [
+      "Much more positive",
+      "Somewhat more positive",
+      "About the same as usual",
+      "Somewhat more negative",
+      "Much more negative",
+    ],
+  ],
+  wsc_q5_impact_may: [
+    [
+      // "Physical health (you or family/friends have gotten sick)",
+      // "Employment (lost job, furlough, drastically altered workplace)",
+      // "Finances (lost wages, savings)",
+      // "Social (cancelled trips, gatherings)",
+      // "Mental health (anxiety, stress, depression)",
+      // "None of these",
+      // "Prefer not to say",
+    ],
+  ],
+  wsc_q0_trump_approval_may: [["Approve", "Disapprove", "No opinion"]],
   covidQ2: [["Yes, I have", "No, I haven't"]],
   covidQ3: [["Approve", "Disapprove", "No opinion"]],
   blmQ1: [
@@ -745,7 +883,66 @@ const chartConfig = {
     legends: legends.wsc_q3_insomnia_may,
     groups: groups.wsc_q3_insomnia_may,
   },
-
+  wsc_q4_tone_may_gender: {
+    chartId: "wsc_q4_tone_may_gender",
+    title:
+      "Change in tone of dreams since the beginning of the pandemic, by gender",
+    excel: "covid-may",
+    firstDataRow: 5,
+    lastDataRow: 80,
+    colRange: colRanges.gender,
+    ...basicConfig,
+    legends: legends.wsc_q4_tone_may,
+    groups: groups.wsc_q4_tone_may,
+  },
+  wsc_q4_tone_may_age: {
+    chartId: "wsc_q4_tone_may_age",
+    title:
+      "Change in tone of dreams since the beginning of the pandemic, by age",
+    excel: "covid-may",
+    firstDataRow: 5,
+    lastDataRow: 80,
+    colRange: colRanges.age,
+    ...basicConfig,
+    legends: legends.wsc_q4_tone_may,
+    groups: groups.wsc_q4_tone_may,
+  },
+  wsc_q4_tone_may_race: {
+    chartId: "wsc_q4_tone_may_race",
+    title:
+      "Change in tone of dreams since the beginning of the pandemic, by race",
+    excel: "covid-may",
+    firstDataRow: 5,
+    lastDataRow: 100,
+    colRange: colRanges.race,
+    ...basicConfig,
+    legends: legends.wsc_q4_tone_may,
+    groups: groups.wsc_q4_tone_may,
+  },
+  wsc_q5_impact_may_gender: {
+    chartId: "wsc_q5_impact_may_gender",
+    title: "Impact of COVID-19 by gender",
+    excel: "covid-may",
+    firstDataRow: 5,
+    lastDataRow: 100,
+    colRange: colRanges.gender,
+    ...basicConfig,
+    maxValue: 60,
+    legends: legends.wsc_q5_impact_may,
+    groups: groups.wsc_q5_impact_may,
+  },
+  wsc_q0_trump_approval_may_age: {
+    chartId: "wsc_q0_trump_approval_may_age",
+    title: "Trump presidential approval by age",
+    excel: "covid-may",
+    firstDataRow: 5,
+    lastDataRow: 150,
+    colRange: colRanges.age,
+    ...basicConfig,
+    maxValue: 99,
+    legends: legends.wsc_q0_trump_approval_may,
+    groups: groups.wsc_q0_trump_approval_may,
+  },
   // COVID APRIL
   // Question 1
   "q1-gender": {
