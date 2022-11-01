@@ -20,7 +20,7 @@ function groupedBarsRender(data) {
 
   c3.generate({
     bindto: "#" + data.chartId,
-    data: chartData,
+    data: { ...chartData, order: null },
     title: {
       text: data.title || "",
     },

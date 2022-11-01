@@ -1,6 +1,8 @@
 const { colors } = require("./modules/colors");
 
 const legends = {
+  // WSC_Q1. To what extent has the frequency that you wake up remembering
+  // a dream increased or decreased in the last month (i.e., since early April 2020)?
   covidQ1: [
     {
       name: "Increased a lot",
@@ -52,6 +54,66 @@ const legends = {
       symbol: "rect",
       units: "percent",
       column: 13,
+    },
+  ],
+  // WSC_Q3. And how many nights in an average week do you experience insomnia or have trouble sleeping?
+  // If you are unsure, please give your best estimate.
+  wsc_q3_insomnia_may: [
+    {
+      name: "0 nights",
+      color: colors.orderColors[0],
+      symbol: "rect",
+      units: "percent",
+      column: 16,
+    },
+    {
+      name: "1 night",
+      color: colors.orderColors[1],
+      symbol: "rect",
+      units: "percent",
+      column: 17,
+    },
+    {
+      name: "2 nights",
+      color: colors.orderColors[2],
+      symbol: "rect",
+      units: "percent",
+      column: 18,
+    },
+    {
+      name: "3 nights",
+      color: colors.orderColors[3],
+      symbol: "rect",
+      units: "percent",
+      column: 19,
+    },
+    {
+      name: "4 nights",
+      color: colors.orderColors[4],
+      symbol: "rect",
+      units: "percent",
+      column: 20,
+    },
+    {
+      name: "5 nights",
+      color: colors.orderColors[5],
+      symbol: "rect",
+      units: "percent",
+      column: 21,
+    },
+    {
+      name: "6 nights",
+      color: colors.orderColors[6],
+      symbol: "rect",
+      units: "percent",
+      column: 22,
+    },
+    {
+      name: "7 nights",
+      color: colors.orderColors[7],
+      symbol: "rect",
+      units: "percent",
+      column: 23,
     },
   ],
   covidQ3: [
@@ -528,6 +590,18 @@ const groups = {
       "Decreased a lot",
     ],
   ],
+  wsc_q3_insomnia_may: [
+    [
+      "0 nights",
+      "1 night",
+      "2 nights",
+      "3 nights",
+      "4 nights",
+      "5 nights",
+      "6 nights",
+      "7 nights",
+    ],
+  ],
   covidQ2: [["Yes, I have", "No, I haven't"]],
   covidQ3: [["Approve", "Disapprove", "No opinion"]],
   blmQ1: [
@@ -636,6 +710,8 @@ const chartConfig = {
   // COVID TOTALS
   "covid-totals-q2": {
     chartId: "covid-totals-q2",
+    title:
+      "Have you ever had a dream relating to the COVID-19 outbreak? (April vs May 2020)",
     excel: "covid-totals",
     firstDataRow: 0,
     lastDataRow: 30,
@@ -644,6 +720,30 @@ const chartConfig = {
     sheet: 0,
     legends: legends.covid_totals_Q2,
     groups: groups.covid_totals_Q2,
+  },
+
+  // COVID MAY
+  "q1-race-may": {
+    chartId: "q1-race-may",
+    title: "Increase in frequency of dream recall, April-May 2020, by race",
+    excel: "covid-may",
+    firstDataRow: 5,
+    lastDataRow: 30,
+    colRange: colRanges.race,
+    ...basicConfig,
+    legends: legends.covidQ1,
+    groups: groups.covidQ1,
+  },
+  wsc_q3_insomnia_may: {
+    chartId: "wsc_q3_insomnia_may",
+    title: "Nights of insomnia per week, by income level",
+    excel: "covid-may",
+    firstDataRow: 5,
+    lastDataRow: 80,
+    colRange: colRanges.income,
+    ...basicConfig,
+    legends: legends.wsc_q3_insomnia_may,
+    groups: groups.wsc_q3_insomnia_may,
   },
 
   // COVID APRIL

@@ -1,0 +1,200 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Under $40k",
+        "$40k to $80k",
+        "$80k+",
+        "Don't know / Prefer not to say"
+      ],
+      [
+        "0 nights",
+        29.46,
+        27.34,
+        29.62,
+        33.4
+      ],
+      [
+        "1 night",
+        11.69,
+        16.01,
+        18.17,
+        15.7
+      ],
+      [
+        "2 nights",
+        15.37,
+        16.74,
+        14.62,
+        15.81
+      ],
+      [
+        "3 nights",
+        14.09,
+        12.92,
+        13.39,
+        11
+      ],
+      [
+        "4 nights",
+        7.43,
+        7.19,
+        6.32,
+        4.94
+      ],
+      [
+        "5 nights",
+        5.65,
+        7.22,
+        6.29,
+        6.46
+      ],
+      [
+        "6 nights",
+        2.4,
+        1.91,
+        2.77,
+        2.67
+      ],
+      [
+        "7 nights",
+        13.92,
+        10.67,
+        8.81,
+        10.03
+      ]
+    ],
+    "axes": {
+      "0 nights": "y",
+      "1 night": "y",
+      "2 nights": "y",
+      "3 nights": "y",
+      "4 nights": "y",
+      "5 nights": "y",
+      "6 nights": "y",
+      "7 nights": "y"
+    },
+    "types": {
+      "0 nights": "bar",
+      "1 night": "bar",
+      "2 nights": "bar",
+      "3 nights": "bar",
+      "4 nights": "bar",
+      "5 nights": "bar",
+      "6 nights": "bar",
+      "7 nights": "bar"
+    },
+    "colors": {
+      "0 nights": "hsl(203, 31%, 16%)",
+      "1 night": "hsl(203, 31%, 26%)",
+      "2 nights": "hsl(203, 31%, 36%)",
+      "3 nights": "hsl(203, 31%, 46%)",
+      "4 nights": "hsl(203, 31%, 56%)",
+      "5 nights": "hsl(203, 31%, 66%)",
+      "6 nights": "hsl(203, 31%, 76%)",
+      "7 nights": "hsl(203, 31%, 86%)"
+    },
+    "groups": [
+      [
+        "0 nights",
+        "1 night",
+        "2 nights",
+        "3 nights",
+        "4 nights",
+        "5 nights",
+        "6 nights",
+        "7 nights"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "wsc_q3_insomnia_may",
+  "title": "Nights of insomnia per week, by income level",
+  "excel": "covid-may",
+  "firstDataRow": 5,
+  "lastDataRow": 80,
+  "colRange": [
+    34,
+    38
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "0 nights",
+      "color": "hsl(203, 31%, 16%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 16
+    },
+    {
+      "name": "1 night",
+      "color": "hsl(203, 31%, 26%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 17
+    },
+    {
+      "name": "2 nights",
+      "color": "hsl(203, 31%, 36%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 18
+    },
+    {
+      "name": "3 nights",
+      "color": "hsl(203, 31%, 46%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 19
+    },
+    {
+      "name": "4 nights",
+      "color": "hsl(203, 31%, 56%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 20
+    },
+    {
+      "name": "5 nights",
+      "color": "hsl(203, 31%, 66%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 21
+    },
+    {
+      "name": "6 nights",
+      "color": "hsl(203, 31%, 76%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 22
+    },
+    {
+      "name": "7 nights",
+      "color": "hsl(203, 31%, 86%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 23
+    }
+  ],
+  "groups": [
+    [
+      "0 nights",
+      "1 night",
+      "2 nights",
+      "3 nights",
+      "4 nights",
+      "5 nights",
+      "6 nights",
+      "7 nights"
+    ]
+  ]
+}

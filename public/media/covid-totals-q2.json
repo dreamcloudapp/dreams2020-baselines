@@ -39,6 +39,7 @@
     "regions": {}
   },
   "chartId": "covid-totals-q2",
+  "title": "Have you ever had a dream relating to the COVID-19 outbreak? (April vs May 2020)",
   "excel": "covid-totals",
   "firstDataRow": 0,
   "lastDataRow": 30,

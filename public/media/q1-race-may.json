@@ -1,0 +1,143 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "White",
+        "Black",
+        "Hispanic",
+        "Other (NET)"
+      ],
+      [
+        "Increased a lot",
+        8.05,
+        14.62,
+        10.63,
+        10.47
+      ],
+      [
+        "Increased somewhat",
+        20.06,
+        20.62,
+        20.45,
+        20.35
+      ],
+      [
+        "Stayed the same",
+        65.85,
+        54.52,
+        53.2,
+        60.35
+      ],
+      [
+        "Decreased somewhat",
+        3.43,
+        4.53,
+        7.48,
+        6.15
+      ],
+      [
+        "Decreased a lot",
+        2.62,
+        5.7,
+        8.24,
+        2.68
+      ]
+    ],
+    "axes": {
+      "Increased a lot": "y",
+      "Increased somewhat": "y",
+      "Stayed the same": "y",
+      "Decreased somewhat": "y",
+      "Decreased a lot": "y"
+    },
+    "types": {
+      "Increased a lot": "bar",
+      "Increased somewhat": "bar",
+      "Stayed the same": "bar",
+      "Decreased somewhat": "bar",
+      "Decreased a lot": "bar"
+    },
+    "colors": {
+      "Increased a lot": "#40647a",
+      "Increased somewhat": "#90caca",
+      "Stayed the same": "#3b3b3b",
+      "Decreased somewhat": "#b68a07",
+      "Decreased a lot": "#eb524d"
+    },
+    "groups": [
+      [
+        "Increased a lot",
+        "Increased somewhat",
+        "Stayed the same",
+        "Decreased somewhat",
+        "Decreased a lot"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "q1-race-may",
+  "title": "Increase in frequency of dream recall, April-May 2020, by race",
+  "excel": "covid-may",
+  "firstDataRow": 5,
+  "lastDataRow": 30,
+  "colRange": [
+    10,
+    14
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Increased a lot",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 3
+    },
+    {
+      "name": "Increased somewhat",
+      "color": "#90caca",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 4
+    },
+    {
+      "name": "Stayed the same",
+      "color": "#3b3b3b",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 5
+    },
+    {
+      "name": "Decreased somewhat",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 6
+    },
+    {
+      "name": "Decreased a lot",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 7
+    }
+  ],
+  "groups": [
+    [
+      "Increased a lot",
+      "Increased somewhat",
+      "Stayed the same",
+      "Decreased somewhat",
+      "Decreased a lot"
+    ]
+  ]
+}
