@@ -62,12 +62,12 @@
       "Never": "bar"
     },
     "colors": {
-      "Almost every morning or more often": "#fac69a",
-      "Several times a week": "#eb524d",
-      "Once a week": "#b68a07",
-      "1 to 3 times a month": "#3e683a",
-      "Less often than once a month": "#90caca",
-      "Never": "#40647a"
+      "Almost every morning or more often": "hsl(2, 80%, 61%)",
+      "Several times a week": "hsl(28, 91%, 79%)",
+      "Once a week": "hsl(180, 35%, 68%)",
+      "1 to 3 times a month": "hsl(45, 93%, 37%)",
+      "Less often than once a month": "hsl(115, 28%, 32%)",
+      "Never": "hsl(203, 31%, 36%)"
     },
     "groups": [
       [
@@ -82,6 +82,7 @@
     "regions": {}
   },
   "chartId": "blm-q4-age",
+  "title": "How often do you talk with other people about your dreams? (by age)",
   "excel": "blm",
   "firstDataRow": 5,
   "lastDataRow": 82,
@@ -100,42 +101,42 @@
   "legends": [
     {
       "name": "Almost every morning or more often",
-      "color": "#fac69a",
+      "color": "hsl(2, 80%, 61%)",
       "symbol": "rect",
       "units": "percent",
       "column": 37
     },
     {
       "name": "Several times a week",
-      "color": "#eb524d",
+      "color": "hsl(28, 91%, 79%)",
       "symbol": "rect",
       "units": "percent",
       "column": 38
     },
     {
       "name": "Once a week",
-      "color": "#b68a07",
+      "color": "hsl(180, 35%, 68%)",
       "symbol": "rect",
       "units": "percent",
       "column": 39
     },
     {
       "name": "1 to 3 times a month",
-      "color": "#3e683a",
+      "color": "hsl(45, 93%, 37%)",
       "symbol": "rect",
       "units": "percent",
       "column": 40
     },
     {
       "name": "Less often than once a month",
-      "color": "#90caca",
+      "color": "hsl(115, 28%, 32%)",
       "symbol": "rect",
       "units": "percent",
       "column": 41
     },
     {
       "name": "Never",
-      "color": "#40647a",
+      "color": "hsl(203, 31%, 36%)",
       "symbol": "rect",
       "units": "percent",
       "column": 42

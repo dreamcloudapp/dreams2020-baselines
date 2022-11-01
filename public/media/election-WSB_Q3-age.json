@@ -52,6 +52,7 @@
     "regions": {}
   },
   "chartId": "election-WSB_Q3-age",
+  "title": "Have you dreamed about any of the historic events of 2020 (COVID, BLM, elections, etc)?",
   "excel": "election",
   "firstDataRow": 5,
   "lastDataRow": 120,

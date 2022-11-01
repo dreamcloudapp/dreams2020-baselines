@@ -124,14 +124,14 @@ const legends = {
     },
     {
       name: "Mormon",
-      color: colors.categoryColors[2],
+      color: colors.categoryColors[9],
       symbol: "rect",
       units: "percent",
       column: 5,
     },
     {
       name: "Eastern or Greek Orthodox",
-      color: colors.categoryColors[3],
+      color: colors.categoryColors[11],
       symbol: "rect",
       units: "percent",
       column: 6,
@@ -145,49 +145,49 @@ const legends = {
     },
     {
       name: "Muslim",
-      color: colors.categoryColors[5],
+      color: colors.categoryColors[10],
       symbol: "rect",
       units: "percent",
       column: 8,
     },
     {
       name: "Buddhist",
-      color: colors.categoryColors[6],
+      color: colors.categoryColors[7],
       symbol: "rect",
       units: "percent",
       column: 9,
     },
     {
       name: "Hindu",
-      color: colors.categoryColors[7],
+      color: colors.categoryColors[8],
       symbol: "rect",
       units: "percent",
       column: 10,
     },
     {
       name: "Atheist",
-      color: colors.categoryColors[8],
+      color: colors.categoryColors[6],
       symbol: "rect",
       units: "percent",
       column: 11,
     },
     {
       name: "Agnostic",
-      color: colors.categoryColors[9],
+      color: colors.categoryColors[2],
       symbol: "rect",
       units: "percent",
       column: 12,
     },
     {
       name: "Nothing in particular",
-      color: colors.categoryColors[10],
+      color: colors.categoryColors[5],
       symbol: "rect",
       units: "percent",
       column: 13,
     },
     {
       name: "Something else",
-      color: colors.categoryColors[11],
+      color: colors.categoryColors[3],
       symbol: "rect",
       units: "percent",
       column: 14,
@@ -203,6 +203,51 @@ const legends = {
   // Net: Once a week or more
   // Net: Less than once a week
   blmQ3: [
+    {
+      name: "Almost every morning or more often",
+      color: colors.good,
+      symbol: "rect",
+      units: "percent",
+      column: 27,
+    },
+    {
+      name: "Several times a week",
+      color: colors.ok,
+      symbol: "rect",
+      units: "percent",
+      column: 28,
+    },
+    {
+      name: "Once a week",
+      color: colors.moderate,
+      symbol: "rect",
+      units: "percent",
+      column: 29,
+    },
+    {
+      name: "1 to 3 times a month",
+      color: colors.warn,
+      symbol: "rect",
+      units: "percent",
+      column: 30,
+    },
+    {
+      name: "Less often than once a month",
+      color: colors.bad,
+      symbol: "rect",
+      units: "percent",
+      column: 31,
+    },
+    {
+      name: "Never",
+      color: colors.no,
+      symbol: "rect",
+      units: "percent",
+      column: 32,
+    },
+  ],
+  // DSD_q1. How often, if ever, do you usually wake up remembering a dream?
+  DSD_q1_blm: [
     {
       name: "Almost every morning or more often",
       color: colors.categoryColors[0],
@@ -246,6 +291,7 @@ const legends = {
       column: 32,
     },
   ],
+  // DSD_q6. How often, if ever, do you talk with other people, like family and friends, about your dreams?
   blmQ4: [
     {
       name: "Almost every morning or more often",
@@ -329,6 +375,124 @@ const legends = {
       column: 83,
     },
   ],
+  glocli: [
+    {
+      name: "Immediate action",
+      color: colors.bad,
+      symbol: "rect",
+      units: "percent",
+      column: 17,
+    },
+    {
+      name: "Some action",
+      color: colors.warn,
+      symbol: "rect",
+      units: "percent",
+      column: 18,
+    },
+    {
+      name: "More research",
+      color: colors.ok,
+      symbol: "rect",
+      units: "percent",
+      column: 19,
+    },
+    {
+      name: "Concern unwarranted",
+      color: colors.good,
+      symbol: "rect",
+      units: "percent",
+      column: 20,
+    },
+  ],
+  ideo5: [
+    {
+      name: "Very Liberal",
+      color: colors.good,
+      symbol: "rect",
+      units: "percent",
+      column: 23,
+    },
+    {
+      name: "Liberal",
+      color: colors.ok,
+      symbol: "rect",
+      units: "percent",
+      column: 24,
+    },
+    {
+      name: "Moderate",
+      color: colors.moderate,
+      symbol: "rect",
+      units: "percent",
+      column: 25,
+    },
+    {
+      name: "Conservative",
+      color: colors.warn,
+      symbol: "rect",
+      units: "percent",
+      column: 26,
+    },
+    {
+      name: "Very Conservative",
+      color: colors.bad,
+      symbol: "rect",
+      units: "percent",
+      column: 27,
+    },
+    {
+      name: "Not sure",
+      color: colors.neutral_light,
+      symbol: "rect",
+      units: "percent",
+      column: 28,
+    },
+  ],
+  pp_presvote2020: [
+    {
+      name: "Joe Biden",
+      color: colors.good,
+      symbol: "rect",
+      units: "percent",
+      column: 33,
+    },
+    {
+      name: "Donald Trump",
+      color: colors.bad,
+      symbol: "rect",
+      units: "percent",
+      column: 34,
+    },
+    {
+      name: "Jo Jorgensen",
+      color: colors.warn,
+      symbol: "rect",
+      units: "percent",
+      column: 35,
+    },
+    {
+      name: "Howie Hawkins",
+      color: colors.green,
+      symbol: "rect",
+      units: "percent",
+      column: 36,
+    },
+    {
+      name: "Not sure",
+      color: colors.neutral_light,
+      symbol: "rect",
+      units: "percent",
+      column: 37,
+    },
+    {
+      name: "Will not vote",
+      color: colors.no,
+      symbol: "rect",
+      units: "percent",
+      column: 38,
+    },
+  ],
   election_WSB_Q3: [
     {
       name: "Yes, I have",
@@ -404,6 +568,30 @@ const groups = {
   ],
   blmQ7: [["Yes, I have", "No, I haven't"]],
   election_WSB_Q2: [["Yes, I have", "No, I haven't", "Can't recall"]],
+  glocli: [
+    ["Immediate action", "Some action", "More research", "Concern unwarranted"],
+  ],
+  ideo5: [
+    [
+      "Very Liberal",
+      "Liberal",
+      "Moderate",
+      "Conservative",
+      "Very Conservative",
+      "Not sure",
+      "Will not vote",
+    ],
+  ],
+  pp_presvote2020: [
+    [
+      "Joe Biden",
+      "Donald Trump",
+      "Jo Jorgensen",
+      "Howie Hawkins",
+      "Not sure",
+      "Will not vote",
+    ],
+  ],
   election_WSB_Q3: [["Yes, I have", "No, I haven't", "Can't recall"]],
   covid_totals_Q2: [["Yes, I have", "No, I haven't"]],
 };
@@ -424,6 +612,8 @@ const colRanges = {
   // BLM
   income_blm: [36, 40],
   socialNetworks_blm: [40, 57],
+  // religion_blm: [57, 70],
+  political_blm: [69, 75],
   // Elections
   socialNetworks_elections: [38, 56],
   religion: [56, 68],
@@ -925,8 +1115,20 @@ const chartConfig = {
   },
 
   // BLM
+  religpew_race_blm: {
+    chartId: "religpew_race_blm",
+    title: "Religious affiliation by race (2020 survey)",
+    excel: "blm",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.race,
+    ...basicConfig,
+    legends: legends.blmQ1,
+    groups: groups.blmQ1,
+  },
   "blm-q3-gender": {
     chartId: "blm-q3-gender",
+    title: "Dream recall frequency by gender",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -937,6 +1139,7 @@ const chartConfig = {
   },
   "blm-q3-age": {
     chartId: "blm-q3-age",
+    title: "Dream recall frequency by age",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -947,6 +1150,7 @@ const chartConfig = {
   },
   "blm-q3-region": {
     chartId: "blm-q3-region",
+    title: "Dream recall frequency by region",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -957,6 +1161,7 @@ const chartConfig = {
   },
   "blm-q3-race": {
     chartId: "blm-q3-race",
+    title: "Dream recall frequency by race",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -967,6 +1172,7 @@ const chartConfig = {
   },
   "blm-q3-education": {
     chartId: "blm-q3-education",
+    title: "Dream recall frequency by education level",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -997,6 +1203,7 @@ const chartConfig = {
   // },
   "blm-q3-income": {
     chartId: "blm-q3-income",
+    title: "Dream recall frequency by income",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -1007,6 +1214,7 @@ const chartConfig = {
   },
   "blm-q3-social-networks": {
     chartId: "blm-q3-social-networks",
+    title: "Dream recall frequency by social media membership",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -1015,9 +1223,23 @@ const chartConfig = {
     legends: legends.blmQ3,
     groups: groups.blmQ3,
   },
+  // political_blm
+  "blm-q3-politics": {
+    chartId: "blm-q3-politics",
+    title: "Dream recall frequency by political affiliation",
+    excel: "blm",
+    firstDataRow: 5,
+    lastDataRow: 82,
+    colRange: colRanges.political_blm,
+    ...basicConfig,
+    legends: legends.blmQ3,
+    groups: groups.blmQ3,
+  },
   // BLM Q4
   "blm-q4-gender": {
     chartId: "blm-q4-gender",
+    title:
+      "How often do you talk with other people about your dreams? (by gender)",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -1028,6 +1250,8 @@ const chartConfig = {
   },
   "blm-q4-age": {
     chartId: "blm-q4-age",
+    title:
+      "How often do you talk with other people about your dreams? (by age)",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -1038,6 +1262,8 @@ const chartConfig = {
   },
   "blm-q4-region": {
     chartId: "blm-q4-region",
+    title:
+      "How often do you talk with other people about your dreams? (by region)",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -1048,6 +1274,8 @@ const chartConfig = {
   },
   "blm-q4-race": {
     chartId: "blm-q4-race",
+    title:
+      "How often do you talk with other people about your dreams? (by race)",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -1058,6 +1286,8 @@ const chartConfig = {
   },
   "blm-q4-education": {
     chartId: "blm-q4-education",
+    title:
+      "How often do you talk with other people about your dreams? (by education)",
     excel: "blm",
     firstDataRow: 5,
     lastDataRow: 82,
@@ -1179,9 +1409,66 @@ const chartConfig = {
     groups: groups.blmQ7,
   },
   // ELECTION RESULTS
-  // BLM Q4
+  // glocli. From what you know about global climate change or global warming, which one of the following statements comes closest to your opinion?
+  "glocli_recall-frequency": {
+    chartId: "glocli_recall-frequency",
+    title: "Opinions on climate change, by dream recall frequency",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.recallFrequency,
+    ...basicConfig,
+    legends: legends.glocli,
+    groups: groups.glocli,
+  },
+  religpew_age: {
+    chartId: "religpew_age",
+    title: "Religious affiliation by age",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.age,
+    ...basicConfig,
+    legends: legends.blmQ1,
+    groups: groups.blmQ1,
+  },
+  religpew_region: {
+    chartId: "religpew_region",
+    title: "Religious affiliation by region",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.region,
+    ...basicConfig,
+    legends: legends.blmQ1,
+    groups: groups.blmQ1,
+  },
+  "ideo5_recall-frequency": {
+    chartId: "ideo5_recall-frequency",
+    title: "Political affiliation by dream recall frequency",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.recallFrequency,
+    ...basicConfig,
+    legends: legends.ideo5,
+    groups: groups.ideo5,
+  },
+  pp_presvote2020_recall_frequency: {
+    chartId: "pp_presvote2020_recall_frequency",
+    title: "Presidential voting intention by dream recall frequency",
+    excel: "election",
+    firstDataRow: 5,
+    lastDataRow: 120,
+    colRange: colRanges.recallFrequency,
+    ...basicConfig,
+    legends: legends.pp_presvote2020,
+    groups: groups.pp_presvote2020,
+  },
   "election-WSB_Q3-gender": {
     chartId: "election-WSB_Q3-gender",
+    title:
+      "Have you dreamed about any of the historic events of 2020 (COVID, BLM, elections, etc)?",
     excel: "election",
     firstDataRow: 5,
     lastDataRow: 120,
@@ -1192,6 +1479,8 @@ const chartConfig = {
   },
   "election-WSB_Q3-age": {
     chartId: "election-WSB_Q3-age",
+    title:
+      "Have you dreamed about any of the historic events of 2020 (COVID, BLM, elections, etc)?",
     excel: "election",
     firstDataRow: 5,
     lastDataRow: 120,
@@ -1202,6 +1491,8 @@ const chartConfig = {
   },
   "election-WSB_Q3-region": {
     chartId: "election-WSB_Q3-region",
+    title:
+      "Have you dreamed about any of the historic events of 2020 (COVID, BLM, elections, etc)?",
     excel: "election",
     firstDataRow: 5,
     lastDataRow: 120,
@@ -1212,6 +1503,8 @@ const chartConfig = {
   },
   "election-WSB_Q3-race": {
     chartId: "election-WSB_Q3-race",
+    title:
+      "Have you dreamed about any of the historic events of 2020 (COVID, BLM, elections, etc)?",
     excel: "election",
     firstDataRow: 5,
     lastDataRow: 120,
@@ -1222,6 +1515,8 @@ const chartConfig = {
   },
   "election-WSB_Q3-education": {
     chartId: "election-WSB_Q3-education",
+    title:
+      "Have you dreamed about any of the historic events of 2020 (COVID, BLM, elections, etc)?",
     excel: "election",
     firstDataRow: 5,
     lastDataRow: 120,
@@ -1232,6 +1527,8 @@ const chartConfig = {
   },
   "election-WSB_Q3-income": {
     chartId: "election-WSB_Q3-income",
+    title:
+      "Have you dreamed about any of the historic events of 2020 (COVID, BLM, elections, etc)?",
     excel: "election",
     firstDataRow: 5,
     lastDataRow: 120,
@@ -1242,6 +1539,8 @@ const chartConfig = {
   },
   "election-WSB_Q3-social-networks": {
     chartId: "election-WSB_Q3-social-networks",
+    title:
+      "Have you dreamed about any of the historic events of 2020 (COVID, BLM, elections, etc)?",
     excel: "election",
     firstDataRow: 5,
     lastDataRow: 120,
@@ -1252,6 +1551,8 @@ const chartConfig = {
   },
   "election-WSB_Q3-religion": {
     chartId: "election-WSB_Q3-religion",
+    title:
+      "Have you dreamed about any of the historic events of 2020 (COVID, BLM, elections, etc)?",
     excel: "election",
     firstDataRow: 5,
     lastDataRow: 120,
@@ -1262,6 +1563,8 @@ const chartConfig = {
   },
   "election-WSB_Q3-political": {
     chartId: "election-WSB_Q3-political",
+    title:
+      "Have you dreamed about any of the historic events of 2020 (COVID, BLM, elections, etc)?",
     excel: "election",
     firstDataRow: 5,
     lastDataRow: 120,
@@ -1272,6 +1575,8 @@ const chartConfig = {
   },
   "election-WSB_Q3-recall": {
     chartId: "election-WSB_Q3-recall",
+    title:
+      "Have you dreamed about any of the historic events of 2020 (COVID, BLM, elections, etc)?",
     excel: "election",
     firstDataRow: 5,
     lastDataRow: 120,

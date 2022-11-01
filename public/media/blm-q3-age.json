@@ -62,12 +62,12 @@
       "Never": "bar"
     },
     "colors": {
-      "Almost every morning or more often": "#fac69a",
-      "Several times a week": "#eb524d",
-      "Once a week": "#b68a07",
-      "1 to 3 times a month": "#3e683a",
-      "Less often than once a month": "#90caca",
-      "Never": "#40647a"
+      "Almost every morning or more often": "#40647a",
+      "Several times a week": "#90caca",
+      "Once a week": "hsl(28, 91%, 79%)",
+      "1 to 3 times a month": "#b68a07",
+      "Less often than once a month": "#eb524d",
+      "Never": "hsl(0, 0%, 17%)"
     },
     "groups": [
       [
@@ -82,6 +82,7 @@
     "regions": {}
   },
   "chartId": "blm-q3-age",
+  "title": "Dream recall frequency by age",
   "excel": "blm",
   "firstDataRow": 5,
   "lastDataRow": 82,
@@ -100,42 +101,42 @@
   "legends": [
     {
       "name": "Almost every morning or more often",
-      "color": "#fac69a",
+      "color": "#40647a",
       "symbol": "rect",
       "units": "percent",
       "column": 27
     },
     {
       "name": "Several times a week",
-      "color": "#eb524d",
+      "color": "#90caca",
       "symbol": "rect",
       "units": "percent",
       "column": 28
     },
     {
       "name": "Once a week",
-      "color": "#b68a07",
+      "color": "hsl(28, 91%, 79%)",
       "symbol": "rect",
       "units": "percent",
       "column": 29
     },
     {
       "name": "1 to 3 times a month",
-      "color": "#3e683a",
+      "color": "#b68a07",
       "symbol": "rect",
       "units": "percent",
       "column": 30
     },
     {
       "name": "Less often than once a month",
-      "color": "#90caca",
+      "color": "#eb524d",
       "symbol": "rect",
       "units": "percent",
       "column": 31
     },
     {
       "name": "Never",
-      "color": "#40647a",
+      "color": "hsl(0, 0%, 17%)",
       "symbol": "rect",
       "units": "percent",
       "column": 32

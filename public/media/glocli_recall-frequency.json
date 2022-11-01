@@ -1,0 +1,114 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Once a week or more",
+        "Less than once a week"
+      ],
+      [
+        "Immediate action",
+        51.3,
+        42.51
+      ],
+      [
+        "Some action",
+        23.04,
+        22.31
+      ],
+      [
+        "More research",
+        14.24,
+        17.65
+      ],
+      [
+        "Concern unwarranted",
+        11.43,
+        17.53
+      ]
+    ],
+    "axes": {
+      "Immediate action": "y",
+      "Some action": "y",
+      "More research": "y",
+      "Concern unwarranted": "y"
+    },
+    "types": {
+      "Immediate action": "bar",
+      "Some action": "bar",
+      "More research": "bar",
+      "Concern unwarranted": "bar"
+    },
+    "colors": {
+      "Immediate action": "#eb524d",
+      "Some action": "#b68a07",
+      "More research": "#90caca",
+      "Concern unwarranted": "#40647a"
+    },
+    "groups": [
+      [
+        "Immediate action",
+        "Some action",
+        "More research",
+        "Concern unwarranted"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "glocli_recall-frequency",
+  "title": "Opinions on climate change, by dream recall frequency",
+  "excel": "election",
+  "firstDataRow": 5,
+  "lastDataRow": 120,
+  "colRange": [
+    70,
+    72
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Immediate action",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 17
+    },
+    {
+      "name": "Some action",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 18
+    },
+    {
+      "name": "More research",
+      "color": "#90caca",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 19
+    },
+    {
+      "name": "Concern unwarranted",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 20
+    }
+  ],
+  "groups": [
+    [
+      "Immediate action",
+      "Some action",
+      "More research",
+      "Concern unwarranted"
+    ]
+  ]
+}

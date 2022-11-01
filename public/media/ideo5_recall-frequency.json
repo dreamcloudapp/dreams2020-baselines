@@ -1,0 +1,150 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Once a week or more",
+        "Less than once a week"
+      ],
+      [
+        "Very Liberal",
+        13.27,
+        10.39
+      ],
+      [
+        "Liberal",
+        19.16,
+        16.31
+      ],
+      [
+        "Moderate",
+        31.39,
+        29.09
+      ],
+      [
+        "Conservative",
+        15.02,
+        16.75
+      ],
+      [
+        "Very Conservative",
+        9.94,
+        12.29
+      ],
+      [
+        "Not sure",
+        11.22,
+        15.16
+      ]
+    ],
+    "axes": {
+      "Very Liberal": "y",
+      "Liberal": "y",
+      "Moderate": "y",
+      "Conservative": "y",
+      "Very Conservative": "y",
+      "Not sure": "y"
+    },
+    "types": {
+      "Very Liberal": "bar",
+      "Liberal": "bar",
+      "Moderate": "bar",
+      "Conservative": "bar",
+      "Very Conservative": "bar",
+      "Not sure": "bar"
+    },
+    "colors": {
+      "Very Liberal": "#40647a",
+      "Liberal": "#90caca",
+      "Moderate": "hsl(28, 91%, 79%)",
+      "Conservative": "#b68a07",
+      "Very Conservative": "#eb524d",
+      "Not sure": "#8b8b8b"
+    },
+    "groups": [
+      [
+        "Very Liberal",
+        "Liberal",
+        "Moderate",
+        "Conservative",
+        "Very Conservative",
+        "Not sure",
+        "Will not vote"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "ideo5_recall-frequency",
+  "title": "Political affiliation by dream recall frequency",
+  "excel": "election",
+  "firstDataRow": 5,
+  "lastDataRow": 120,
+  "colRange": [
+    70,
+    72
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Very Liberal",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 23
+    },
+    {
+      "name": "Liberal",
+      "color": "#90caca",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 24
+    },
+    {
+      "name": "Moderate",
+      "color": "hsl(28, 91%, 79%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 25
+    },
+    {
+      "name": "Conservative",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 26
+    },
+    {
+      "name": "Very Conservative",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 27
+    },
+    {
+      "name": "Not sure",
+      "color": "#8b8b8b",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 28
+    }
+  ],
+  "groups": [
+    [
+      "Very Liberal",
+      "Liberal",
+      "Moderate",
+      "Conservative",
+      "Very Conservative",
+      "Not sure",
+      "Will not vote"
+    ]
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Once a week or more",
+        "Less than once a week"
+      ],
+      [
+        "Joe Biden",
+        46.68,
+        42.05
+      ],
+      [
+        "Donald Trump",
+        31.22,
+        32.95
+      ],
+      [
+        "Jo Jorgensen",
+        1.83,
+        1.66
+      ],
+      [
+        "Howie Hawkins",
+        1.34,
+        1.68
+      ],
+      [
+        "Not sure",
+        9.36,
+        10.29
+      ],
+      [
+        "Will not vote",
+        9.57,
+        11.36
+      ]
+    ],
+    "axes": {
+      "Joe Biden": "y",
+      "Donald Trump": "y",
+      "Jo Jorgensen": "y",
+      "Howie Hawkins": "y",
+      "Not sure": "y",
+      "Will not vote": "y"
+    },
+    "types": {
+      "Joe Biden": "bar",
+      "Donald Trump": "bar",
+      "Jo Jorgensen": "bar",
+      "Howie Hawkins": "bar",
+      "Not sure": "bar",
+      "Will not vote": "bar"
+    },
+    "colors": {
+      "Joe Biden": "#40647a",
+      "Donald Trump": "#eb524d",
+      "Jo Jorgensen": "#b68a07",
+      "Howie Hawkins": "hsl(115, 28%, 32%)",
+      "Not sure": "#8b8b8b",
+      "Will not vote": "hsl(0, 0%, 17%)"
+    },
+    "groups": [
+      [
+        "Joe Biden",
+        "Donald Trump",
+        "Jo Jorgensen",
+        "Howie Hawkins",
+        "Not sure",
+        "Will not vote"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "pp_presvote2020_recall_frequency",
+  "title": "Presidential voting intention by dream recall frequency",
+  "excel": "election",
+  "firstDataRow": 5,
+  "lastDataRow": 120,
+  "colRange": [
+    70,
+    72
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Joe Biden",
+      "color": "#40647a",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 33
+    },
+    {
+      "name": "Donald Trump",
+      "color": "#eb524d",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 34
+    },
+    {
+      "name": "Jo Jorgensen",
+      "color": "#b68a07",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 35
+    },
+    {
+      "name": "Howie Hawkins",
+      "color": "hsl(115, 28%, 32%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 36
+    },
+    {
+      "name": "Not sure",
+      "color": "#8b8b8b",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 37
+    },
+    {
+      "name": "Will not vote",
+      "color": "hsl(0, 0%, 17%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 38
+    }
+  ],
+  "groups": [
+    [
+      "Joe Biden",
+      "Donald Trump",
+      "Jo Jorgensen",
+      "Howie Hawkins",
+      "Not sure",
+      "Will not vote"
+    ]
+  ]
+}

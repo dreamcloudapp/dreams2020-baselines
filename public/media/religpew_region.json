@@ -1,0 +1,276 @@
+{
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Northeast",
+        "Midwest",
+        "South",
+        "West"
+      ],
+      [
+        "Protestant",
+        20.13,
+        31.18,
+        32.12,
+        18.39
+      ],
+      [
+        "Roman Catholic",
+        26.57,
+        17.14,
+        16.36,
+        18.3
+      ],
+      [
+        "Mormon",
+        1.19,
+        0.84,
+        0.92,
+        3.53
+      ],
+      [
+        "Eastern or Greek Orthodox",
+        1.84,
+        0.42,
+        0.64,
+        1.24
+      ],
+      [
+        "Jewish",
+        3.12,
+        1.24,
+        1.59,
+        1.87
+      ],
+      [
+        "Muslim",
+        6.75,
+        0.52,
+        0.93,
+        1.22
+      ],
+      [
+        "Buddhist",
+        0.82,
+        0.83,
+        0.73,
+        2.37
+      ],
+      [
+        "Hindu",
+        0.6,
+        0.28,
+        0.47,
+        0.31
+      ],
+      [
+        "Atheist",
+        6.91,
+        7.84,
+        5.56,
+        10.57
+      ],
+      [
+        "Agnostic",
+        4.51,
+        6.51,
+        5.58,
+        8.1
+      ],
+      [
+        "Nothing in particular",
+        21.02,
+        23.2,
+        23.84,
+        24.89
+      ],
+      [
+        "Something else",
+        6.54,
+        10.01,
+        11.27,
+        9.21
+      ]
+    ],
+    "axes": {
+      "Protestant": "y",
+      "Roman Catholic": "y",
+      "Mormon": "y",
+      "Eastern or Greek Orthodox": "y",
+      "Jewish": "y",
+      "Muslim": "y",
+      "Buddhist": "y",
+      "Hindu": "y",
+      "Atheist": "y",
+      "Agnostic": "y",
+      "Nothing in particular": "y",
+      "Something else": "y"
+    },
+    "types": {
+      "Protestant": "bar",
+      "Roman Catholic": "bar",
+      "Mormon": "bar",
+      "Eastern or Greek Orthodox": "bar",
+      "Jewish": "bar",
+      "Muslim": "bar",
+      "Buddhist": "bar",
+      "Hindu": "bar",
+      "Atheist": "bar",
+      "Agnostic": "bar",
+      "Nothing in particular": "bar",
+      "Something else": "bar"
+    },
+    "colors": {
+      "Protestant": "hsl(2, 80%, 61%)",
+      "Roman Catholic": "hsl(28, 91%, 79%)",
+      "Mormon": "hsl(15, 30%, 60%)",
+      "Eastern or Greek Orthodox": "hsl(270, 10%, 70%)",
+      "Jewish": "hsl(115, 28%, 32%)",
+      "Muslim": "hsl(280, 30%, 60%)",
+      "Buddhist": "hsl(0, 84%, 36%)",
+      "Hindu": "hsl(140, 40%, 70%)",
+      "Atheist": "hsl(0, 0%, 17%)",
+      "Agnostic": "hsl(180, 35%, 68%)",
+      "Nothing in particular": "hsl(203, 31%, 36%)",
+      "Something else": "hsl(45, 93%, 37%)"
+    },
+    "groups": [
+      [
+        "Protestant",
+        "Roman Catholic",
+        "Mormon",
+        "Eastern or Greek Orthodox",
+        "Jewish",
+        "Muslim",
+        "Buddhist",
+        "Hindu",
+        "Atheist",
+        "Agnostic",
+        "Nothing in particular",
+        "Something else"
+      ]
+    ],
+    "regions": {}
+  },
+  "chartId": "religpew_region",
+  "title": "Religious affiliation by region",
+  "excel": "election",
+  "firstDataRow": 5,
+  "lastDataRow": 120,
+  "colRange": [
+    6,
+    10
+  ],
+  "transpose": true,
+  "sheet": 2,
+  "maxValue": 99,
+  "rotateAxis": true,
+  "unitSuffix": "%",
+  "chartColors": {
+    "axisLabel": "#000000"
+  },
+  "legends": [
+    {
+      "name": "Protestant",
+      "color": "hsl(2, 80%, 61%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 3
+    },
+    {
+      "name": "Roman Catholic",
+      "color": "hsl(28, 91%, 79%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 4
+    },
+    {
+      "name": "Mormon",
+      "color": "hsl(15, 30%, 60%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 5
+    },
+    {
+      "name": "Eastern or Greek Orthodox",
+      "color": "hsl(270, 10%, 70%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 6
+    },
+    {
+      "name": "Jewish",
+      "color": "hsl(115, 28%, 32%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 7
+    },
+    {
+      "name": "Muslim",
+      "color": "hsl(280, 30%, 60%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 8
+    },
+    {
+      "name": "Buddhist",
+      "color": "hsl(0, 84%, 36%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 9
+    },
+    {
+      "name": "Hindu",
+      "color": "hsl(140, 40%, 70%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 10
+    },
+    {
+      "name": "Atheist",
+      "color": "hsl(0, 0%, 17%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 11
+    },
+    {
+      "name": "Agnostic",
+      "color": "hsl(180, 35%, 68%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 12
+    },
+    {
+      "name": "Nothing in particular",
+      "color": "hsl(203, 31%, 36%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 13
+    },
+    {
+      "name": "Something else",
+      "color": "hsl(45, 93%, 37%)",
+      "symbol": "rect",
+      "units": "percent",
+      "column": 14
+    }
+  ],
+  "groups": [
+    [
+      "Protestant",
+      "Roman Catholic",
+      "Mormon",
+      "Eastern or Greek Orthodox",
+      "Jewish",
+      "Muslim",
+      "Buddhist",
+      "Hindu",
+      "Atheist",
+      "Agnostic",
+      "Nothing in particular",
+      "Something else"
+    ]
+  ]
+}
