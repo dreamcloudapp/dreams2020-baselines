@@ -1,0 +1,52 @@
+{
+  "name": "Dream Count by Month",
+  "xLabel": "",
+  "yLabel": "Dream Count",
+  "yLabelRight": "",
+  "sheet": 0,
+  "svgHeight": 350,
+  "mobileSvgHeight": 300,
+  "chartColors": {
+    "axisLabel": "#1B5680"
+  },
+  "legends": [
+    {
+      "id": "number",
+      "name": "Dream Count",
+      "color": "#1B5680",
+      "symbol": "rect",
+      "filterIndex": 0,
+      "column": 1
+    }
+  ],
+  "data": {
+    "x": "x",
+    "columns": [
+      [
+        "x",
+        "Ana",
+        "Bob",
+        "Freya",
+        "Edward",
+        "Burgess",
+        "Mary",
+        "Melvin",
+        "Rose",
+        "Tita",
+        "Vera"
+      ],
+      ["Dream Count", 239, 449, 234, 354, 44, 76, 284, 200, 44, 275]
+    ],
+    "axes": {
+      "Dream Count": "y"
+    },
+    "types": {
+      "Dream Count": "bar"
+    },
+    "colors": {
+      "Dream Count": "#1B5680"
+    },
+    "groups": [],
+    "regions": {}
+  }
+}
